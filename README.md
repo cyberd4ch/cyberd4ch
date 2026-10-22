@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="img/antenna-cabin.svg" width="120" alt="cyber.dach — antenna-cabin mark" />
+</div>
+
 <h1 align="center">⚡ cyberd4ch ⚡</h1>
 
 ```yaml
@@ -18,9 +22,9 @@ if it moves bits, I want to know where they leak. 📡
 <br>
 
 <div align="center">
-  <a href="https://github.com/cyberd4ch"><img alt="stars" src="https://img.shields.io/badge/GitHub-%40cyberd4ch-181717?style=flat-square&logo=github" /></a>
-  <a href="mailto:cyberdachh@proton.me"><img alt="email" src="https://img.shields.io/badge/Email-cyberdachh%40proton.me-D14836?style=flat-square&logo=protonmail&logoColor=white" /></a>
-  <a href="https://github.com/cyberd4ch"><img alt="portfolio" src="https://img.shields.io/badge/Portfolio-cyberdach--portfolio.vercel.app-333333?style=flat-square&logo=vercel&logoColor=white" /></a>
+  <a href="https://github.com/cyberd4ch"><img alt="github" src="https://img.shields.io/badge/GitHub-%40cyberd4ch-14161c?style=flat-square&logo=github&logoColor=22d3ee" /></a>
+  <a href="mailto:cyberdachh@proton.me"><img alt="email" src="https://img.shields.io/badge/Email-cyberdachh%40proton.me-14161c?style=flat-square&logo=protonmail&logoColor=22d3ee" /></a>
+  <a href="https://github.com/cyberd4ch"><img alt="portfolio" src="https://img.shields.io/badge/Portfolio-cyberdach--portfolio.vercel.app-14161c?style=flat-square&logo=vercel&logoColor=22d3ee" /></a>
 </div>
 
 <br>
@@ -67,11 +71,11 @@ if it moves bits, I want to know where they leak. 📡
 ## 📊 The scoreboard
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=cyberd4ch&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=38bdf8&text_color=94a3b8" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=cyberd4ch&hide_border=true&background=0D1117&ring=a78bfa&fire=fbbf24&currStreakNum=f1f5f9&sideNums=94a3b8&sideLabels=6b7280" width="48%" alt="Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=cyberd4ch&show_icons=true&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=cfd6e1&text_color=8f99a6" width="48%" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=cyberd4ch&hide_border=true&background=0D1117&ring=22d3ee&fire=0891b2&currStreakNum=e8eaf0&sideNums=8f99a6&sideLabels=6b7280" width="48%" alt="Streak" />
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cyberd4ch&layout=compact&hide_border=true&langs_count=10&bg_color=0d1117&title_color=a78bfa&text_color=94a3b8" width="60%" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cyberd4ch&layout=compact&hide_border=true&langs_count=10&bg_color=0d1117&title_color=22d3ee&text_color=8f99a6" width="60%" alt="Top Languages" />
 </p>
 
 <br>

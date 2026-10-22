@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>cyberdach</title>
+  <path fill="#8f99a6" fill-rule="evenodd" d="M36,224 L36,96 L68,96 L124,40 L180,96
+    A64,64 0 0 1 180,224 L36,224 Z
+    M68,126 L124,80 L164,120 A35,35 0 0 1 164,190 L68,190 Z"/>
+  <rect x="119" y="18" width="10" height="22" fill="#22d3ee"/>
+  <circle cx="124" cy="12" r="6" fill="#22d3ee"/>
+</svg>
