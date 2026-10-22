@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256"><title>cyberdach logo</title><g transform="translate(-29.78 -1.61) scale(1.127)">
+  
+  <!-- small-size cut: counter enlarged (triangle window, no thin inner arc), thicker roof -->
+  <path fill="#E8EAF0" fill-rule="evenodd" d="M36,224 L36,96 L68,96 L124,40 L180,96
+    A64,64 0 0 1 180,224 L36,224 Z
+    M68,118 L124,72 L172,110 L164,194 L68,194 Z"/>
+  <rect x="119" y="18" width="10" height="22" fill="#22D3EE"/>
+  <circle cx="124" cy="12" r="6" fill="#22D3EE"/>
+</g></svg>

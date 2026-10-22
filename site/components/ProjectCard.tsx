@@ -1,11 +1,12 @@
 import { Code2, ArrowUpRight } from 'lucide-react'
 import type { Project, ProjectCategory } from '@/lib/projects'
 
+/* on-brand category ramp: the signal-cyan family + one neutral, no rainbow */
 const categoryTone: Record<ProjectCategory, string> = {
-  security: 'text-rose-400 border-rose-500/30',
-  'full-stack': 'text-violet-400 border-violet-500/30',
-  infrastructure: 'text-cyan-400 border-cyan-500/30',
-  tooling: 'text-amber-400 border-amber-500/30',
+  security: 'text-[var(--accent)] border-[color-mix(in_srgb,var(--accent)_35%,transparent)]',
+  'full-stack': 'text-[var(--accent-2)] border-[color-mix(in_srgb,var(--accent-2)_40%,transparent)]',
+  infrastructure: 'text-cyan-200/90 border-cyan-700/40',
+  tooling: 'text-muted border-line',
 }
 
 export default function ProjectCard({ project, index }: { project: Project; index: number }) {

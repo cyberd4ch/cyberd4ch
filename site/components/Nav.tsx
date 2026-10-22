@@ -2,8 +2,26 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { Moon, Sun, Radio } from 'lucide-react'
+import { Moon, Sun } from 'lucide-react'
 import { useEffect, useState } from 'react'
+
+/** cyberdach antenna-cabin mark — geometry audited against the 256 grid,
+ *  ink follows currentColor, the signal follows the cyan token. */
+function CabinMark({ className = 'h-4 w-4' }: { className?: string }) {
+  return (
+    <svg viewBox='0 0 256 256' fill='none' className={className} aria-hidden='true'>
+      <path
+        fill='currentColor'
+        fillRule='evenodd'
+        d='M36,224 L36,96 L68,96 L124,40 L180,96
+      A64,64 0 0 1 180,224 L36,224 Z
+      M68,126 L124,80 L164,120 A35,35 0 0 1 164,190 L68,190 Z'
+      />
+      <rect x='119' y='18' width='10' height='22' fill='var(--accent)' />
+      <circle cx='124' cy='12' r='6' fill='var(--accent)' />
+    </svg>
+  )
+}
 
 const links = [
   { href: '/', label: 'index' },
@@ -31,7 +49,7 @@ export default function Nav() {
     <header className="sticky top-0 z-50 border-b border-line bg-[var(--bg)]/85 backdrop-blur">
       <nav className="mx-auto flex max-w-4xl items-center justify-between px-5 py-3.5">
         <Link href="/" className="flex items-center gap-2 font-mono text-sm font-medium">
-          <Radio size={15} className="text-[var(--accent)]" aria-hidden />
+          <CabinMark className="h-[18px] w-[18px] text-fg" />
           cyber<span className="text-[var(--accent)]">.dach</span>
         </Link>
         <div className="flex items-center gap-1 font-mono text-xs">
