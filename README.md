@@ -1,52 +1,104 @@
-# 👨‍💻 whois cyberd4ch
+<h1 align="center">⚡ cyberd4ch ⚡</h1>
 
-**Telecommunications | Networking | Application Security | Mobile Forensics | Memory Forensics**
+<div align="center">
 
-👋 Telecommunications Engineering grad with a background that zigzagged through electrical panels, radio frequency and IT before I found my footing in coding. These days I build full-stack projects with the MERN/Next.js/TypeScript stack and deploy them to learn what breaks (and why). Currently pursuing a master's where I'm deep in the weeds of supply chain security, specifically how breaches sneak into the npm ecosystem and spending my spare time researching on forensics, cloud infrastructure and databases. Not a cloud wizard yet, but I'm actively chasing knowledge in virtualization, Docker/containers and Kubernetes to close that gap. I'm here to turn curious tinkering into solid secure systems (fingers crossed). 🛠️🔬
+```yaml
+individual:
+  role: engineer → telecom & cybersecurity
+  stack: [typescript, node, c, python]
+  toolkit: [nextjs, docker, postgres, hasura]   # things I reach for
+  focus: "npm supply-chain security — dependency trees as attack surfaces"
+  method: "build it in public, break it on purpose, document everything"
+```
 
----
+</div>
 
-### 🔭 Current Obsessions 
-* **Full-Stack Foundations:** Building interactive web apps with the **Next.js/TypeScript**. I ship code and then figure out what needs to be more secure or what needs scaling.
-* **The Security-First Pivot:** Leveraging a background in **configuring networks** (RF, microwave and LAN/WAN) to understand the stack from the physical layer up to the cloud. Currently research focus is **npm supply chain breaches** for my master's thesis to find out *why* and *how* dependency trees become liabilities.
-* **Infrastructure Curiosity:** Actively learning the tools that keep the internet running. I'm diving deep into **virtualization**, **Docker** and **Kubernetes** to bridge the gap between writing code and managing the machines it lives on.
-* **Forensic Mindset:** Applying forensics to real-world code—looking for anomalies in data flow and access controls rather than just building features that work.
+Telecom engineering grad who zigzagged through **electrical panels, RF/microwave and IT** before
+landing on code. I build full-stack systems (**Next.js / TypeScript**), deploy them into
+containers & VMs to learn what breaks — and why — and spend research hours on
+**supply-chain security, forensics, and cloud infrastructure**. Physical layer up to cloud:
+if it moves bits, I want to know where they leak. 📡
 
-### 💬 Let's Connect
-Open to collaborating on projects that sit at the intersection of security research, cloud infrastructure and full-stack development—especially if it involves breaking (and fixing) stuff.
+<br>
 
-📫 **Reach me at:**
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=Gmail&logoColor=white)](mailto:cyberdachh@proton.me)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-333333?style=flat-square&logo=Vercel&logoColor=white)](https://github.com/cyberdach)
+<div align="center">
+  <a href="https://github.com/cyberd4ch"><img alt="stars" src="https://img.shields.io/badge/GitHub-%40cyberd4ch-181717?style=flat-square&logo=github" /></a>
+  <a href="mailto:cyberdachh@proton.me"><img alt="email" src="https://img.shields.io/badge/Email-cyberdachh%40proton.me-D14836?style=flat-square&logo=protonmail&logoColor=white" /></a>
+  <a href="https://github.com/cyberd4ch"><img alt="portfolio" src="https://img.shields.io/badge/Portfolio-building...-333333?style=flat-square&logo=vercel&logoColor=white" /></a>
+</div>
 
----
+<br>
 
-### 🔧 Languages & Tools
+## 🚀 What I'm building
 
-**Core Languages**
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+| project | what it does | stack | |
+|---|---|---|---|
+| **[txn-agent](https://github.com/cyberd4ch/txn-agent)** | Safety-first transaction layer for purchasing agents: deterministic policy gates, human approvals, idempotent checkout | `Python` | ★ 2 |
+| **[cportscan](https://github.com/cyberd4ch/cportscan)** | fast, lightweight port scanner in C — raw sockets, multithreaded sweeps, minimal overhead | `C · POSIX sockets` | |
+| **[stride-tmr](https://github.com/cyberd4ch/stride-tmr)** | STRIDE threat modelling with `pytm` — turn designs into diagrams & findings | `Python` | |
+| **[free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli)** | simple torrent client for the terminal, built on Node.js | `Node.js` | ★ 2 |
+| **[atlas](https://github.com/cyberd4ch/atlas)** | Pan-African maps platform with self-learning, self-improving features | `TypeScript` | |
+| **[OpenPostings](https://github.com/cyberd4ch/OpenPostings)** | The OpenSource ATS aggregator — job postings without the walled garden | `JavaScript` | |
 
-**Full-Stack Stack**
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Tailwind](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+<details>
+<summary><strong>Also on the bench…</strong></summary>
 
-**DevOps & Infrastructure**
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+- 🧰 **[python-beginner-cli-projects](https://github.com/cyberd4ch/python-beginner-cli-projects)** — a grab-bag of CLI minis to practice on
+- 🔐 **[Enhanced-Caeser-Cipher](https://github.com/cyberd4ch/Enhanced-Caeser-Cipher)** — classical crypto, reinforced
+- 🌕 **[redsun](https://github.com/cyberd4ch/redsun)** — the Red Sun vulnerability repository
+- 🧠 **[mitre_feed](https://github.com/cyberd4ch/mitre_feed)** *(private)* — MITRE ATT&CK feed tooling
 
----
+</details>
 
-### 📊 Activity Metrics
+<br>
+
+## 🎯 Current obsessions
+
+- **supply-chain forensics** — my master's thesis: *how* and *why* npm dependency trees become liabilities. Breach post-mortems → what a pipeline should have caught.
+- **cloud-native plumbing** — Docker, virtualization, and bridging the gap between "it works on my machine" and "it works under prod traffic."
+- **forensic mindset applied to code** — hunting anomalies in data flow & access control, not just shipping features that pass tests.
+
+<br>
+
+## 🧰 The toolbox
+
+<div align="center">
+
+| | | |
+|:---:|:---:|:---:|
+| **TypeScript** | **JavaScript** | **Python** |
+| ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript) | ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| **React / Next.js** | **Node.js** | **C** |
+| ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js) | ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) | ![C](https://img.shields.io/badge/-C-555555?style=flat-square&logo=c&logoColor=white) |
+| **Postgres / Hasura** | **Docker / Vagrant** | **Networks & RF** |
+| ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) | ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | ![WiFi](https://img.shields.io/badge/-RF%20%2F%20LAN%20%2F%20WAN-1589F6?style=flat-square&logo=enable&logoColor=white) |
+
+</div>
+
+<br>
+
+## 📊 The scoreboard
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=cyberd4ch&show_icons=true&theme=radical&hide_border=true" width="48%" alt="cyberd4ch GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cyberd4ch&theme=radical&hide_border=true" width="48%" alt="cyberd4ch Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=cyberd4ch&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=38bdf8&text_color=94a3b8" width="48%" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=cyberd4ch&hide_border=true&background=0D1117&ring=a78bfa&fire=fbbf24&currStreakNum=f1f5f9&sideNums=94a3b8&sideLabels=6b7280" width="48%" alt="Streak" />
+</p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cyberd4ch&layout=compact&hide_border=true&langs_count=10&bg_color=0d1117&title_color=a78bfa&text_color=94a3b8" width="60%" alt="Top Languages" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cyberd4ch&layout=compact&theme=radical&hide_border=true" width="70%" alt="Top Languages" />
-</p>
+<br>
+
+## 💥 Let's build something
+
+Open to collaborating at the intersection of **security research, cloud infrastructure,
+and full-stack development** — especially projects that involve breaking (and fixing) stuff.
+
+📋 → [cyberdachh@proton.me](mailto:cyberdachh@proton.me)
+
+<br>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/img/dach-a.png" alt="cyberd4ch" width="140"  />
+  <br><sub>"curious tinkering → solid, secure systems"</sub>
+</div>
