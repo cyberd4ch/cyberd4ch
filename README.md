@@ -1,7 +1,5 @@
 <h1 align="center">⚡ cyberd4ch ⚡</h1>
 
-<div align="center">
-
 ```yaml
 whoami:
   role: engineer → telecom & cybersecurity
@@ -10,8 +8,6 @@ whoami:
   focus: "npm supply-chain security — dependency trees as attack surfaces"
   method: "keep trying until it actually works — then make sure it keeps working"
 ```
-
-</div>
 
 Telecom engineering grad who zigzagged through **electrical panels, RF/microwave and IT** before
 landing on code. I build full-stack systems (**Next.js / TypeScript**), deploy them into
@@ -24,7 +20,7 @@ if it moves bits, I want to know where they leak. 📡
 <div align="center">
   <a href="https://github.com/cyberd4ch"><img alt="stars" src="https://img.shields.io/badge/GitHub-%40cyberd4ch-181717?style=flat-square&logo=github" /></a>
   <a href="mailto:cyberdachh@proton.me"><img alt="email" src="https://img.shields.io/badge/Email-cyberdachh%40proton.me-D14836?style=flat-square&logo=protonmail&logoColor=white" /></a>
-  <a href="https://github.com/cyberd4ch"><img alt="portfolio" src="https://img.shields.io/badge/Portfolio-building...-333333?style=flat-square&logo=vercel&logoColor=white" /></a>
+  <a href="https://github.com/cyberd4ch"><img alt="portfolio" src="https://img.shields.io/badge/Portfolio-cyberdach--portfolio.vercel.app-333333?style=flat-square&logo=vercel&logoColor=white" /></a>
 </div>
 
 <br>
@@ -52,17 +48,17 @@ if it moves bits, I want to know where they leak. 📡
 
 <div align="center">
 
-**languages**
+<p><strong>languages</strong></p>
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C](https://img.shields.io/badge/-C-555555?style=flat-square&logo=c&logoColor=white)
+<p><img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript" /> <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /> <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img alt="C" src="https://img.shields.io/badge/-C-555555?style=flat-square&logo=c&logoColor=white" /></p>
 
-**frameworks & runtime**
+<p><strong>frameworks &amp; runtime</strong></p>
 
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+<p><img alt="React" src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img alt="Next.js" src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js" /> <img alt="Node.js" src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white" /></p>
 
-**infrastructure & data**
+<p><strong>infrastructure &amp; data</strong></p>
 
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Hasura](https://img.shields.io/badge/-Hasura-1571DA?style=flat-square&logo=hasura&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Vagrant](https://img.shields.io/badge/-Vagrant-1563FF?style=flat-square&logo=vagrant&logoColor=white) ![RF/LAN/WAN](https://img.shields.io/badge/-RF%20%2F%20LAN%20%2F%20WAN-1589F6?style=flat-square&logo=enable&logoColor=white)
+<p><img alt="PostgreSQL" src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" /> <img alt="Hasura" src="https://img.shields.io/badge/-Hasura-1571DA?style=flat-square&logo=hasura&logoColor=white" /> <img alt="Docker" src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> <img alt="Vagrant" src="https://img.shields.io/badge/-Vagrant-1563FF?style=flat-square&logo=vagrant&logoColor=white" /> <img alt="RF/LAN/WAN" src="https://img.shields.io/badge/-RF%20%2F%20LAN%20%2F%20WAN-1589F6?style=flat-square&logo=enable&logoColor=white" /></p>
 
 </div>
 
@@ -86,3 +82,4 @@ Open to collaborating at the intersection of **security research, cloud infrastr
 and full-stack development** — especially projects that involve breaking (and fixing) stuff.
 
 📋 → [cyberdachh@proton.me](mailto:cyberdachh@proton.me)
+
