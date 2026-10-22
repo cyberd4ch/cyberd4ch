@@ -43,16 +43,6 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    id: 'atlas',
-    name: 'atlas',
-    category: 'infrastructure',
-    description:
-      'pan-african maps platform with self-learning, self-improving features. geodata pipelines + progressive feedback loops.',
-    stack: ['TypeScript', 'geodata', 'self-tuning features'],
-    github: 'https://github.com/cyberd4ch/atlas',
-    featured: false,
-  },
-  {
     id: 'free-torrent-cli',
     name: 'free-torrent-cli',
     category: 'tooling',
@@ -63,16 +53,6 @@ export const projects: Project[] = [
     featured: false,
   },
   {
-    id: 'openpostings',
-    name: 'OpenPostings',
-    category: 'full-stack',
-    description:
-      'the open-source ATS aggregator — job postings pulled out of walled gardens into one queryable feed.',
-    stack: ['JavaScript', 'scraping pipeline', 'open data'],
-    github: 'https://github.com/cyberd4ch/OpenPostings',
-    featured: false,
-  },
-  {
     id: 'pluto-fm',
     name: 'pluto.fm',
     category: 'full-stack',
@@ -80,16 +60,6 @@ export const projects: Project[] = [
       'community-powered music discovery: rate albums, write threaded micro-reviews, follow tastemakers. full lab — vagrant qemu hosts, hasura graph, next.js app, playwright suite. private: demo on request.',
     stack: ['Next.js 16', 'Hasura', 'PostgreSQL', 'Docker'],
     featured: true,
-  },
-  {
-    id: 'cipher',
-    name: 'Enhanced-Caeser-Cipher',
-    category: 'tooling',
-    description:
-      'classical crypto with reinforcement: layered substitutions + key hardening, built while studying cryptographic primitives from first principles.',
-    stack: ['encryption', 'cryptography basics'],
-    github: 'https://github.com/cyberd4ch/Enhanced-Caeser-Cipher',
-    featured: false,
   },
 ]
 

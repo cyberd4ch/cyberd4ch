@@ -3,12 +3,12 @@
 <div align="center">
 
 ```yaml
-individual:
+whoami:
   role: engineer → telecom & cybersecurity
   stack: [typescript, node, c, python]
   toolkit: [nextjs, docker, postgres, hasura]   # things I reach for
   focus: "npm supply-chain security — dependency trees as attack surfaces"
-  method: "build it in public, break it on purpose, document everything"
+  method: "keep trying until it actually works — then make sure it keeps working"
 ```
 
 </div>
@@ -37,16 +37,11 @@ if it moves bits, I want to know where they leak. 📡
 | **[cportscan](https://github.com/cyberd4ch/cportscan)** | fast, lightweight port scanner in C — raw sockets, multithreaded sweeps, minimal overhead | `C · POSIX sockets` | |
 | **[stride-tmr](https://github.com/cyberd4ch/stride-tmr)** | STRIDE threat modelling with `pytm` — turn designs into diagrams & findings | `Python` | |
 | **[free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli)** | simple torrent client for the terminal, built on Node.js | `Node.js` | ★ 2 |
-| **[atlas](https://github.com/cyberd4ch/atlas)** | Pan-African maps platform with self-learning, self-improving features | `TypeScript` | |
-| **[OpenPostings](https://github.com/cyberd4ch/OpenPostings)** | The OpenSource ATS aggregator — job postings without the walled garden | `JavaScript` | |
 
 <details>
 <summary><strong>Also on the bench…</strong></summary>
 
-- 🧰 **[python-beginner-cli-projects](https://github.com/cyberd4ch/python-beginner-cli-projects)** — a grab-bag of CLI minis to practice on
-- 🔐 **[Enhanced-Caeser-Cipher](https://github.com/cyberd4ch/Enhanced-Caeser-Cipher)** — classical crypto, reinforced
-- 🌕 **[redsun](https://github.com/cyberd4ch/redsun)** — the Red Sun vulnerability repository
-- 🧠 **[mitre_feed](https://github.com/cyberd4ch/mitre_feed)** *(private)* — MITRE ATT&CK feed tooling
+- 🧠 **mitre_feed** *(private)* — MITRE ATT&CK feed tooling
 
 </details>
 
@@ -95,10 +90,3 @@ Open to collaborating at the intersection of **security research, cloud infrastr
 and full-stack development** — especially projects that involve breaking (and fixing) stuff.
 
 📋 → [cyberdachh@proton.me](mailto:cyberdachh@proton.me)
-
-<br>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/img/dach-a.png" alt="cyberd4ch" width="140"  />
-  <br><sub>"curious tinkering → solid, secure systems"</sub>
-</div>
