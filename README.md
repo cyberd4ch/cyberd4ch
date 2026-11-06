@@ -1,6 +1,3 @@
-<div align="center">
-  <img src="img/antenna-cabin.svg" width="120" alt="cyber.dach — antenna-cabin mark" />
-</div>
 
 <h1 align="center">⚡ cyber.dach ⚡</h1>
 
