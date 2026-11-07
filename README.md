@@ -22,6 +22,7 @@ if it moves bits, I want to know where they leak. 📡
   <a href="https://github.com/cyberd4ch"><img alt="github" src="https://img.shields.io/badge/GitHub-%40cyberd4ch-14161c?style=flat-square&logo=github&logoColor=22d3ee" /></a>
   <a href="mailto:cyberdachh@proton.me"><img alt="email" src="https://img.shields.io/badge/Email-cyberdachh%40proton.me-14161c?style=flat-square&logo=protonmail&logoColor=22d3ee" /></a>
   <a href="https://cyberd4ch.github.io/"><img alt="portfolio" src="https://img.shields.io/badge/Portfolio-cyberd4ch.github.io-14161c?style=flat-square&logo=githubpages&logoColor=22d3ee" /></a>
+  <a href="https://github.com/sponsors/cyberd4ch"><img alt="sponsor" src="https://img.shields.io/badge/Sponsor-%40cyberd4ch-ea4aaa?style=flat-square&logo=githubsponsors&logoColor=white" /></a>
 </div>
 
 <br>
@@ -101,6 +102,14 @@ if it moves bits, I want to know where they leak. 📡
 - [pushed to cyberd4ch/homebrew-dnswatch](https://github.com/cyberd4ch/homebrew-dnswatch/commits) · `2026-11-03`
 - [released v1.1.0 in cyberd4ch/dns-watch](https://github.com/cyberd4ch/dns-watch/releases/tag/v1.1.0) · `2026-11-03`
 <!-- activity:end -->
+
+<br>
+
+## 💜 Sponsoring
+
+If `dns-watch`, `txn-agent`, or anything else here saves you time, you can fund the work at
+**[github.com/sponsors/cyberd4ch](https://github.com/sponsors/cyberd4ch)**. Sponsorship pays
+for the lab VMs, API quotas, and the time behind the write-ups.
 
 <br>
 
