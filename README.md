@@ -30,6 +30,8 @@ if it moves bits, I want to know where they leak. 📡
 
 | project | what it does | stack | |
 |---|---|---|---|
+| **[dns-watch](https://github.com/cyberd4ch/dns-watch)** | dependency-free DNS drift watcher — one cron line, a plain-text log, alerts when a scope's records change | `Shell` | |
+| **[homebrew-dnswatch](https://github.com/cyberd4ch/homebrew-dnswatch)** | Homebrew tap that installs `dns-watch` in one command | `Ruby` | |
 | **[txn-agent](https://github.com/cyberd4ch/txn-agent)** | Safety-first transaction layer for purchasing agents: deterministic policy gates, human approvals, idempotent checkout | `Python` | ★ 2 |
 | **[cportscan](https://github.com/cyberd4ch/cportscan)** | fast, lightweight port scanner in C — raw sockets, multithreaded sweeps, minimal overhead | `C · POSIX sockets` | |
 | **[stride-tmr](https://github.com/cyberd4ch/stride-tmr)** | STRIDE threat modelling with `pytm` — turn designs into diagrams & findings | `Python` | |
@@ -74,6 +76,15 @@ if it moves bits, I want to know where they leak. 📡
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cyberd4ch&layout=compact&hide_border=true&langs_count=10&bg_color=0d1117&title_color=22d3ee&text_color=8f99a6" width="60%" alt="Top Languages" />
 </p>
+
+<br>
+
+## ✍️ Writing
+
+- **[announcing dns-watch v1.1.0](https://cyberd4ch.github.io/blog/announcing-dnswatch-v1-1-0/)** — a free DNS drift watcher, and the two design decisions that make a diff trustworthy.
+- **[one curl per host](https://cyberd4ch.github.io/blog/one-curl-per-host/)** — mapping a hardened SSO estate without tripping the alarm.
+- **[when dig lies](https://cyberd4ch.github.io/blog/building-dns-watch/)** — five rebuilds, three false walls, and building a drift watcher that survives a NAT'd VM.
+- **[six thousand templates, zero findings](https://cyberd4ch.github.io/blog/when-templates-find-zero/)** — and other useful lies about hardened targets.
 
 <br>
 
