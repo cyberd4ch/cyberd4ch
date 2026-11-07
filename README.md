@@ -64,8 +64,8 @@
 ## Recent
 
 <!-- activity:start -->
-- [opened pull request #1 in cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io) · `2026-11-07`
-- [opened pull request #1 in cyberd4ch/cyberd4ch](https://github.com/cyberd4ch/cyberd4ch) · `2026-11-07`
+- [merged pull request #1 in cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io) · `2026-11-07`
+- [merged pull request #1 in cyberd4ch/cyberd4ch](https://github.com/cyberd4ch/cyberd4ch) · `2026-11-07`
 - [opened pull request #2 in cyberd4ch/free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli) · `2026-11-07`
 - [created branch rust in cyberd4ch/free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli) · `2026-11-07`
 <!-- activity:end -->
