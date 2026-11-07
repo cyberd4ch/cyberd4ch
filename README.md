@@ -1,6 +1,9 @@
 
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/mark.svg" width="30" height="30" alt="" align="top" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/mark-light.svg" />
+    <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/mark.svg" width="30" height="30" alt="" align="top" />
+  </picture>
   cyber.dach
 </h1>
 
