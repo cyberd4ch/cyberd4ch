@@ -28,14 +28,17 @@ if it moves bits, I want to know where they leak. 📡
 
 ## 🚀 What I'm building
 
+<!-- projects:start -->
 | project | what it does | stack | |
 |---|---|---|---|
-| **[dns-watch](https://github.com/cyberd4ch/dns-watch)** | dependency-free DNS drift watcher — one cron line, a plain-text log, alerts when a scope's records change | `Shell` | |
-| **[homebrew-dnswatch](https://github.com/cyberd4ch/homebrew-dnswatch)** | Homebrew tap that installs `dns-watch` in one command | `Ruby` | |
-| **[txn-agent](https://github.com/cyberd4ch/txn-agent)** | Safety-first transaction layer for purchasing agents: deterministic policy gates, human approvals, idempotent checkout | `Python` | ★ 2 |
-| **[cportscan](https://github.com/cyberd4ch/cportscan)** | fast, lightweight port scanner in C — raw sockets, multithreaded sweeps, minimal overhead | `C · POSIX sockets` | |
-| **[stride-tmr](https://github.com/cyberd4ch/stride-tmr)** | STRIDE threat modelling with `pytm` — turn designs into diagrams & findings | `Python` | |
-| **[free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli)** | simple torrent client for the terminal, built on Node.js | `Node.js` | ★ 2 |
+| **[homebrew-dnswatch](https://github.com/cyberd4ch/homebrew-dnswatch)** | Homebrew tap for dns-watch — free DNS drift watcher for bounty scopes | `Ruby` |  |
+| **[dns-watch](https://github.com/cyberd4ch/dns-watch)** | dnswatch — a small, dependency-free DNS drift watcher (cron + plain-text log). Free forever. | `Shell` |  |
+| **[txn-agent](https://github.com/cyberd4ch/txn-agent)** | Safety-first transaction layer for purchasing agents: deterministic policy gate, human approvals, idempotent checkout | `Python` | ★ 2 |
+| **[free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli)** | A simple torrent client build with Node.js for terminal | `JavaScript` | ★ 2 |
+| **[cportscan](https://github.com/cyberd4ch/cportscan)** | A simple port scanner built with C | `HTML` |  |
+
+<sub>auto-synced from GitHub on 2026-11-07 — edit the repo description, not this table.</sub>
+<!-- projects:end -->
 
 <br>
 
