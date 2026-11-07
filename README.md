@@ -32,11 +32,11 @@ if it moves bits, I want to know where they leak. 📡
 <!-- projects:start -->
 | project | what it does | stack | |
 |---|---|---|---|
-| **[homebrew-dnswatch](https://github.com/cyberd4ch/homebrew-dnswatch)** | Homebrew tap for dns-watch — free DNS drift watcher for bounty scopes | `Ruby` |  |
-| **[dns-watch](https://github.com/cyberd4ch/dns-watch)** | dnswatch — a small, dependency-free DNS drift watcher (cron + plain-text log). Free forever. | `Shell` |  |
 | **[txn-agent](https://github.com/cyberd4ch/txn-agent)** | Safety-first transaction layer for purchasing agents: deterministic policy gate, human approvals, idempotent checkout | `Python` | ★ 2 |
-| **[free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli)** | A simple torrent client build with Node.js for terminal | `JavaScript` | ★ 2 |
+| **[stride-tmr](https://github.com/cyberd4ch/stride-tmr)** | STRIDE threat modelling with pytm | `Python` |  |
 | **[cportscan](https://github.com/cyberd4ch/cportscan)** | A simple port scanner built with C | `HTML` |  |
+| **[free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli)** | A simple torrent client build with Node.js for terminal | `JavaScript` | ★ 2 |
+| **[dns-watch](https://github.com/cyberd4ch/dns-watch)** | dnswatch — a small, dependency-free DNS drift watcher (cron + plain-text log). Free forever. | `Shell` |  |
 
 <sub>auto-synced from GitHub on 2026-11-07 — edit the repo description, not this table.</sub>
 <!-- projects:end -->
