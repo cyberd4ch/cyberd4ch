@@ -1,5 +1,8 @@
 
-<h1 align="center">⚡ cyber.dach ⚡</h1>
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/mark.svg" width="30" height="30" alt="" align="top" />
+  cyber.dach
+</h1>
 
 ```yaml
 whoami:
@@ -32,10 +35,10 @@ if it moves bits, I want to know where they leak. 📡
 <!-- projects:start -->
 | project | what it does | stack | |
 |---|---|---|---|
+| **[free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli)** | A simple torrent client build with Node.js for terminal | `JavaScript` | ★ 2 |
 | **[txn-agent](https://github.com/cyberd4ch/txn-agent)** | Safety-first transaction layer for purchasing agents: deterministic policy gate, human approvals, idempotent checkout | `Python` | ★ 2 |
 | **[stride-tmr](https://github.com/cyberd4ch/stride-tmr)** | STRIDE threat modelling with pytm | `Python` |  |
 | **[cportscan](https://github.com/cyberd4ch/cportscan)** | A simple port scanner built with C | `HTML` |  |
-| **[free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli)** | A simple torrent client build with Node.js for terminal | `JavaScript` | ★ 2 |
 | **[dns-watch](https://github.com/cyberd4ch/dns-watch)** | dnswatch — a small, dependency-free DNS drift watcher (cron + plain-text log). Free forever. | `Shell` |  |
 
 <sub>auto-synced from GitHub on 2026-11-07 — edit the repo description, not this table.</sub>
@@ -101,10 +104,10 @@ if it moves bits, I want to know where they leak. 📡
 ## 🛰️ Recent activity
 
 <!-- activity:start -->
+- [opened pull request #2 in cyberd4ch/free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli) · `2026-11-07`
+- [opened issue #2472 in waydroid/waydroid](https://github.com/waydroid/waydroid/issues/2472) · `2026-11-07`
 - [commented on #13845 in hashicorp/vagrant](https://github.com/hashicorp/vagrant/issues/13845#issuecomment-6699831865) · `2026-11-07`
 - [opened issue #96 in ppggff/vagrant-qemu](https://github.com/ppggff/vagrant-qemu/issues/96) · `2026-11-05`
-- [pushed to cyberd4ch/homebrew-dnswatch](https://github.com/cyberd4ch/homebrew-dnswatch/commits) · `2026-11-03`
-- [released v1.1.0 in cyberd4ch/dns-watch](https://github.com/cyberd4ch/dns-watch/releases/tag/v1.1.0) · `2026-11-03`
 <!-- activity:end -->
 
 <br>
