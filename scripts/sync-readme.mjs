@@ -15,9 +15,11 @@ const SITE = process.env.PORTFOLIO_URL || 'https://cyberd4ch.github.io'
 const README = 'README.md'
 const PROJECTS = ['<!-- projects:start -->', '<!-- projects:end -->']
 const WRITING = ['<!-- writing:start -->', '<!-- writing:end -->']
+const ACTIVITY = ['<!-- activity:start -->', '<!-- activity:end -->']
 const EXCLUDE = new Set([USER, `${USER}.github.io`])
 const PROJECT_LIMIT = 5
 const WRITING_LIMIT = 4
+const ACTIVITY_LIMIT = 4
 
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN
 const headers = {
@@ -49,6 +51,17 @@ async function fetchProjects() {
       const stack = repo.language ? `\`${repo.language}\`` : ''
       return `| **[${repo.name}](${repo.html_url})** | ${cell(repo.description) || '—'} | ${stack} | ${stars} |`
     })
+}
+
+async function fetchActivity() {
+  const res = await fetch(`${SITE}/activity.json`, { headers: { Accept: 'application/json' } })
+  if (!res.ok) throw new Error(`${res.status} ${res.statusText} fetching ${SITE}/activity.json`)
+  const { activity } = await res.json()
+
+  return (activity || []).slice(0, ACTIVITY_LIMIT).map(event => {
+    const day = String(event.at).slice(0, 10)
+    return `- [${cell(event.title)}](${event.url}) · \`${day}\``
+  })
 }
 
 async function fetchWriting() {
@@ -110,6 +123,17 @@ async function main() {
     console.log(`[readme] writing: ${bullets.length} posts`)
   } catch (err) {
     console.warn(`[readme] writing skipped: ${err.message}`)
+  }
+
+  try {
+    const bullets = await fetchActivity()
+    const result = replaceBlock(readme, ACTIVITY, bullets.join('\n'))
+    if (!result) throw new Error(`markers ${ACTIVITY.join(' / ')} not found`)
+    readme = result.updated
+    changed = changed || result.changed
+    console.log(`[readme] activity: ${bullets.length} events`)
+  } catch (err) {
+    console.warn(`[readme] activity skipped: ${err.message}`)
   }
 
   if (!changed) {

@@ -93,6 +93,17 @@ if it moves bits, I want to know where they leak. 📡
 
 <br>
 
+## 🛰️ Recent activity
+
+<!-- activity:start -->
+- [commented on #13845 in hashicorp/vagrant](https://github.com/hashicorp/vagrant/issues/13845#issuecomment-6699831865) · `2026-11-07`
+- [opened issue #96 in ppggff/vagrant-qemu](https://github.com/ppggff/vagrant-qemu/issues/96) · `2026-11-05`
+- [pushed to cyberd4ch/homebrew-dnswatch](https://github.com/cyberd4ch/homebrew-dnswatch/commits) · `2026-11-03`
+- [released v1.1.0 in cyberd4ch/dns-watch](https://github.com/cyberd4ch/dns-watch/releases/tag/v1.1.0) · `2026-11-03`
+<!-- activity:end -->
+
+<br>
+
 ## 💥 Let's build something
 
 Open to collaborating at the intersection of **security research, cloud infrastructure,
