@@ -21,7 +21,7 @@ if it moves bits, I want to know where they leak. 📡
 <div align="center">
   <a href="https://github.com/cyberd4ch"><img alt="github" src="https://img.shields.io/badge/GitHub-%40cyberd4ch-14161c?style=flat-square&logo=github&logoColor=22d3ee" /></a>
   <a href="mailto:cyberdachh@proton.me"><img alt="email" src="https://img.shields.io/badge/Email-cyberdachh%40proton.me-14161c?style=flat-square&logo=protonmail&logoColor=22d3ee" /></a>
-  <a href="https://github.com/cyberd4ch"><img alt="portfolio" src="https://img.shields.io/badge/Portfolio-cyberdach--portfolio.vercel.app-14161c?style=flat-square&logo=vercel&logoColor=22d3ee" /></a>
+  <a href="https://cyberd4ch.github.io/"><img alt="portfolio" src="https://img.shields.io/badge/Portfolio-cyberd4ch.github.io-14161c?style=flat-square&logo=githubpages&logoColor=22d3ee" /></a>
 </div>
 
 <br>
