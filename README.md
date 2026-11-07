@@ -16,12 +16,6 @@ whoami:
   method: "keep trying until it actually works — then make sure it keeps working"
 ```
 
-Telecom engineering grad who zigzagged through **electrical panels, RF/microwave and IT** before
-landing on code. I build full-stack systems (**Next.js / TypeScript**), deploy them into
-containers & VMs to learn what breaks — and why — and spend research hours on
-**supply-chain security, forensics, and cloud infrastructure**. Physical layer up to cloud:
-if it moves bits, I want to know where they leak. 📡
-
 <br>
 
 <div align="center">
