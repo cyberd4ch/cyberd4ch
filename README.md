@@ -53,10 +53,10 @@
 ## Blog
 
 <!-- writing:start -->
+- **[same tiers, new vocabulary: kind, crashloops, and the one secret spelling](https://cyberd4ch.github.io/blog/three-tiers-on-kind/)** — re-homing the lab 01 stack onto kind: a KeyError crashloop, the secret that is a bag of keys, boot-time retries, and a same-tag rebuild that never rolls.
 - **[after docker desktop: three tiers, colima, and the ghosts it left behind](https://cyberd4ch.github.io/blog/three-tiers-after-desktop/)** — rescuing lab 01 from a decommissioned docker desktop install — dead plugin symlinks, a credential store pointing at a corpse — and the compose lab that went green at the end.
 - **[announcing dns-watch v1.1.0: your attack surface's DNS, diffed — for free](https://cyberd4ch.github.io/blog/announcing-dnswatch-v1-1-0/)** — release notes for a one-file DNS drift watcher: one cron line, a readable log, no dashboard, no API keys, no subscription.
 - **[one curl per host: mapping a hardened SSO estate without tripping the alarm](https://cyberd4ch.github.io/blog/one-curl-per-host/)** — nineteen hosts, one administrative suffix, one HTTPS request each — how redirect headers turned a "nothing here" estate into a map.
-- **[when dig lies: building a DNS drift watcher that survives a NAT'd VM](https://cyberd4ch.github.io/blog/building-dns-watch/)** — five rebuilds, three false walls, and the two design decisions that make a diff trustworthy instead of merely present.
 <!-- writing:end -->
 
 <br>
