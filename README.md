@@ -53,10 +53,10 @@
 ## Blog
 
 <!-- writing:start -->
+- **[after docker desktop: three tiers, colima, and the ghosts it left behind](https://cyberd4ch.github.io/blog/three-tiers-after-desktop/)** — rescuing lab 01 from a decommissioned docker desktop install — dead plugin symlinks, a credential store pointing at a corpse — and the compose lab that went green at the end.
 - **[announcing dns-watch v1.1.0: your attack surface's DNS, diffed — for free](https://cyberd4ch.github.io/blog/announcing-dnswatch-v1-1-0/)** — release notes for a one-file DNS drift watcher: one cron line, a readable log, no dashboard, no API keys, no subscription.
 - **[one curl per host: mapping a hardened SSO estate without tripping the alarm](https://cyberd4ch.github.io/blog/one-curl-per-host/)** — nineteen hosts, one administrative suffix, one HTTPS request each — how redirect headers turned a "nothing here" estate into a map.
 - **[when dig lies: building a DNS drift watcher that survives a NAT'd VM](https://cyberd4ch.github.io/blog/building-dns-watch/)** — five rebuilds, three false walls, and the two design decisions that make a diff trustworthy instead of merely present.
-- **[six thousand templates, zero findings — and other useful lies about hardened targets](https://cyberd4ch.github.io/blog/when-templates-find-zero/)** — 6,665 templates across 16,055 requests matched nothing. that result is data, not a dead end.
 <!-- writing:end -->
 
 <br>
@@ -64,10 +64,10 @@
 ## Recent
 
 <!-- activity:start -->
+- [opened pull request #1 in cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io) · `2026-11-07`
+- [opened pull request #1 in cyberd4ch/cyberd4ch](https://github.com/cyberd4ch/cyberd4ch) · `2026-11-07`
 - [opened pull request #2 in cyberd4ch/free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli) · `2026-11-07`
-- [opened issue #2472 in waydroid/waydroid](https://github.com/waydroid/waydroid/issues/2472) · `2026-11-07`
-- [commented on #13845 in hashicorp/vagrant](https://github.com/hashicorp/vagrant/issues/13845#issuecomment-6699831865) · `2026-11-07`
-- [opened issue #96 in ppggff/vagrant-qemu](https://github.com/ppggff/vagrant-qemu/issues/96) · `2026-11-05`
+- [created branch rust in cyberd4ch/free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli) · `2026-11-07`
 <!-- activity:end -->
 
 <br>
