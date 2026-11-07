@@ -1,20 +1,23 @@
 /**
- * Keep the profile README's project table in sync with the GitHub account.
+ * Keep the profile README in sync with the portfolio.
  *
  * The profile front is split by necessity: the README must live in `cyberd4ch/cyberd4ch`
- * while the site must live in `cyberd4ch/cyberd4ch.github.io`. This script makes the
- * README derive from the same public repo data the site uses, so the two never drift.
+ * while the site must live in `cyberd4ch/cyberd4ch.github.io`. This script derives both
+ * the project table (GitHub API) and the writing list (the site's /blog.json) so the two
+ * front doors cannot drift.
  *
- * Rewrites only the block between the markers, everything else is left alone.
+ * Rewrites only the blocks between the markers; everything else is left alone.
  */
 import fs from 'node:fs/promises'
 
 const USER = process.env.GITHUB_USER || 'cyberd4ch'
+const SITE = process.env.PORTFOLIO_URL || 'https://cyberd4ch.github.io'
 const README = 'README.md'
-const START = '<!-- projects:start -->'
-const END = '<!-- projects:end -->'
+const PROJECTS = ['<!-- projects:start -->', '<!-- projects:end -->']
+const WRITING = ['<!-- writing:start -->', '<!-- writing:end -->']
 const EXCLUDE = new Set([USER, `${USER}.github.io`])
-const LIMIT = 5
+const PROJECT_LIMIT = 5
+const WRITING_LIMIT = 4
 
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN
 const headers = {
@@ -28,48 +31,94 @@ function cell(text) {
   return String(text || '').replace(/\|/g, '\\|').replace(/\s+/g, ' ').trim()
 }
 
-async function main() {
+function absolute(url) {
+  return url.startsWith('http') ? url : `${SITE}${url}`
+}
+
+async function fetchProjects() {
   const res = await fetch(`https://api.github.com/users/${USER}/repos?per_page=100&sort=pushed`, { headers })
   if (!res.ok) throw new Error(`${res.status} ${res.statusText} fetching repos`)
   const raw = await res.json()
 
-  const repos = raw
+  return raw
     .filter(repo => !repo.fork && !repo.archived && !EXCLUDE.has(repo.name))
     .sort((a, b) => b.pushed_at.localeCompare(a.pushed_at))
-    .slice(0, LIMIT)
+    .slice(0, PROJECT_LIMIT)
+    .map(repo => {
+      const stars = repo.stargazers_count > 0 ? `★ ${repo.stargazers_count}` : ''
+      const stack = repo.language ? `\`${repo.language}\`` : ''
+      return `| **[${repo.name}](${repo.html_url})** | ${cell(repo.description) || '—'} | ${stack} | ${stars} |`
+    })
+}
 
-  const rows = repos.map(repo => {
-    const stars = repo.stargazers_count > 0 ? `★ ${repo.stargazers_count}` : ''
-    const stack = repo.language ? `\`${repo.language}\`` : ''
-    return `| **[${repo.name}](${repo.html_url})** | ${cell(repo.description) || '—'} | ${stack} | ${stars} |`
-  })
+async function fetchWriting() {
+  const res = await fetch(`${SITE}/blog.json`, { headers: { Accept: 'application/json' } })
+  if (!res.ok) throw new Error(`${res.status} ${res.statusText} fetching ${SITE}/blog.json`)
+  const { posts } = await res.json()
 
-  const block = [
-    START,
-    '| project | what it does | stack | |',
-    '|---|---|---|---|',
-    ...rows,
-    '',
-    `<sub>auto-synced from GitHub on ${new Date().toISOString().slice(0, 10)} — edit the repo description, not this table.</sub>`,
-    END,
-  ].join('\n')
+  return (posts || [])
+    // First-party articles only; external posts stay linked from the site itself.
+    .filter(post => !post.external)
+    .slice(0, WRITING_LIMIT)
+    .map(post => `- **[${cell(post.title)}](${absolute(post.url)})** — ${cell(post.excerpt)}`)
+}
 
-  const readme = await fs.readFile(README, 'utf8')
-  const start = readme.indexOf(START)
-  const end = readme.indexOf(END)
+/**
+ * Replace the block between two markers. Returns null when the markers are absent,
+ * or the unchanged text when the block already matches.
+ */
+function replaceBlock(readme, [startMarker, endMarker], body) {
+  const start = readme.indexOf(startMarker)
+  const end = readme.indexOf(endMarker)
+  if (start === -1 || end === -1 || end < start) return null
 
-  if (start === -1 || end === -1 || end < start) {
-    throw new Error(`markers ${START} / ${END} not found in ${README}`)
+  const block = [startMarker, body, endMarker].join('\n')
+  const updated = `${readme.slice(0, start)}${block}${readme.slice(end + endMarker.length)}`
+  return { updated, changed: updated !== readme }
+}
+
+async function main() {
+  let readme = await fs.readFile(README, 'utf8')
+  let changed = false
+
+  // Each block is independent: a failed fetch keeps the committed section rather
+  // than failing the whole sync.
+  try {
+    const rows = await fetchProjects()
+    const body = [
+      '| project | what it does | stack | |',
+      '|---|---|---|---|',
+      ...rows,
+      '',
+      `<sub>auto-synced from GitHub on ${new Date().toISOString().slice(0, 10)} — edit the repo description, not this table.</sub>`,
+    ].join('\n')
+    const result = replaceBlock(readme, PROJECTS, body)
+    if (!result) throw new Error(`markers ${PROJECTS.join(' / ')} not found`)
+    readme = result.updated
+    changed = changed || result.changed
+    console.log(`[readme] projects: ${rows.length} repos`)
+  } catch (err) {
+    console.warn(`[readme] projects skipped: ${err.message}`)
   }
 
-  const updated = `${readme.slice(0, start)}${block}${readme.slice(end + END.length)}`
-  if (updated === readme) {
+  try {
+    const bullets = await fetchWriting()
+    const result = replaceBlock(readme, WRITING, bullets.join('\n'))
+    if (!result) throw new Error(`markers ${WRITING.join(' / ')} not found`)
+    readme = result.updated
+    changed = changed || result.changed
+    console.log(`[readme] writing: ${bullets.length} posts`)
+  } catch (err) {
+    console.warn(`[readme] writing skipped: ${err.message}`)
+  }
+
+  if (!changed) {
     console.log('[readme] already current')
     return
   }
 
-  await fs.writeFile(README, updated)
-  console.log(`[readme] synced ${repos.length} repos`)
+  await fs.writeFile(README, readme)
+  console.log('[readme] updated')
 }
 
 main().catch(err => {

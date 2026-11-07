@@ -84,10 +84,12 @@ if it moves bits, I want to know where they leak. 📡
 
 ## ✍️ Writing
 
-- **[announcing dns-watch v1.1.0](https://cyberd4ch.github.io/blog/announcing-dnswatch-v1-1-0/)** — a free DNS drift watcher, and the two design decisions that make a diff trustworthy.
-- **[one curl per host](https://cyberd4ch.github.io/blog/one-curl-per-host/)** — mapping a hardened SSO estate without tripping the alarm.
-- **[when dig lies](https://cyberd4ch.github.io/blog/building-dns-watch/)** — five rebuilds, three false walls, and building a drift watcher that survives a NAT'd VM.
-- **[six thousand templates, zero findings](https://cyberd4ch.github.io/blog/when-templates-find-zero/)** — and other useful lies about hardened targets.
+<!-- writing:start -->
+- **[announcing dns-watch v1.1.0: your attack surface's DNS, diffed — for free](https://cyberd4ch.github.io/blog/announcing-dnswatch-v1-1-0/)** — release notes for a one-file DNS drift watcher: one cron line, a readable log, no dashboard, no API keys, no subscription.
+- **[one curl per host: mapping a hardened SSO estate without tripping the alarm](https://cyberd4ch.github.io/blog/one-curl-per-host/)** — nineteen hosts, one administrative suffix, one HTTPS request each — how redirect headers turned a "nothing here" estate into a map.
+- **[when dig lies: building a DNS drift watcher that survives a NAT'd VM](https://cyberd4ch.github.io/blog/building-dns-watch/)** — five rebuilds, three false walls, and the two design decisions that make a diff trustworthy instead of merely present.
+- **[six thousand templates, zero findings — and other useful lies about hardened targets](https://cyberd4ch.github.io/blog/when-templates-find-zero/)** — 6,665 templates across 16,055 requests matched nothing. that result is data, not a dead end.
+<!-- writing:end -->
 
 <br>
 
