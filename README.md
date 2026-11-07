@@ -78,7 +78,11 @@ if it moves bits, I want to know where they leak. 📡
   <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-07" width="48%" alt="Streak" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-07" width="60%" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/contributions.svg?v=2026-11-07" width="96%" alt="Contribution activity" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-07" width="48%" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/repos.svg?v=2026-11-07" width="48%" alt="Top repositories" />
 </p>
 
 <br>

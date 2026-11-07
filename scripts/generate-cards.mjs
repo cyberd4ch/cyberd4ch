@@ -6,7 +6,13 @@
  * rendered here from the GitHub API and committed to assets/, so the only dependency
  * is GitHub itself.
  *
- * Outputs: assets/github-stats.svg, assets/top-languages.svg, assets/streak.svg
+ * Outputs: assets/github-stats.svg, assets/top-languages.svg, assets/streak.svg,
+ *          assets/contributions.svg, assets/repos.svg
+ *
+ * Every card is rendered in memory and validated before anything is written, so a bad
+ * API response fails the workflow instead of committing a half-drawn card. If the run
+ * fails, the previously committed SVGs stay in place and the README keeps rendering
+ * them — that is the intended fallback.
  */
 import fs from 'node:fs/promises'
 
@@ -17,6 +23,9 @@ const BORDER = '#30363d'
 const TEXT = '#e8eaf0'
 const MUTED = '#8f99a6'
 const ACCENT = '#22d3ee'
+// One ramp for the heatmap, so density reads at a glance without a legend lookup.
+const EMPTY = '#161b22'
+const HEAT = ['#0e4a55', '#14707f', '#1a9aab', '#22d3ee']
 const FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
 
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN
@@ -50,13 +59,27 @@ function esc(value) {
     .replace(/>/g, '&gt;')
 }
 
-function card(width, height, title, body) {
+function card(width, height, title, body, updated) {
+  const stamp = updated
+    ? `\n  <text x="${width - 20}" y="${height - 9}" fill="${MUTED}" font-family="${FONT}" font-size="9" text-anchor="end">updated ${esc(updated)}</text>`
+    : ''
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="${esc(title)}">
   <rect x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="6" fill="${BG}" stroke="${BORDER}" />
   <text x="20" y="30" fill="${ACCENT}" font-family="${FONT}" font-size="14" font-weight="600">${esc(title)}</text>
-${body}
+${body}${stamp}
 </svg>
 `
+}
+
+function assertCard(name, svg) {
+  const problems = []
+  if (!svg.startsWith('<svg') || !svg.trimEnd().endsWith('</svg>')) problems.push('malformed root element')
+  if (/NaN|undefined|Infinity/.test(svg)) problems.push('numeric placeholder leaked into markup')
+  const opened = (svg.match(/<svg/g) || []).length
+  const closed = (svg.match(/<\/svg>/g) || []).length
+  if (opened !== closed) problems.push(`${opened} <svg> vs ${closed} </svg>`)
+  if (problems.length) throw new Error(`${name}: ${problems.join('; ')}`)
+  return svg
 }
 
 async function api(url) {
@@ -77,7 +100,7 @@ async function graphql(query, variables) {
   return json.data
 }
 
-function statsCard({ stars, commits, prs, issues, followers, repos, contributedTo }) {
+function statsCard({ stars, commits, prs, issues, followers, repos, contributedTo }, updated) {
   const cell = (x, y, label, value) => `
   <text x="${x}" y="${y}" fill="${MUTED}" font-family="${FONT}" font-size="11">${esc(label)}</text>
   <text x="${x}" y="${y + 24}" fill="${TEXT}" font-family="${FONT}" font-size="22" font-weight="600">${esc(value)}</text>`
@@ -93,10 +116,10 @@ function statsCard({ stars, commits, prs, issues, followers, repos, contributedT
     )}</text>`,
   ].join('')
 
-  return card(340, 200, `${USER} · GitHub stats`, body)
+  return card(340, 200, `${USER} · GitHub stats`, body, updated)
 }
 
-function languagesCard(languages, repoCount) {
+function languagesCard(languages, repoCount, updated) {
   const total = languages.reduce((sum, item) => sum + item.bytes, 0) || 1
   const top = languages.slice(0, 5)
   const rows = top
@@ -113,10 +136,10 @@ function languagesCard(languages, repoCount) {
     })
     .join('')
 
-  return card(340, 200, `Top languages · ${repoCount} repos`, rows)
+  return card(340, 200, `Top languages · ${repoCount} repos`, rows, updated)
 }
 
-function streakCard({ current, longest, total, firstDay, lastDay }) {
+function streakCard({ current, longest, total, firstDay, lastDay }, updated) {
   const body = `
   <text x="20" y="76" fill="${MUTED}" font-family="${FONT}" font-size="11">Current streak</text>
   <text x="20" y="108" fill="${TEXT}" font-family="${FONT}" font-size="26" font-weight="600">${current} days</text>
@@ -126,7 +149,81 @@ function streakCard({ current, longest, total, firstDay, lastDay }) {
   <text x="20" y="158" fill="${TEXT}" font-family="${FONT}" font-size="13">${total} contributions</text>
   <text x="20" y="180" fill="${MUTED}" font-family="${FONT}" font-size="11">${esc(`${firstDay} → ${lastDay}`)}</text>`
 
-  return card(340, 200, 'Commit streak', body)
+  return card(340, 200, 'Commit streak', body, updated)
+}
+
+function heatmapCard(weeks, { total, updated }) {
+  const cell = 11
+  const gap = 3
+  const pitch = cell + gap
+  const x0 = 56
+  const y0 = 58
+
+  const columns = []
+  let lastMonth = -1
+  let lastLabelX = -99
+  weeks.forEach((week, weekIndex) => {
+    week.contributionDays.forEach((day, row) => {
+      const x = x0 + weekIndex * pitch
+      const y = y0 + row * pitch
+      const count = day.contributionCount
+      const shade = count === 0 ? EMPTY : HEAT[Math.min(HEAT.length - 1, Math.floor(Math.log2(count)))]
+      columns.push(
+        `<rect x="${x}" y="${y}" width="${cell}" height="${cell}" rx="2" fill="${shade}"><title>${esc(day.date)}: ${count} contribution${count === 1 ? '' : 's'}</title></rect>`,
+      )
+      // Label the column at its first in-month day, skipping labels that would collide.
+      const month = Number(day.date.slice(5, 7))
+      if (row === 0 && month !== lastMonth && x - lastLabelX >= 26) {
+        const label = new Date(`${day.date}T00:00:00Z`).toLocaleString('en', { month: 'short', timeZone: 'UTC' })
+        columns.push(
+          `<text x="${x}" y="${y0 - 8}" fill="${MUTED}" font-family="${FONT}" font-size="9">${esc(label)}</text>`,
+        )
+        lastLabelX = x
+        lastMonth = month
+      }
+    })
+  })
+
+  const weekdayLabels = [['Mon', 1], ['Wed', 3], ['Fri', 5]]
+    .map(([label, row]) =>
+      `<text x="20" y="${y0 + row * pitch + 9}" fill="${MUTED}" font-family="${FONT}" font-size="9">${label}</text>`,
+    )
+    .join('')
+
+  const legendX = x0
+  const legendY = y0 + 7 * pitch + 16
+  const legend = HEAT.map(
+    (shade, i) =>
+      `<rect x="${legendX + 26 + i * (cell + gap)}" y="${legendY - 9}" width="${cell}" height="${cell}" rx="2" fill="${shade}" />`,
+  ).join('')
+
+  const body = `
+  ${weekdayLabels}
+${columns.join('\n')}
+  <text x="${legendX}" y="${legendY}" fill="${MUTED}" font-family="${FONT}" font-size="9">Less</text>
+${legend}
+  <text x="${legendX + 26 + HEAT.length * (cell + gap) + 4}" y="${legendY}" fill="${MUTED}" font-family="${FONT}" font-size="9">More</text>
+  <text x="${legendX + 26 + HEAT.length * (cell + gap) + 44}" y="${legendY}" fill="${TEXT}" font-family="${FONT}" font-size="11">${total} contributions in the last year</text>`
+
+  return card(840, 210, 'Contribution activity', body, updated)
+}
+
+function reposCard(repos, updated) {
+  const top = repos.filter(repo => repo.name).sort((a, b) => b.stargazers_count - a.stargazers_count).slice(0, 4)
+  const name = value => (value.length > 24 ? `${value.slice(0, 23)}…` : value)
+  const rows = top
+    .map((repo, index) => {
+      const y = 66 + index * 32
+      const color = LANGUAGE_COLORS[repo.language] || MUTED
+      return `
+  <text x="20" y="${y}" fill="${TEXT}" font-family="${FONT}" font-size="12">${esc(name(repo.name))}</text>
+  <text x="320" y="${y}" fill="${MUTED}" font-family="${FONT}" font-size="11" text-anchor="end">★ ${repo.stargazers_count}</text>
+  <circle cx="23" cy="${y + 13}" r="3" fill="${color}" />
+  <text x="32" y="${y + 16}" fill="${MUTED}" font-family="${FONT}" font-size="10">${esc(repo.language || 'no language')}</text>`
+    })
+    .join('')
+
+  return card(340, 200, 'Top repositories', rows, updated)
 }
 
 function localDay(date) {
@@ -198,42 +295,48 @@ async function main() {
   )
 
   const collection = data.user.contributionsCollection
-  const days = collection.contributionCalendar.weeks.flatMap(week => week.contributionDays)
+  const weeks = collection.contributionCalendar.weeks
+  const days = weeks.flatMap(week => week.contributionDays)
   const { current, longest } = computeStreaks(days)
   const total = days.reduce((sum, day) => sum + day.contributionCount, 0)
+  const stamp = localDay(to)
+
+  const rendered = {
+    'github-stats.svg': statsCard(
+      {
+        stars: repos.reduce((sum, repo) => sum + repo.stargazers_count, 0),
+        commits: collection.totalCommitContributions,
+        prs: collection.totalPullRequestContributions,
+        issues: collection.totalIssueContributions,
+        followers: user.followers,
+        repos: user.public_repos,
+        contributedTo: collection.totalRepositoriesWithContributedCommits,
+      },
+      stamp,
+    ),
+    'top-languages.svg': languagesCard(languages, repos.length, stamp),
+    'streak.svg': streakCard(
+      { current, longest, total, firstDay: localDay(from), lastDay: localDay(to) },
+      stamp,
+    ),
+    'contributions.svg': heatmapCard(weeks, { total, updated: stamp }),
+    'repos.svg': reposCard(repos, stamp),
+  }
+
+  // Validate everything first: a broken card should fail the run, not land in the README.
+  for (const [name, svg] of Object.entries(rendered)) assertCard(name, svg)
 
   await fs.mkdir(OUT_DIR, { recursive: true })
-  await fs.writeFile(
-    `${OUT_DIR}/github-stats.svg`,
-    statsCard({
-      stars: repos.reduce((sum, repo) => sum + repo.stargazers_count, 0),
-      commits: collection.totalCommitContributions,
-      prs: collection.totalPullRequestContributions,
-      issues: collection.totalIssueContributions,
-      followers: user.followers,
-      repos: user.public_repos,
-      contributedTo: collection.totalRepositoriesWithContributedCommits,
-    }),
-  )
-  await fs.writeFile(`${OUT_DIR}/top-languages.svg`, languagesCard(languages, repos.length))
-  await fs.writeFile(
-    `${OUT_DIR}/streak.svg`,
-    streakCard({
-      current,
-      longest,
-      total,
-      firstDay: localDay(from),
-      lastDay: localDay(to),
-    }),
+  await Promise.all(
+    Object.entries(rendered).map(([name, svg]) => fs.writeFile(`${OUT_DIR}/${name}`, svg)),
   )
 
   // GitHub Camo caches by URL, so bump the query token when the assets change.
   // Without this the committed SVG would keep rendering yesterday's numbers.
-  const stamp = localDay(to)
   try {
     const readme = await fs.readFile('README.md', 'utf8')
     const updated = readme.replace(
-      /assets\/(github-stats|top-languages|streak)\.svg(\?v=[0-9-]+)?/g,
+      /assets\/(github-stats|top-languages|streak|contributions|repos)\.svg(\?v=[0-9-]+)?/g,
       `assets/$1.svg?v=${stamp}`,
     )
     if (updated !== readme) await fs.writeFile('README.md', updated)
@@ -241,7 +344,9 @@ async function main() {
     console.warn(`[cards] README not updated: ${err.message}`)
   }
 
-  console.log(`[cards] stats, ${languages.length} languages, streak ${current}/${longest} days`)
+  console.log(
+    `[cards] 5 cards, ${languages.length} languages, streak ${current}/${longest} days, ${total} contributions`,
+  )
 }
 
 main().catch(err => {
