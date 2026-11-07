@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "0 5 * * *"
   workflow_dispatch:
+  # Woken by the site repo (.github.io) after each successful deploy to main,
+  # so a new article syncs within ~a minute instead of waiting for the 05:00 cron.
+  repository_dispatch:
+    types: [blog-updated]
 
 permissions:
   contents: write
