@@ -22,6 +22,11 @@ jobs:
         with:
           node-version: "22"
 
+      - name: Render scoreboard cards
+        run: node scripts/generate-cards.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Regenerate project table
         run: node scripts/sync-readme.mjs
         env:
@@ -29,12 +34,12 @@ jobs:
 
       - name: Commit if changed
         run: |
-          if git diff --quiet README.md; then
-            echo "README already current"
+          if git diff --quiet README.md assets; then
+            echo "README and cards already current"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md assets
           git commit -m "Sync project table from GitHub"
           git push

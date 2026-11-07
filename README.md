@@ -74,11 +74,11 @@ if it moves bits, I want to know where they leak. 📡
 ## 📊 The scoreboard
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=cyberd4ch&theme=github_dark&v=2" width="48%" alt="GitHub Stats" />
-  <img src="https://streak-stats.demolab.com?user=cyberd4ch&hide_border=true&background=0D1117&ring=22d3ee&fire=0891b2&currStreakNum=e8eaf0&sideNums=8f99a6&sideLabels=6b7280&v=2" width="48%" alt="Streak" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-07" width="48%" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-07" width="48%" alt="Streak" />
 </p>
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=cyberd4ch&theme=github_dark&v=2" width="60%" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-07" width="60%" alt="Top Languages" />
 </p>
 
 <br>
