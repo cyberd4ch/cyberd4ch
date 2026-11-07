@@ -7,15 +7,6 @@
   cyber.dach
 </h1>
 
-```yaml
-whoami:
-  role: engineer → telecom & cybersecurity
-  stack: [typescript, node, c, python]
-  toolkit: [nextjs, docker, postgres, hasura]   # things I reach for
-  focus: "npm supply-chain security — dependency trees as attack surfaces"
-  method: "keep trying until it actually works — then make sure it keeps working"
-```
-
 <br>
 
 <div align="center">
@@ -26,32 +17,6 @@ whoami:
 </div>
 
 <br>
-
-## 🚀 What I'm building
-
-<!-- projects:start -->
-| project | what it does | stack | |
-|---|---|---|---|
-| **[free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli)** | A simple torrent client build with Node.js for terminal | `JavaScript` | ★ 2 |
-| **[txn-agent](https://github.com/cyberd4ch/txn-agent)** | Safety-first transaction layer for purchasing agents: deterministic policy gate, human approvals, idempotent checkout | `Python` | ★ 2 |
-| **[stride-tmr](https://github.com/cyberd4ch/stride-tmr)** | STRIDE threat modelling with pytm | `Python` |  |
-| **[cportscan](https://github.com/cyberd4ch/cportscan)** | A simple port scanner built with C | `HTML` |  |
-| **[dns-watch](https://github.com/cyberd4ch/dns-watch)** | dnswatch — a small, dependency-free DNS drift watcher (cron + plain-text log). Free forever. | `Shell` |  |
-
-<sub>auto-synced from GitHub on 2026-11-07 — edit the repo description, not this table.</sub>
-<!-- projects:end -->
-
-<br>
-
-## 🎯 Current obsessions
-
-- **supply-chain forensics** — my master's thesis: *how* and *why* npm dependency trees become liabilities. Breach post-mortems → what a pipeline should have caught.
-- **cloud-native plumbing** — Docker, virtualization, and bridging the gap between "it works on my machine" and "it works under prod traffic."
-- **forensic mindset applied to code** — hunting anomalies in data flow & access control, not just shipping features that pass tests.
-
-<br>
-
-## 🧰 The toolbox
 
 <div align="center">
 
@@ -71,8 +36,6 @@ whoami:
 
 <br>
 
-## 📊 The scoreboard
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-07" width="48%" alt="GitHub Stats" />
   <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-07" width="48%" alt="Streak" />
@@ -87,7 +50,7 @@ whoami:
 
 <br>
 
-## ✍️ Writing
+## Blog
 
 <!-- writing:start -->
 - **[announcing dns-watch v1.1.0: your attack surface's DNS, diffed — for free](https://cyberd4ch.github.io/blog/announcing-dnswatch-v1-1-0/)** — release notes for a one-file DNS drift watcher: one cron line, a readable log, no dashboard, no API keys, no subscription.
@@ -98,7 +61,7 @@ whoami:
 
 <br>
 
-## 🛰️ Recent activity
+## Recent
 
 <!-- activity:start -->
 - [opened pull request #2 in cyberd4ch/free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli) · `2026-11-07`
@@ -109,7 +72,7 @@ whoami:
 
 <br>
 
-## 💜 Sponsoring
+## Sponsor
 
 If `dns-watch`, `txn-agent`, or anything else here saves you time, you can fund the work at
 **[github.com/sponsors/cyberd4ch](https://github.com/sponsors/cyberd4ch)**. Sponsorship pays
@@ -117,7 +80,7 @@ for the lab VMs, API quotas, and the time behind the write-ups.
 
 <br>
 
-## 💥 Let's build something
+## Collaborate 
 
 Open to collaborating at the intersection of **security research, cloud infrastructure,
 and full-stack development** — especially projects that involve breaking (and fixing) stuff.
