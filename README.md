@@ -89,10 +89,10 @@ instead of assumed.
 ## Blog
 
 <!-- writing:start -->
+- **[from a form to a download manager: categories, drag-and-drop, and a window that lets go](https://cyberd4ch.github.io/blog/from-form-to-download-manager/)** — rebuilding the ftc page as a download manager — one 69 KB page in both the browser and the macOS window, batch verbs the API had to grow, base64 drag-and-drop, and the SIGTERM that left five servers listening.
 - **[three tiers become a module: two stacks, one graph, no collisions](https://cyberd4ch.github.io/blog/three-tiers-become-a-module/)** — lab 04 exercise 8: the same three tiers as a reusable module, instanced twice on 8082 and 8083 — including the readiness wait that caught a green apply serving nothing.
 - **[one binary, two interfaces: a web ui and a real window in 3 MB of rust](https://cyberd4ch.github.io/blog/one-binary-two-interfaces/)** — a hand-written http server, html compiled into the binary, cancel and pause moved into the engine, an 87 KB swift window — and the favicon bug that explained why 204 is not an icon.
 - **[dns-watch v1.1.1: the release where nothing changed (on purpose)](https://cyberd4ch.github.io/blog/announcing-dnswatch-v1-1-1/)** — a packaging release: reproducible tarball, sha256-pinned homebrew tap that bumps itself, and the install path documented first.
-- **[same tiers, new vocabulary: kind, crashloops, and the one secret spelling](https://cyberd4ch.github.io/blog/three-tiers-on-kind/)** — re-homing the lab 01 stack onto kind: a KeyError crashloop, the secret that is a bag of keys, boot-time retries, and a same-tag rebuild that never rolls.
 <!-- writing:end -->
 
 <br>
