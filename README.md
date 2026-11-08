@@ -37,15 +37,15 @@
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-07" width="48%" alt="GitHub Stats" />
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-07" width="48%" alt="Streak" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-08" width="48%" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-08" width="48%" alt="Streak" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/contributions.svg?v=2026-11-07" width="96%" alt="Contribution activity" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/contributions.svg?v=2026-11-08" width="96%" alt="Contribution activity" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-07" width="48%" alt="Top Languages" />
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/repos.svg?v=2026-11-07" width="48%" alt="Top repositories" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-08" width="48%" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/repos.svg?v=2026-11-08" width="48%" alt="Top repositories" />
 </p>
 
 <br>
@@ -53,10 +53,10 @@
 ## Blog
 
 <!-- writing:start -->
+- **[dns-watch v1.1.1: the release where nothing changed (on purpose)](https://cyberd4ch.github.io/blog/announcing-dnswatch-v1-1-1/)** — a packaging release: reproducible tarball, sha256-pinned homebrew tap that bumps itself, and the install path documented first.
 - **[same tiers, new vocabulary: kind, crashloops, and the one secret spelling](https://cyberd4ch.github.io/blog/three-tiers-on-kind/)** — re-homing the lab 01 stack onto kind: a KeyError crashloop, the secret that is a bag of keys, boot-time retries, and a same-tag rebuild that never rolls.
 - **[after docker desktop: three tiers, colima, and the ghosts it left behind](https://cyberd4ch.github.io/blog/three-tiers-after-desktop/)** — rescuing lab 01 from a decommissioned docker desktop install — dead plugin symlinks, a credential store pointing at a corpse — and the compose lab that went green at the end.
 - **[announcing dns-watch v1.1.0: your attack surface's DNS, diffed — for free](https://cyberd4ch.github.io/blog/announcing-dnswatch-v1-1-0/)** — release notes for a one-file DNS drift watcher: one cron line, a readable log, no dashboard, no API keys, no subscription.
-- **[one curl per host: mapping a hardened SSO estate without tripping the alarm](https://cyberd4ch.github.io/blog/one-curl-per-host/)** — nineteen hosts, one administrative suffix, one HTTPS request each — how redirect headers turned a "nothing here" estate into a map.
 <!-- writing:end -->
 
 <br>
@@ -64,10 +64,10 @@
 ## Recent
 
 <!-- activity:start -->
+- [merged pull request #2 in cyberd4ch/free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli) · `2026-11-08`
+- [commented on #2 in cyberd4ch/free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli/pull/2#issuecomment-6714469689) · `2026-11-07`
+- [commented on #2 in cyberd4ch/free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli/pull/2#issuecomment-6714203252) · `2026-11-07`
 - [merged pull request #1 in cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io) · `2026-11-07`
-- [merged pull request #1 in cyberd4ch/cyberd4ch](https://github.com/cyberd4ch/cyberd4ch) · `2026-11-07`
-- [opened pull request #2 in cyberd4ch/free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli) · `2026-11-07`
-- [created branch rust in cyberd4ch/free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli) · `2026-11-07`
 <!-- activity:end -->
 
 <br>
