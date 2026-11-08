@@ -89,10 +89,10 @@ instead of assumed.
 ## Blog
 
 <!-- writing:start -->
+- **[three tiers become a module: two stacks, one graph, no collisions](https://cyberd4ch.github.io/blog/three-tiers-become-a-module/)** — lab 04 exercise 8: the same three tiers as a reusable module, instanced twice on 8082 and 8083 — including the readiness wait that caught a green apply serving nothing.
+- **[one binary, two interfaces: a web ui and a real window in 3 MB of rust](https://cyberd4ch.github.io/blog/one-binary-two-interfaces/)** — a hand-written http server, html compiled into the binary, cancel and pause moved into the engine, an 87 KB swift window — and the favicon bug that explained why 204 is not an icon.
 - **[dns-watch v1.1.1: the release where nothing changed (on purpose)](https://cyberd4ch.github.io/blog/announcing-dnswatch-v1-1-1/)** — a packaging release: reproducible tarball, sha256-pinned homebrew tap that bumps itself, and the install path documented first.
 - **[same tiers, new vocabulary: kind, crashloops, and the one secret spelling](https://cyberd4ch.github.io/blog/three-tiers-on-kind/)** — re-homing the lab 01 stack onto kind: a KeyError crashloop, the secret that is a bag of keys, boot-time retries, and a same-tag rebuild that never rolls.
-- **[after docker desktop: three tiers, colima, and the ghosts it left behind](https://cyberd4ch.github.io/blog/three-tiers-after-desktop/)** — rescuing lab 01 from a decommissioned docker desktop install — dead plugin symlinks, a credential store pointing at a corpse — and the compose lab that went green at the end.
-- **[announcing dns-watch v1.1.0: your attack surface's DNS, diffed — for free](https://cyberd4ch.github.io/blog/announcing-dnswatch-v1-1-0/)** — release notes for a one-file DNS drift watcher: one cron line, a readable log, no dashboard, no API keys, no subscription.
 <!-- writing:end -->
 
 <br>
