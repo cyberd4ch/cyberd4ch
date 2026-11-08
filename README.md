@@ -17,28 +17,6 @@
 
 <br>
 
-```yaml
-whoami:
-  role: engineer → telecom & cybersecurity
-  stack: [typescript, node, python, rust, c]
-  toolkit: [nextjs, docker, kubernetes, terraform, aws, postgres]   # things I reach for
-  focus: "npm supply-chain security — dependency trees as attack surfaces"
-  method: "keep trying until it actually works — then prove it keeps working"
-```
-
-Telecom engineering grad who zigzagged through **electrical panels, RF/microwave and IT**
-before landing on code. I build systems, deploy them into containers and clusters to learn
-what breaks — and why — and spend research hours on **supply-chain security, forensics, and
-cloud infrastructure**. Physical layer up to cloud: if it moves bits, I want to know where
-they leak. 📡
-
-Lately that has meant writing a **BitTorrent client from scratch in Rust** — wire protocol,
-bencode, DHT, magnet metadata exchange, SHA-1 verification, seeding, and a web UI compiled
-into the same 3 MB binary — plus **cloud-native labs** that rebuild from a README and tear
-down with one command.
-
-<br>
-
 <div align="center">
 
 <p><strong>languages</strong></p>
