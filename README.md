@@ -65,6 +65,23 @@
 
 <br>
 
+## Recently shipped
+
+**Footorrent 3.5.0** — rebuilding the magnet path end to end. Metadata is now fetched and
+verified before anything touches disk, so the window shows the real name, size and file list,
+then asks where to save. Along the way: a BEP 10 reply read from the wrong extension id, a
+handshake that rejected peers for routine chatter, and a download that re-announced to the
+magnet's own dead tracker list instead of using the 200-plus peers resolve had already found.
+Dead announce lists fall back to public trackers, peers are sampled in parallel batches, and
+the UI shows per-peer rates, a tracker-fallback note and a retry button.
+
+Measured on a magnet whose own trackers were all dead: resolve in 17–42 s, 129,302,391 bytes
+and 11 files reported before writing, then 917 KB downloaded in the first minute across 6 peers.
+
+→ [Source](https://github.com/cyberd4ch/free-torrent-cli) · [Release notes](https://github.com/cyberd4ch/free-torrent-cli/blob/main/CHANGELOG.md)
+
+<br>
+
 ## In the lab
 
 Practice work that runs on a real machine, not in a slide deck. Every lab carries its own
