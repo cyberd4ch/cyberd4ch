@@ -49,6 +49,25 @@
 
 <br>
 
+## Now building
+
+**[getmocha.world](https://github.com/cyberd4ch/getmocha)** — remote job matching that ranks
+postings before the crowd, then writes your application documents from your own answers:
+screening questionnaires, CV reads with an honest percentage, cover letters + application emails.
+Built fail-soft by contract — every AI path has a deterministic fallback, so the product never
+breaks when the model dies. Kept honest by countables: a real-server jest suite (105 tests
+across 18 suites), a 62-check HTTP acceptance battery against the live engine, and a browser
+probe that walks the auth + apply flow on every verify.
+
+## Upstream bugs found & fixed
+
+| repo | report | outcome |
+|---|---|---|
+| **[ppggff/vagrant-qemu](https://github.com/ppggff/vagrant-qemu/issues/96)** | provider reported `stopped` while the QEMU process was alive, once the tmp-dir pidfile vanished | **fixed in 0.8.0** — runtime state moved into a project-local run dir; migrated and verified on both of my VMs |
+| **[waydroid/waydroid](https://github.com/waydroid/waydroid/issues/2472)** | LXC `mount (rw, move)` denied by AppArmor blocks container start on kernel 7.x | open — awaiting maintainer input |
+
+<br>
+
 ## Projects
 
 <!-- projects:start -->
