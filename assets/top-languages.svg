@@ -4,28 +4,28 @@
 
   <circle cx="24" cy="62" r="4" fill="#dea584" />
   <text x="36" y="66" fill="#e8eaf0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12">Rust</text>
-  <text x="320" y="66" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">32.2%</text>
+  <text x="320" y="66" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">33.8%</text>
   <rect x="36" y="71" width="284" height="5" rx="2.5" fill="#21262d" />
-  <rect x="36" y="71" width="90" height="5" rx="2.5" fill="#dea584" />
+  <rect x="36" y="71" width="95" height="5" rx="2.5" fill="#dea584" />
   <circle cx="24" cy="89" r="4" fill="#3572A5" />
   <text x="36" y="93" fill="#e8eaf0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12">Python</text>
-  <text x="320" y="93" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">27.0%</text>
+  <text x="320" y="93" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">25.7%</text>
   <rect x="36" y="98" width="284" height="5" rx="2.5" fill="#21262d" />
-  <rect x="36" y="98" width="76" height="5" rx="2.5" fill="#3572A5" />
+  <rect x="36" y="98" width="72" height="5" rx="2.5" fill="#3572A5" />
   <circle cx="24" cy="116" r="4" fill="#e34c26" />
   <text x="36" y="120" fill="#e8eaf0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12">HTML</text>
-  <text x="320" y="120" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">16.7%</text>
+  <text x="320" y="120" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">17.4%</text>
   <rect x="36" y="125" width="284" height="5" rx="2.5" fill="#21262d" />
-  <rect x="36" y="125" width="47" height="5" rx="2.5" fill="#e34c26" />
+  <rect x="36" y="125" width="49" height="5" rx="2.5" fill="#e34c26" />
   <circle cx="24" cy="143" r="4" fill="#f1e05a" />
   <text x="36" y="147" fill="#e8eaf0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12">JavaScript</text>
-  <text x="320" y="147" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">8.3%</text>
+  <text x="320" y="147" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">7.9%</text>
   <rect x="36" y="152" width="284" height="5" rx="2.5" fill="#21262d" />
-  <rect x="36" y="152" width="23" height="5" rx="2.5" fill="#f1e05a" />
+  <rect x="36" y="152" width="22" height="5" rx="2.5" fill="#f1e05a" />
   <circle cx="24" cy="170" r="4" fill="#3178c6" />
   <text x="36" y="174" fill="#e8eaf0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12">TypeScript</text>
-  <text x="320" y="174" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">6.6%</text>
+  <text x="320" y="174" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">6.3%</text>
   <rect x="36" y="179" width="284" height="5" rx="2.5" fill="#21262d" />
   <rect x="36" y="179" width="18" height="5" rx="2.5" fill="#3178c6" />
-  <text x="320" y="191" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="9" text-anchor="end">updated 2026-11-08</text>
+  <text x="320" y="191" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="9" text-anchor="end">updated 2026-11-09</text>
 </svg>

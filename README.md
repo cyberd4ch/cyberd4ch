@@ -36,15 +36,15 @@
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-08" width="48%" alt="GitHub Stats" />
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-08" width="48%" alt="Streak" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-09" width="48%" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-09" width="48%" alt="Streak" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/contributions.svg?v=2026-11-08" width="96%" alt="Contribution activity" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/contributions.svg?v=2026-11-09" width="96%" alt="Contribution activity" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-08" width="48%" alt="Top Languages" />
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/repos.svg?v=2026-11-08" width="48%" alt="Top repositories" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-09" width="48%" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/repos.svg?v=2026-11-09" width="48%" alt="Top repositories" />
 </p>
 
 <br>
