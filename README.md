@@ -60,7 +60,7 @@
 | **[cportscan](https://github.com/cyberd4ch/cportscan)** | A simple port scanner built with C | `HTML` |  |
 | **[dns-watch](https://github.com/cyberd4ch/dns-watch)** | dnswatch — a small, dependency-free DNS drift watcher (cron + plain-text log). Free forever. | `Shell` |  |
 
-<sub>auto-synced from GitHub on 2026-11-08 — edit the repo description, not this table.</sub>
+<sub>auto-synced from GitHub on 2026-11-09 — edit the repo description, not this table.</sub>
 <!-- projects:end -->
 
 <br>
@@ -106,10 +106,10 @@ instead of assumed.
 ## Blog
 
 <!-- writing:start -->
+- **[magnets that actually work: three wire bugs, a dead tracker list, and 917 KB that finally moved](https://cyberd4ch.github.io/blog/footorrent-3-5-0-magnets-that-work/)** — footorrent 3.5.0 — metadata before disk, a bep 10 reply read from the wrong mailbox, peers discarded at the start line, and the measured numbers after the fix.
 - **[from a form to a download manager: categories, drag-and-drop, and a window that lets go](https://cyberd4ch.github.io/blog/from-form-to-download-manager/)** — rebuilding the ftc page as a download manager — one 69 KB page in both the browser and the macOS window, batch verbs the API had to grow, base64 drag-and-drop, and the SIGTERM that left five servers listening.
 - **[three tiers become a module: two stacks, one graph, no collisions](https://cyberd4ch.github.io/blog/three-tiers-become-a-module/)** — lab 04 exercise 8: the same three tiers as a reusable module, instanced twice on 8082 and 8083 — including the readiness wait that caught a green apply serving nothing.
 - **[one binary, two interfaces: a web ui and a real window in 3 MB of rust](https://cyberd4ch.github.io/blog/one-binary-two-interfaces/)** — a hand-written http server, html compiled into the binary, cancel and pause moved into the engine, an 87 KB swift window — and the favicon bug that explained why 204 is not an icon.
-- **[dns-watch v1.1.1: the release where nothing changed (on purpose)](https://cyberd4ch.github.io/blog/announcing-dnswatch-v1-1-1/)** — a packaging release: reproducible tarball, sha256-pinned homebrew tap that bumps itself, and the install path documented first.
 <!-- writing:end -->
 
 <br>
@@ -117,10 +117,10 @@ instead of assumed.
 ## Recent
 
 <!-- activity:start -->
+- [pushed to cyberd4ch/cyberd4ch](https://github.com/cyberd4ch/cyberd4ch/commits) · `2026-11-08`
+- [pushed to cyberd4ch/free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli/commits) · `2026-11-08`
 - [merged pull request #2 in cyberd4ch/free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli) · `2026-11-08`
 - [commented on #2 in cyberd4ch/free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli/pull/2#issuecomment-6714469689) · `2026-11-07`
-- [commented on #2 in cyberd4ch/free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli/pull/2#issuecomment-6714203252) · `2026-11-07`
-- [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commits) · `2026-11-07`
 <!-- activity:end -->
 
 <br>
