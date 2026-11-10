@@ -83,8 +83,8 @@ I document the work, including the negatives:
 | project | what it does | stack | |
 |---|---|---|---|
 | **[footorrent](https://github.com/cyberd4ch/footorrent)** | A BitTorrent client in one ~3 MB Rust binary: full CLI, local web UI, prebuilt for macOS, Linux and Windows. | `Rust` | ★ 2 |
-| **[security-toolkit](https://github.com/cyberd4ch/security-toolkit)** | Dependency-free tools for finding nonce-laundering XSS: a bundle scanner and a safe, rate-limited recon fetcher. | `Python` |  |
 | **[txn-agent](https://github.com/cyberd4ch/txn-agent)** | Safety-first transaction layer for purchasing agents: deterministic policy gate, human approvals, idempotent checkout | `Python` | ★ 2 |
+| **[security-toolkit](https://github.com/cyberd4ch/security-toolkit)** | Dependency-free tools for finding nonce-laundering XSS: a bundle scanner and a safe, rate-limited recon fetcher. | `Python` |  |
 | **[stride-tmr](https://github.com/cyberd4ch/stride-tmr)** | STRIDE threat modelling with pytm | `Python` |  |
 | **[cportscan](https://github.com/cyberd4ch/cportscan)** | A simple port scanner built with C | `HTML` |  |
 
@@ -145,10 +145,10 @@ instead of assumed.
 ## Recent
 
 <!-- activity:start -->
+- [opened pull request #114 in canonical/cos-alerter](https://github.com/canonical/cos-alerter) · `2026-11-10`
+- [commented on #110 in canonical/cos-alerter](https://github.com/canonical/cos-alerter/issues/110#issuecomment-6759569607) · `2026-11-10`
+- [opened pull request #1 in cyberd4ch/txn-agent](https://github.com/cyberd4ch/txn-agent) · `2026-11-10`
 - [commented on #96 in ppggff/vagrant-qemu](https://github.com/ppggff/vagrant-qemu/issues/96#issuecomment-6750537443) · `2026-11-09`
-- [pushed to cyberd4ch/cyberd4ch](https://github.com/cyberd4ch/cyberd4ch/commits) · `2026-11-09`
-- [commented on #6 in cyberd4ch/footorrent](https://github.com/cyberd4ch/footorrent/pull/6#issuecomment-6733084837) · `2026-11-09`
-- [commented on #5 in cyberd4ch/footorrent](https://github.com/cyberd4ch/footorrent/pull/5#issuecomment-6733083931) · `2026-11-09`
 <!-- activity:end -->
 
 <br>

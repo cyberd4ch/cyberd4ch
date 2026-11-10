@@ -2,21 +2,21 @@
   <rect x="0.5" y="0.5" width="339" height="199" rx="6" fill="#0d1117" stroke="#30363d" />
   <text x="20" y="30" fill="#22d3ee" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600">Top repositories</text>
 
-  <text x="20" y="66" fill="#e8eaf0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12">cyberd4ch</text>
+  <text x="20" y="66" fill="#e8eaf0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12">footorrent</text>
   <text x="320" y="66" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">★ 2</text>
-  <circle cx="23" cy="79" r="3" fill="#f1e05a" />
-  <text x="32" y="82" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10">JavaScript</text>
-  <text x="20" y="98" fill="#e8eaf0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12">cyberd4ch.github.io</text>
+  <circle cx="23" cy="79" r="3" fill="#dea584" />
+  <text x="32" y="82" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10">Rust</text>
+  <text x="20" y="98" fill="#e8eaf0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12">txn-agent</text>
   <text x="320" y="98" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">★ 2</text>
-  <circle cx="23" cy="111" r="3" fill="#3178c6" />
-  <text x="32" y="114" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10">TypeScript</text>
-  <text x="20" y="130" fill="#e8eaf0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12">footorrent</text>
+  <circle cx="23" cy="111" r="3" fill="#3572A5" />
+  <text x="32" y="114" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10">Python</text>
+  <text x="20" y="130" fill="#e8eaf0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12">cyberd4ch</text>
   <text x="320" y="130" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">★ 2</text>
-  <circle cx="23" cy="143" r="3" fill="#dea584" />
-  <text x="32" y="146" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10">Rust</text>
-  <text x="20" y="162" fill="#e8eaf0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12">txn-agent</text>
+  <circle cx="23" cy="143" r="3" fill="#f1e05a" />
+  <text x="32" y="146" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10">JavaScript</text>
+  <text x="20" y="162" fill="#e8eaf0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12">cyberd4ch.github.io</text>
   <text x="320" y="162" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">★ 2</text>
-  <circle cx="23" cy="175" r="3" fill="#3572A5" />
-  <text x="32" y="178" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10">Python</text>
+  <circle cx="23" cy="175" r="3" fill="#3178c6" />
+  <text x="32" y="178" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10">TypeScript</text>
   <text x="320" y="191" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="9" text-anchor="end">updated 2026-11-10</text>
 </svg>
