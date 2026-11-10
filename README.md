@@ -36,15 +36,15 @@
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-09" width="48%" alt="GitHub Stats" />
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-09" width="48%" alt="Streak" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-10" width="48%" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-10" width="48%" alt="Streak" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/contributions.svg?v=2026-11-09" width="96%" alt="Contribution activity" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/contributions.svg?v=2026-11-10" width="96%" alt="Contribution activity" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-09" width="48%" alt="Top Languages" />
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/repos.svg?v=2026-11-09" width="48%" alt="Top repositories" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-10" width="48%" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/repos.svg?v=2026-11-10" width="48%" alt="Top repositories" />
 </p>
 
 <br>
@@ -82,13 +82,13 @@ I document the work, including the negatives:
 <!-- projects:start -->
 | project | what it does | stack | |
 |---|---|---|---|
-| **[free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli)** | A BitTorrent client in one ~3 MB Rust binary: full CLI, local web UI, prebuilt for macOS, Linux and Windows. | `Rust` | ★ 2 |
+| **[footorrent](https://github.com/cyberd4ch/footorrent)** | A BitTorrent client in one ~3 MB Rust binary: full CLI, local web UI, prebuilt for macOS, Linux and Windows. | `Rust` | ★ 2 |
+| **[security-toolkit](https://github.com/cyberd4ch/security-toolkit)** | Dependency-free tools for finding nonce-laundering XSS: a bundle scanner and a safe, rate-limited recon fetcher. | `Python` |  |
 | **[txn-agent](https://github.com/cyberd4ch/txn-agent)** | Safety-first transaction layer for purchasing agents: deterministic policy gate, human approvals, idempotent checkout | `Python` | ★ 2 |
 | **[stride-tmr](https://github.com/cyberd4ch/stride-tmr)** | STRIDE threat modelling with pytm | `Python` |  |
 | **[cportscan](https://github.com/cyberd4ch/cportscan)** | A simple port scanner built with C | `HTML` |  |
-| **[dns-watch](https://github.com/cyberd4ch/dns-watch)** | dnswatch — a small, dependency-free DNS drift watcher (cron + plain-text log). Free forever. | `Shell` |  |
 
-<sub>auto-synced from GitHub on 2026-11-09 — edit the repo description, not this table.</sub>
+<sub>auto-synced from GitHub on 2026-11-10 — edit the repo description, not this table.</sub>
 <!-- projects:end -->
 
 <br>
@@ -137,7 +137,7 @@ instead of assumed.
 - **[Server-side trace of the deeplink gadget: positive and negative findings](https://cyberd4ch.github.io/blog/deeplink-gadget-trace/)** — The deeplink gadget in Mercado Libre's home component D interpolates server-rendered deeplink and redirectUrl values into single-quoted JavaScript inside a nonce'd script. Verified against the saved bundle: a mobile User-Agent flips openInApp.shouldRedirect and mounts it anonymously — but a quote nulls redirectUrl, non-UUID d2id nulls deeplink, and </script> is edge-blocked. Sink confirmed, sanitiser confirmed, no execution.
 - **[Dead end with test accounts and researching a workaround](https://cyberd4ch.github.io/blog/deeplink-test-account-deadend/)** — The ATO 2FA challenge test account (userId 1252539217, CHALLENGE_ATO_USER_2, site MCO) returns 302 /login/identification/not-found, suggesting it is expired or removed. Later work showed the deeplink gadget mounts anonymously for mobile UA (and is sanitised), so the account blocker now applies to the seller / second-order path. Workaround paths: seller accounts, personal account (one only, no mass creation), or waiting for program test-user rollout.
 - **[where the deeplink work can make money — and the reporting trap that kills it](https://cyberd4ch.github.io/blog/bounty-program-landscape/)** — Desk research on which programs pay for nonce-laundering XSS: Basecamp/HEY on HackerOne ($100-$10,000, with a 2026 cross-account nonce-bypass chain already disclosed) is the closest fit; Intigriti only has Lightspark and Adobe paying publicly. The trap: "CSP headers" is out of scope, but "XSS despite CSP" is not.
-- **[from a form to a download manager: categories, drag-and-drop, and a window that lets go](https://cyberd4ch.github.io/blog/from-form-to-download-manager/)** — rebuilding the ftc page as a download manager — one 69 KB page in both the browser and the macOS window, batch verbs the API had to grow, base64 drag-and-drop, and the SIGTERM that left five servers listening.
+- **[magnets that actually work: three wire bugs, a dead tracker list, and 917 KB that finally moved](https://cyberd4ch.github.io/blog/footorrent-3-5-0-magnets-that-work/)** — footorrent 3.5.0 — metadata before disk, a bep 10 reply read from the wrong mailbox, peers discarded at the start line, and the measured numbers after the fix.
 <!-- writing:end -->
 
 <br>
@@ -145,10 +145,10 @@ instead of assumed.
 ## Recent
 
 <!-- activity:start -->
-- [commented on #6 in cyberd4ch/free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli/pull/6#issuecomment-6733084837) · `2026-11-09`
-- [commented on #5 in cyberd4ch/free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli/pull/5#issuecomment-6733083931) · `2026-11-09`
-- [closed pull request #5 in cyberd4ch/free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli) · `2026-11-09`
-- [pushed to cyberd4ch/free-torrent-cli](https://github.com/cyberd4ch/free-torrent-cli/commits) · `2026-11-08`
+- [commented on #96 in ppggff/vagrant-qemu](https://github.com/ppggff/vagrant-qemu/issues/96#issuecomment-6750537443) · `2026-11-09`
+- [pushed to cyberd4ch/cyberd4ch](https://github.com/cyberd4ch/cyberd4ch/commits) · `2026-11-09`
+- [commented on #6 in cyberd4ch/footorrent](https://github.com/cyberd4ch/footorrent/pull/6#issuecomment-6733084837) · `2026-11-09`
+- [commented on #5 in cyberd4ch/footorrent](https://github.com/cyberd4ch/footorrent/pull/5#issuecomment-6733083931) · `2026-11-09`
 <!-- activity:end -->
 
 <br>
