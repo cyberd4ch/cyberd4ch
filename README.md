@@ -59,6 +59,15 @@ breaks when the model dies. Kept honest by countables: a real-server jest suite 
 across 18 suites), a 62-check HTTP acceptance battery against the live engine, and a browser
 probe that walks the auth + apply flow on every verify.
 
+## Security research
+
+I document the work, including the negatives:
+
+- **[security-toolkit](https://github.com/cyberd4ch/security-toolkit)** — MIT, dependency-free tools for nonce-laundering XSS: a bundle scanner (`nonce_scan.py`) and a rate-limited recon fetcher.
+- **Nonce-laundering trace** — traced a server value into a nonce'd inline script in an authorized commerce program, then proved the server sanitised it. [write-up](https://cyberd4ch.github.io/blog/deeplink-gadget-trace/)
+- **Basecamp / HEY recon** — the public marketing surface ships no CSP nonce at all; the testable class lives in the authenticated app. [program landscape](https://cyberd4ch.github.io/blog/bounty-program-landscape/)
+- **Available for scoped security review** — fixed-scope JS/CSP/auth reviews with evidence-backed reports. [services](https://cyberd4ch.github.io/freelance/)
+
 ## Upstream bugs found & fixed
 
 | repo | report | outcome |
@@ -125,10 +134,10 @@ instead of assumed.
 ## Blog
 
 <!-- writing:start -->
-- **[magnets that actually work: three wire bugs, a dead tracker list, and 917 KB that finally moved](https://cyberd4ch.github.io/blog/footorrent-3-5-0-magnets-that-work/)** — footorrent 3.5.0 — metadata before disk, a bep 10 reply read from the wrong mailbox, peers discarded at the start line, and the measured numbers after the fix.
+- **[Server-side trace of the deeplink gadget: positive and negative findings](https://cyberd4ch.github.io/blog/deeplink-gadget-trace/)** — The deeplink gadget in Mercado Libre's home component D interpolates server-rendered deeplink and redirectUrl values into single-quoted JavaScript inside a nonce'd script. Verified against the saved bundle: a mobile User-Agent flips openInApp.shouldRedirect and mounts it anonymously — but a quote nulls redirectUrl, non-UUID d2id nulls deeplink, and </script> is edge-blocked. Sink confirmed, sanitiser confirmed, no execution.
+- **[Dead end with test accounts and researching a workaround](https://cyberd4ch.github.io/blog/deeplink-test-account-deadend/)** — The ATO 2FA challenge test account (userId 1252539217, CHALLENGE_ATO_USER_2, site MCO) returns 302 /login/identification/not-found, suggesting it is expired or removed. Later work showed the deeplink gadget mounts anonymously for mobile UA (and is sanitised), so the account blocker now applies to the seller / second-order path. Workaround paths: seller accounts, personal account (one only, no mass creation), or waiting for program test-user rollout.
+- **[where the deeplink work can make money — and the reporting trap that kills it](https://cyberd4ch.github.io/blog/bounty-program-landscape/)** — Desk research on which programs pay for nonce-laundering XSS: Basecamp/HEY on HackerOne ($100-$10,000, with a 2026 cross-account nonce-bypass chain already disclosed) is the closest fit; Intigriti only has Lightspark and Adobe paying publicly. The trap: "CSP headers" is out of scope, but "XSS despite CSP" is not.
 - **[from a form to a download manager: categories, drag-and-drop, and a window that lets go](https://cyberd4ch.github.io/blog/from-form-to-download-manager/)** — rebuilding the ftc page as a download manager — one 69 KB page in both the browser and the macOS window, batch verbs the API had to grow, base64 drag-and-drop, and the SIGTERM that left five servers listening.
-- **[three tiers become a module: two stacks, one graph, no collisions](https://cyberd4ch.github.io/blog/three-tiers-become-a-module/)** — lab 04 exercise 8: the same three tiers as a reusable module, instanced twice on 8082 and 8083 — including the readiness wait that caught a green apply serving nothing.
-- **[one binary, two interfaces: a web ui and a real window in 3 MB of rust](https://cyberd4ch.github.io/blog/one-binary-two-interfaces/)** — a hand-written http server, html compiled into the binary, cancel and pause moved into the engine, an 87 KB swift window — and the favicon bug that explained why 204 is not an icon.
 <!-- writing:end -->
 
 <br>
