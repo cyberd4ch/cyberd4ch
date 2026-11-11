@@ -94,13 +94,13 @@ I document the work, including the negatives:
 <!-- projects:start -->
 | project | what it does | stack | |
 |---|---|---|---|
-| **[footorrent](https://github.com/cyberd4ch/footorrent)** | A BitTorrent client in one ~3 MB Rust binary: full CLI, local web UI, prebuilt for macOS, Linux and Windows. | `Rust` | ★ 2 |
+| **[footorrent](https://github.com/cyberd4ch/footorrent)** | A BitTorrent client in one ~3 MB Rust binary: full CLI, local web UI, prebuilt for macOS, Linux and Windows. Write-up: cyberd4ch.github.io/blog/footorrent-3-5-0-magnets-that-work/ | `Rust` | ★ 2 |
 | **[txn-agent](https://github.com/cyberd4ch/txn-agent)** | Safety-first transaction layer for purchasing agents: deterministic policy gate, human approvals, idempotent checkout | `Python` | ★ 2 |
 | **[security-toolkit](https://github.com/cyberd4ch/security-toolkit)** | Dependency-free tools for finding nonce-laundering XSS: a bundle scanner and a safe, rate-limited recon fetcher. | `Python` |  |
-| **[stride-tmr](https://github.com/cyberd4ch/stride-tmr)** | STRIDE threat modelling with pytm | `Python` |  |
-| **[cportscan](https://github.com/cyberd4ch/cportscan)** | A simple port scanner built with C | `HTML` |  |
+| **[stride-tmr](https://github.com/cyberd4ch/stride-tmr)** | STRIDE threat modelling with pytm — worked examples that turn attack-surface lists into ranked, testable threats. | `Python` |  |
+| **[cportscan](https://github.com/cyberd4ch/cportscan)** | A minimal TCP port scanner written in C — raw sockets, connect timeouts, clean CLI. Learning project. | `HTML` |  |
 
-<sub>auto-synced from GitHub on 2026-11-10 — edit the repo description, not this table.</sub>
+<sub>auto-synced from GitHub on 2026-11-11 — edit the repo description, not this table.</sub>
 <!-- projects:end -->
 
 <br>
@@ -160,10 +160,10 @@ mirrored on [bearblog](https://cyberdach.bearblog.dev/).
 ## // recent
 
 <!-- activity:start -->
-- [opened pull request #114 in canonical/cos-alerter](https://github.com/canonical/cos-alerter) · `2026-11-10`
-- [commented on #110 in canonical/cos-alerter](https://github.com/canonical/cos-alerter/issues/110#issuecomment-6759569607) · `2026-11-10`
-- [opened pull request #1 in cyberd4ch/txn-agent](https://github.com/cyberd4ch/txn-agent) · `2026-11-10`
-- [commented on #96 in ppggff/vagrant-qemu](https://github.com/ppggff/vagrant-qemu/issues/96#issuecomment-6750537443) · `2026-11-09`
+- [commented on #114 in canonical/cos-alerter](https://github.com/canonical/cos-alerter/pull/114#issuecomment-6771948617) · `2026-11-10`
+- [commented on #111 in canonical/cos-alerter](https://github.com/canonical/cos-alerter/pull/111#issuecomment-6771858572) · `2026-11-10`
+- [reopened issue #96 in ppggff/vagrant-qemu](https://github.com/ppggff/vagrant-qemu/issues/96) · `2026-11-10`
+- [closed pull request #114 in canonical/cos-alerter](https://github.com/canonical/cos-alerter) · `2026-11-10`
 <!-- activity:end -->
 
 <br>
