@@ -7,8 +7,8 @@
 </h1>
 
 <p align="center">
-  telecom engineer × cybersecurity expert<br>
-  <sub>i build and break networks, secure infrastructure, and write down what happens</sub>
+  × <br>
+  <sub></sub>
 </p>
 
 <br>
