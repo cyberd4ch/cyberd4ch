@@ -23,8 +23,7 @@
 <p align="center">
   <a href="https://cyberd4ch.github.io/projects/"><code>projects</code></a> ·
   <a href="https://cyberd4ch.github.io/blog/"><code>transmissions</code></a> ·
-  <a href="https://cyberd4ch.github.io/freelance/"><code>services</code></a> ·
-  <a href="https://cyberdach.bearblog.dev/"><code>bearblog</code></a>
+  <a href="https://cyberd4ch.github.io/freelance/"><code>services</code></a>
 </p>
 
 <br>
@@ -145,8 +144,7 @@ instead of assumed.
 
 ## // transmissions
 
-The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/blog/)** —
-mirrored on [bearblog](https://cyberdach.bearblog.dev/).
+The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/blog/)**.
 
 <!-- writing:start -->
 - **[Server-side trace of the deeplink gadget: positive and negative findings](https://cyberd4ch.github.io/blog/deeplink-gadget-trace/)** — The deeplink gadget in Mercado Libre's home component D interpolates server-rendered deeplink and redirectUrl values into single-quoted JavaScript inside a nonce'd script. Verified against the saved bundle: a mobile User-Agent flips openInApp.shouldRedirect and mounts it anonymously — but a quote nulls redirectUrl, non-UUID d2id nulls deeplink, and </script> is edge-blocked. Sink confirmed, sanitiser confirmed, no execution.
