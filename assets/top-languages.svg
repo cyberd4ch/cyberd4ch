@@ -4,27 +4,27 @@
 
   <circle cx="24" cy="62" r="4" fill="#dea584" />
   <text x="36" y="66" fill="#e8eaf0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12">Rust</text>
-  <text x="320" y="66" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">35.6%</text>
+  <text x="320" y="66" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">34.5%</text>
   <rect x="36" y="71" width="284" height="5" rx="2.5" fill="#21262d" />
-  <rect x="36" y="71" width="100" height="5" rx="2.5" fill="#dea584" />
+  <rect x="36" y="71" width="97" height="5" rx="2.5" fill="#dea584" />
   <circle cx="24" cy="89" r="4" fill="#3572A5" />
   <text x="36" y="93" fill="#e8eaf0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12">Python</text>
-  <text x="320" y="93" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">23.8%</text>
+  <text x="320" y="93" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">23.0%</text>
   <rect x="36" y="98" width="284" height="5" rx="2.5" fill="#21262d" />
-  <rect x="36" y="98" width="67" height="5" rx="2.5" fill="#3572A5" />
+  <rect x="36" y="98" width="64" height="5" rx="2.5" fill="#3572A5" />
   <circle cx="24" cy="116" r="4" fill="#e34c26" />
   <text x="36" y="120" fill="#e8eaf0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12">HTML</text>
-  <text x="320" y="120" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">15.3%</text>
+  <text x="320" y="120" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">14.8%</text>
   <rect x="36" y="125" width="284" height="5" rx="2.5" fill="#21262d" />
-  <rect x="36" y="125" width="43" height="5" rx="2.5" fill="#e34c26" />
+  <rect x="36" y="125" width="41" height="5" rx="2.5" fill="#e34c26" />
   <circle cx="24" cy="143" r="4" fill="#3178c6" />
   <text x="36" y="147" fill="#e8eaf0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12">TypeScript</text>
-  <text x="320" y="147" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">9.8%</text>
+  <text x="320" y="147" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">12.5%</text>
   <rect x="36" y="152" width="284" height="5" rx="2.5" fill="#21262d" />
-  <rect x="36" y="152" width="28" height="5" rx="2.5" fill="#3178c6" />
+  <rect x="36" y="152" width="35" height="5" rx="2.5" fill="#3178c6" />
   <circle cx="24" cy="170" r="4" fill="#f1e05a" />
   <text x="36" y="174" fill="#e8eaf0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12">JavaScript</text>
-  <text x="320" y="174" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">6.8%</text>
+  <text x="320" y="174" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" text-anchor="end">6.6%</text>
   <rect x="36" y="179" width="284" height="5" rx="2.5" fill="#21262d" />
   <rect x="36" y="179" width="19" height="5" rx="2.5" fill="#f1e05a" />
   <text x="320" y="191" fill="#8f99a6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="9" text-anchor="end">updated 2026-11-11</text>
