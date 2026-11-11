@@ -6,14 +6,26 @@
   cyber.dach
 </h1>
 
+<p align="center">
+  telecom engineer × cybersecurity expert<br>
+  <sub>i build and break networks, secure infrastructure, and write down what happens</sub>
+</p>
+
 <br>
 
 <div align="center">
-  <a href="https://github.com/cyberd4ch"><img alt="github" src="https://img.shields.io/badge/GitHub-%40cyberd4ch-14161c?style=flat-square&logo=github&logoColor=22d3ee" /></a>
-  <a href="mailto:cyberdachh@proton.me"><img alt="email" src="https://img.shields.io/badge/Email-cyberdachh%40proton.me-14161c?style=flat-square&logo=protonmail&logoColor=22d3ee" /></a>
-  <a href="https://cyberd4ch.github.io/"><img alt="portfolio" src="https://img.shields.io/badge/Portfolio-cyberd4ch.github.io-14161c?style=flat-square&logo=githubpages&logoColor=22d3ee" /></a>
-  <a href="https://github.com/sponsors/cyberd4ch"><img alt="sponsor" src="https://img.shields.io/badge/Sponsor-%40cyberd4ch-ea4aaa?style=flat-square&logo=githubsponsors&logoColor=white" /></a>
+  <a href="https://github.com/cyberd4ch"><img alt="github" src="https://img.shields.io/badge/GitHub-%40cyberd4ch-0d1117?style=flat-square&logo=github&logoColor=f7f6f3" /></a>
+  <a href="mailto:cyberdachh@proton.me"><img alt="email" src="https://img.shields.io/badge/Email-cyberdachh%40proton.me-0d1117?style=flat-square&logo=protonmail&logoColor=f7f6f3" /></a>
+  <a href="https://cyberd4ch.github.io/"><img alt="mission control" src="https://img.shields.io/badge/Mission%20Control-cyberd4ch.github.io-0d1117?style=flat-square&logo=githubpages&logoColor=f7f6f3" /></a>
+  <a href="https://github.com/sponsors/cyberd4ch"><img alt="sponsor" src="https://img.shields.io/badge/Sponsor-%40cyberd4ch-fc3d21?style=flat-square&logo=githubsponsors&logoColor=f7f6f3" /></a>
 </div>
+
+<p align="center">
+  <a href="https://cyberd4ch.github.io/projects/"><code>projects</code></a> ·
+  <a href="https://cyberd4ch.github.io/blog/"><code>transmissions</code></a> ·
+  <a href="https://cyberd4ch.github.io/freelance/"><code>services</code></a> ·
+  <a href="https://cyberdach.bearblog.dev/"><code>bearblog</code></a>
+</p>
 
 <br>
 
@@ -36,20 +48,20 @@
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-10" width="48%" alt="GitHub Stats" />
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-10" width="48%" alt="Streak" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-11" width="48%" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-11" width="48%" alt="Streak" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/contributions.svg?v=2026-11-10" width="96%" alt="Contribution activity" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/contributions.svg?v=2026-11-11" width="96%" alt="Contribution activity" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-10" width="48%" alt="Top Languages" />
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/repos.svg?v=2026-11-10" width="48%" alt="Top repositories" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-11" width="48%" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/repos.svg?v=2026-11-11" width="48%" alt="Top repositories" />
 </p>
 
 <br>
 
-## Now building
+## // now building
 
 **[getmocha.world](https://github.com/cyberd4ch/getmocha)** — remote job matching that ranks
 postings before the crowd, then writes your application documents from your own answers:
@@ -59,7 +71,7 @@ breaks when the model dies. Kept honest by countables: a real-server jest suite 
 across 18 suites), a 62-check HTTP acceptance battery against the live engine, and a browser
 probe that walks the auth + apply flow on every verify.
 
-## Security research
+## // security research
 
 I document the work, including the negatives:
 
@@ -68,7 +80,7 @@ I document the work, including the negatives:
 - **Basecamp / HEY recon** — the public marketing surface ships no CSP nonce at all; the testable class lives in the authenticated app. [program landscape](https://cyberd4ch.github.io/blog/bounty-program-landscape/)
 - **Available for scoped security review** — fixed-scope JS/CSP/auth reviews with evidence-backed reports. [services](https://cyberd4ch.github.io/freelance/)
 
-## Upstream bugs found & fixed
+## // upstream bugs found & fixed
 
 | repo | report | outcome |
 |---|---|---|
@@ -77,7 +89,7 @@ I document the work, including the negatives:
 
 <br>
 
-## Projects
+## // payload manifest
 
 <!-- projects:start -->
 | project | what it does | stack | |
@@ -93,7 +105,7 @@ I document the work, including the negatives:
 
 <br>
 
-## Recently shipped
+## // recently shipped
 
 **Footorrent 3.5.0** — rebuilding the magnet path end to end. Metadata is now fetched and
 verified before anything touches disk, so the window shows the real name, size and file list,
@@ -106,11 +118,11 @@ the UI shows per-peer rates, a tracker-fallback note and a retry button.
 Measured on a magnet whose own trackers were all dead: resolve in 17–42 s, 129,302,391 bytes
 and 11 files reported before writing, then 917 KB downloaded in the first minute across 6 peers.
 
-→ [Source](https://github.com/cyberd4ch/free-torrent-cli) · [Release notes](https://github.com/cyberd4ch/free-torrent-cli/blob/main/CHANGELOG.md)
+→ [Source](https://github.com/cyberd4ch/free-torrent-cli) · [Release notes](https://github.com/cyberd4ch/free-torrent-cli/blob/main/CHANGELOG.md) · [Write-up](https://cyberd4ch.github.io/blog/footorrent-3-5-0-magnets-that-work/)
 
 <br>
 
-## In the lab
+## // in the lab
 
 Practice work that runs on a real machine, not in a slide deck. Every lab carries its own
 README — goal, run steps, teardown, and an exercise log of what was actually executed,
@@ -131,7 +143,10 @@ instead of assumed.
 
 <br>
 
-## Blog
+## // transmissions
+
+The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/blog/)** —
+mirrored on [bearblog](https://cyberdach.bearblog.dev/).
 
 <!-- writing:start -->
 - **[Server-side trace of the deeplink gadget: positive and negative findings](https://cyberd4ch.github.io/blog/deeplink-gadget-trace/)** — The deeplink gadget in Mercado Libre's home component D interpolates server-rendered deeplink and redirectUrl values into single-quoted JavaScript inside a nonce'd script. Verified against the saved bundle: a mobile User-Agent flips openInApp.shouldRedirect and mounts it anonymously — but a quote nulls redirectUrl, non-UUID d2id nulls deeplink, and </script> is edge-blocked. Sink confirmed, sanitiser confirmed, no execution.
@@ -142,7 +157,7 @@ instead of assumed.
 
 <br>
 
-## Recent
+## // recent
 
 <!-- activity:start -->
 - [opened pull request #114 in canonical/cos-alerter](https://github.com/canonical/cos-alerter) · `2026-11-10`
@@ -153,7 +168,7 @@ instead of assumed.
 
 <br>
 
-## Sponsor
+## // sponsor
 
 If `dns-watch`, `txn-agent`, or anything else here saves you time, you can fund the work at
 **[github.com/sponsors/cyberd4ch](https://github.com/sponsors/cyberd4ch)**. Sponsorship pays
@@ -161,9 +176,15 @@ for the lab VMs, API quotas, and the time behind the write-ups.
 
 <br>
 
-## Collaborate 
+## // collaborate
 
 Open to collaborating at the intersection of **security research, cloud infrastructure,
 and full-stack development** — especially projects that involve breaking (and fixing) stuff.
 
 📋 → [cyberdachh@proton.me](mailto:cyberdachh@proton.me)
+
+<br>
+
+<p align="center">
+  <sub>sig <span>●</span> nominal · uplink: <a href="https://cyberd4ch.github.io/">cyberd4ch.github.io</a></sub>
+</p>
