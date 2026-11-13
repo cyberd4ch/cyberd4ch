@@ -147,10 +147,10 @@ instead of assumed.
 The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/blog/)**.
 
 <!-- writing:start -->
+- **[proving a PR without patching the file it fixes](https://cyberd4ch.github.io/blog/proving-a-pr-without-patching-it/)** — hashicorp/vagrant#13842 under macOS 27: a faithful A/B with no sudo, a launcher that eats RUBYOPT, load-order nondeterminism, and one honest caveat for the author.
+- **[triage without a reproduce step — what's left for an outside contributor](https://cyberd4ch.github.io/blog/triage-without-a-reproduce-step/)** — six bugs, zero reproduce steps: the DeepTutor issue queue reporters root-cause their own bugs, so outside triage becomes verification, code-location, and shape agreement.
 - **[from a compose file to a certificate chain](https://cyberd4ch.github.io/blog/from-compose-to-certificates/)** — the whole workspace arc in one post: three tiers in a compose file, the same tiers on kind, observability bolted on, terraform state moved to s3 — and a self-hosted forge in kubernetes publishing images from its own CI behind a TLS chain that actually verifies.
 - **[where the deeplink work can make money — and the reporting trap that kills it](https://cyberd4ch.github.io/blog/bounty-program-landscape/)** — Desk research on which programs pay for nonce-laundering XSS: Basecamp/HEY on HackerOne ($100-$10,000, with a 2026 cross-account nonce-bypass chain already disclosed) is the closest fit; Intigriti only has Lightspark and Adobe paying publicly. The trap: "CSP headers" is out of scope, but "XSS despite CSP" is not.
-- **[Server-side trace of the deeplink gadget: positive and negative findings](https://cyberd4ch.github.io/blog/deeplink-gadget-trace/)** — The deeplink gadget in Mercado Libre's home component D interpolates server-rendered deeplink and redirectUrl values into single-quoted JavaScript inside a nonce'd script. Verified against the saved bundle: a mobile User-Agent flips openInApp.shouldRedirect and mounts it anonymously — but a quote nulls redirectUrl, non-UUID d2id nulls deeplink, and </script> is edge-blocked. Sink confirmed, sanitiser confirmed, no execution.
-- **[Dead end with test accounts and researching a workaround](https://cyberd4ch.github.io/blog/deeplink-test-account-deadend/)** — The ATO 2FA challenge test account (userId 1252539217, CHALLENGE_ATO_USER_2, site MCO) returns 302 /login/identification/not-found, suggesting it is expired or removed. Later work showed the deeplink gadget mounts anonymously for mobile UA (and is sanitised), so the account blocker now applies to the seller / second-order path. Workaround paths: seller accounts, personal account (one only, no mass creation), or waiting for program test-user rollout.
 <!-- writing:end -->
 
 <br>
@@ -158,10 +158,10 @@ The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/
 ## // recent
 
 <!-- activity:start -->
-- [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/f0b4f79de8b1f8de1bf0f356f95fe9964e0f33d2) · `2026-11-13`
-- [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/7cf8ccb2278c2517120090c361d4c9339bf40488) · `2026-11-13`
-- [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/e5e75406c2d283fbb78de8e26a7dd6ab1b1f2978) · `2026-11-13`
-- [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/c064169866c879f1d40b269516bc5d4671c15b32) · `2026-11-12`
+- [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/3ad91dec909cfed433aa201a51ffcff08bfa2966) · `2026-11-13`
+- [commented on #2604 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor/issues/2604#issuecomment-6843988786) · `2026-11-13`
+- [commented on #2636 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor/issues/2636#issuecomment-6843086957) · `2026-11-13`
+- [opened pull request #2659 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) · `2026-11-13`
 <!-- activity:end -->
 
 <br>
