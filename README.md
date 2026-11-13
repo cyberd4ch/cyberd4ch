@@ -158,10 +158,10 @@ The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/
 ## // recent
 
 <!-- activity:start -->
-- [pushed to cyberd4ch/cyberd4ch](https://github.com/cyberd4ch/cyberd4ch/commits) · `2026-11-11`
-- [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commits) · `2026-11-11`
-- [commented on #114 in canonical/cos-alerter](https://github.com/canonical/cos-alerter/pull/114#issuecomment-6771948617) · `2026-11-10`
-- [commented on #111 in canonical/cos-alerter](https://github.com/canonical/cos-alerter/pull/111#issuecomment-6771858572) · `2026-11-10`
+- [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/f0b4f79de8b1f8de1bf0f356f95fe9964e0f33d2) · `2026-11-13`
+- [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/7cf8ccb2278c2517120090c361d4c9339bf40488) · `2026-11-13`
+- [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/e5e75406c2d283fbb78de8e26a7dd6ab1b1f2978) · `2026-11-13`
+- [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/c064169866c879f1d40b269516bc5d4671c15b32) · `2026-11-12`
 <!-- activity:end -->
 
 <br>
