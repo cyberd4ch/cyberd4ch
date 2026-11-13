@@ -152,10 +152,10 @@ The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/
 ## // recent
 
 <!-- activity:start -->
+- [commented on #2637 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor/issues/2637#issuecomment-6851343661) · `2026-11-13`
+- [opened pull request #2664 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) · `2026-11-13`
+- [commented on #2604 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor/issues/2604#issuecomment-6850525613) · `2026-11-13`
 - [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/0e8b7d3b718b5e4251a401182fc2a75c38d486c4) · `2026-11-13`
-- [commented on #13845 in hashicorp/vagrant](https://github.com/hashicorp/vagrant/issues/13845#issuecomment-6844150155) · `2026-11-13`
-- [commented on #2604 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor/issues/2604#issuecomment-6843988786) · `2026-11-13`
-- [commented on #2636 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor/issues/2636#issuecomment-6843086957) · `2026-11-13`
 <!-- activity:end -->
 
 <br>
