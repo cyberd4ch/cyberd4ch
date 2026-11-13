@@ -1,9 +1,6 @@
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/mosaic-dark.gif" />
-    <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/mosaic-light.gif" width="260" alt="the fleet — a ship-mosaic portrait of the avatar" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/mosaic-light.gif" width="260" alt="the fleet — a ship-mosaic portrait of the avatar" />
   <br>
   <sub></sub>
 </p>
