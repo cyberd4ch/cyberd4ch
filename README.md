@@ -41,15 +41,15 @@
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-13" width="48%" alt="GitHub Stats" />
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-13" width="48%" alt="Streak" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-14" width="48%" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-14" width="48%" alt="Streak" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/contributions.svg?v=2026-11-13" width="96%" alt="Contribution activity" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/contributions.svg?v=2026-11-14" width="96%" alt="Contribution activity" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-13" width="48%" alt="Top Languages" />
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/repos.svg?v=2026-11-13" width="48%" alt="Top repositories" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-14" width="48%" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/repos.svg?v=2026-11-14" width="48%" alt="Top repositories" />
 </p>
 
 <br>
@@ -93,7 +93,7 @@ I document the work, including the negatives:
 | **[stride-tmr](https://github.com/cyberd4ch/stride-tmr)** | STRIDE threat modelling with pytm — worked examples that turn attack-surface lists into ranked, testable threats. | `Python` |  |
 | **[cportscan](https://github.com/cyberd4ch/cportscan)** | A minimal TCP port scanner written in C — raw sockets, connect timeouts, clean CLI. Learning project. | `HTML` |  |
 
-<sub>auto-synced from GitHub on 2026-11-13 — edit the repo description, not this table.</sub>
+<sub>auto-synced from GitHub on 2026-11-14 — edit the repo description, not this table.</sub>
 <!-- projects:end -->
 
 <br>
@@ -152,10 +152,10 @@ The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/
 ## // recent
 
 <!-- activity:start -->
-- [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/d81dd26a135a46873f8963821400521def925a16) · `2026-11-13`
-- [commented on #2637 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor/issues/2637#issuecomment-6851343661) · `2026-11-13`
-- [opened pull request #2664 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) · `2026-11-13`
-- [commented on #2604 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor/issues/2604#issuecomment-6850525613) · `2026-11-13`
+- [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/9204641388352943199c6a5da54b305aadbf27a2) · `2026-11-14`
+- [commented on #2663 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor/pull/2663#issuecomment-6868483673) · `2026-11-14`
+- [commented on #6649 in HKUDS/nanobot](https://github.com/HKUDS/nanobot/issues/6649#issuecomment-6853927501) · `2026-11-13`
+- [closed pull request #1 in cyberd4ch/nanobot](https://github.com/cyberd4ch/nanobot) · `2026-11-13`
 <!-- activity:end -->
 
 <br>
