@@ -152,10 +152,10 @@ The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/
 ## // recent
 
 <!-- activity:start -->
-- [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/5a69777cc5336cee0b0495e752f8df667e0087c4) · `2026-11-14`
+- [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/dfc359f98880847cd99604bf267d0f4b50c6e51a) · `2026-11-14`
+- [commented on #6649 in HKUDS/nanobot](https://github.com/HKUDS/nanobot/issues/6649#issuecomment-6869370476) · `2026-11-14`
 - [commented on #2600 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor/issues/2600#issuecomment-6868932280) · `2026-11-14`
 - [opened pull request #2683 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) · `2026-11-14`
-- [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/9204641388352943199c6a5da54b305aadbf27a2) · `2026-11-14`
 <!-- activity:end -->
 
 <br>
