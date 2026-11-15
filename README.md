@@ -41,15 +41,15 @@
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-14" width="48%" alt="GitHub Stats" />
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-14" width="48%" alt="Streak" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-15" width="48%" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-15" width="48%" alt="Streak" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/contributions.svg?v=2026-11-14" width="96%" alt="Contribution activity" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/contributions.svg?v=2026-11-15" width="96%" alt="Contribution activity" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-14" width="48%" alt="Top Languages" />
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/repos.svg?v=2026-11-14" width="48%" alt="Top repositories" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-15" width="48%" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/repos.svg?v=2026-11-15" width="48%" alt="Top repositories" />
 </p>
 
 <br>
@@ -93,7 +93,7 @@ I document the work, including the negatives:
 | **[stride-tmr](https://github.com/cyberd4ch/stride-tmr)** | STRIDE threat modelling with pytm — worked examples that turn attack-surface lists into ranked, testable threats. | `Python` |  |
 | **[cportscan](https://github.com/cyberd4ch/cportscan)** | A minimal TCP port scanner written in C — raw sockets, connect timeouts, clean CLI. Learning project. | `HTML` |  |
 
-<sub>auto-synced from GitHub on 2026-11-14 — edit the repo description, not this table.</sub>
+<sub>auto-synced from GitHub on 2026-11-15 — edit the repo description, not this table.</sub>
 <!-- projects:end -->
 
 <br>
@@ -141,10 +141,10 @@ instead of assumed.
 The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/blog/)**.
 
 <!-- writing:start -->
+- **[adventures in encryption: securing your laptop kubernetes cluster (2026 update)](https://cyberd4ch.github.io/blog/adventures-in-encryption-2026/)** — the 2021 'adventures in encryption' guide rebuilt on gateway api — every command in part i re-run end to end on kind before publishing: a CA minted in-cluster, keychain trust, port-forwarded HTTPS, and the two findings the docs leave out.
+- **[the tablet lab: root first, then everything else](https://cyberd4ch.github.io/blog/the-tablet-lab/)** — root first, then everything else: a double-read BROM backup script, the magisk cmdline flag k3s needs, a device-owner agent with documented denials, and what 2 GB of RAM decides.
 - **[proving a PR without patching the file it fixes](https://cyberd4ch.github.io/blog/proving-a-pr-without-patching-it/)** — hashicorp/vagrant#13842 under macOS 27: a faithful A/B with no sudo, a launcher that eats RUBYOPT, load-order nondeterminism, and one honest caveat for the author.
 - **[triage without a reproduce step — what's left for an outside contributor](https://cyberd4ch.github.io/blog/triage-without-a-reproduce-step/)** — six bugs, zero reproduce steps: the DeepTutor issue queue reporters root-cause their own bugs, so outside triage becomes verification, code-location, and shape agreement.
-- **[from a compose file to a certificate chain](https://cyberd4ch.github.io/blog/from-compose-to-certificates/)** — the whole workspace arc in one post: three tiers in a compose file, the same tiers on kind, observability bolted on, terraform state moved to s3 — and a self-hosted forge in kubernetes publishing images from its own CI behind a TLS chain that actually verifies.
-- **[where the deeplink work can make money — and the reporting trap that kills it](https://cyberd4ch.github.io/blog/bounty-program-landscape/)** — Desk research on which programs pay for nonce-laundering XSS: Basecamp/HEY on HackerOne ($100-$10,000, with a 2026 cross-account nonce-bypass chain already disclosed) is the closest fit; Intigriti only has Lightspark and Adobe paying publicly. The trap: "CSP headers" is out of scope, but "XSS despite CSP" is not.
 <!-- writing:end -->
 
 <br>
@@ -152,10 +152,10 @@ The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/
 ## // recent
 
 <!-- activity:start -->
+- [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/9b34c7e87829fefecdeff1a189faabbe951e48c4) · `2026-11-15`
+- [commented on #2421 in MODSetter/SurfSense](https://github.com/MODSetter/SurfSense/issues/2421#issuecomment-6887555058) · `2026-11-15`
+- [commented on #2683 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor/pull/2683#issuecomment-6886862221) · `2026-11-15`
 - [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/dfc359f98880847cd99604bf267d0f4b50c6e51a) · `2026-11-14`
-- [commented on #6649 in HKUDS/nanobot](https://github.com/HKUDS/nanobot/issues/6649#issuecomment-6869370476) · `2026-11-14`
-- [commented on #2600 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor/issues/2600#issuecomment-6868932280) · `2026-11-14`
-- [opened pull request #2683 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) · `2026-11-14`
 <!-- activity:end -->
 
 <br>
