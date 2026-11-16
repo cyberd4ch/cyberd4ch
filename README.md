@@ -152,10 +152,10 @@ The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/
 ## // recent
 
 <!-- activity:start -->
+- [commented on #2713 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor/issues/2713#issuecomment-6906725023) · `2026-11-16`
+- [commented on #291 in HKUDS/DeepCode](https://github.com/HKUDS/DeepCode/issues/291#issuecomment-6906539102) · `2026-11-16`
+- [commented on #4220 in HKUDS/LightRAG](https://github.com/HKUDS/LightRAG/issues/4220#issuecomment-6905875358) · `2026-11-16`
 - [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/6ef71d0075b578f47d305f58257b2c21f7560978) · `2026-11-16`
-- [commented on #4220 in HKUDS/LightRAG](https://github.com/HKUDS/LightRAG/issues/4220#issuecomment-6905133191) · `2026-11-16`
-- [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/9b34c7e87829fefecdeff1a189faabbe951e48c4) · `2026-11-15`
-- [commented on #2421 in MODSetter/SurfSense](https://github.com/MODSetter/SurfSense/issues/2421#issuecomment-6887555058) · `2026-11-15`
 <!-- activity:end -->
 
 <br>
