@@ -152,10 +152,10 @@ The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/
 ## // recent
 
 <!-- activity:start -->
-- [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/dfc248e26189a10c2b255fff98344f3752dd5241) · `2026-11-17`
-- [commented on #2753 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor/issues/2753#issuecomment-6934514719) · `2026-11-17`
-- [opened issue #2753 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor/issues/2753) · `2026-11-17`
-- [commented on #2713 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor/issues/2713#issuecomment-6906725023) · `2026-11-16`
+- [commented on #278 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/pull/278#issuecomment-6937682015) · `2026-11-17`
+- [opened pull request #279 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) · `2026-11-17`
+- [commented on #2663 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor/pull/2663#issuecomment-6936892589) · `2026-11-17`
+- [opened pull request #2757 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) · `2026-11-17`
 <!-- activity:end -->
 
 <br>
