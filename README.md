@@ -41,15 +41,15 @@
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-16" width="48%" alt="GitHub Stats" />
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-16" width="48%" alt="Streak" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-17" width="48%" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-17" width="48%" alt="Streak" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/contributions.svg?v=2026-11-16" width="96%" alt="Contribution activity" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/contributions.svg?v=2026-11-17" width="96%" alt="Contribution activity" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-16" width="48%" alt="Top Languages" />
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/repos.svg?v=2026-11-16" width="48%" alt="Top repositories" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-17" width="48%" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/repos.svg?v=2026-11-17" width="48%" alt="Top repositories" />
 </p>
 
 <br>
@@ -93,7 +93,7 @@ I document the work, including the negatives:
 | **[stride-tmr](https://github.com/cyberd4ch/stride-tmr)** | STRIDE threat modelling with pytm — worked examples that turn attack-surface lists into ranked, testable threats. | `Python` |  |
 | **[cportscan](https://github.com/cyberd4ch/cportscan)** | A minimal TCP port scanner written in C — raw sockets, connect timeouts, clean CLI. Learning project. | `HTML` |  |
 
-<sub>auto-synced from GitHub on 2026-11-16 — edit the repo description, not this table.</sub>
+<sub>auto-synced from GitHub on 2026-11-17 — edit the repo description, not this table.</sub>
 <!-- projects:end -->
 
 <br>
@@ -141,7 +141,7 @@ instead of assumed.
 The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/blog/)**.
 
 <!-- writing:start -->
-- **[adventures in encryption: securing your laptop kubernetes cluster (2026 update)](https://cyberd4ch.github.io/blog/adventures-in-encryption-2026/)** — the 2021 'adventures in encryption' guide rebuilt on gateway api: every command in part i re-run end to end on kind before publishing, with a CA minted in-cluster, keychain trust, port-forwarded HTTPS, and the two findings the docs leave out.
+- **[A modern approach to securing kubernetes cluster](https://cyberd4ch.github.io/blog/adventures-in-encryption-2026/)** — This is an update of Rob Thorne's 2021 Medium article, *Adventures in Encryption: Securing Your Laptop Kubernetes Cluster*, with credit to Rob for the original approach. Part I covers a local cluster, and Part II takes the same ideas to a public cluster with free Let's Encrypt certificates.
 - **[the tablet lab: root first, then everything else](https://cyberd4ch.github.io/blog/the-tablet-lab/)** — root first, then everything else: a double-read BROM backup script, the magisk cmdline flag k3s needs, a device-owner agent with documented denials, and what 2 GB of RAM decides.
 - **[proving a PR without patching the file it fixes](https://cyberd4ch.github.io/blog/proving-a-pr-without-patching-it/)** — hashicorp/vagrant#13842 under macOS 27: a faithful A/B with no sudo, a launcher that eats RUBYOPT, load-order nondeterminism, and one honest caveat for the author.
 - **[triage without a reproduce step: what's left for an outside contributor](https://cyberd4ch.github.io/blog/triage-without-a-reproduce-step/)** — six bugs, zero reproduce steps: the DeepTutor issue queue reporters root-cause their own bugs, so outside triage becomes verification, code-location, and shape agreement.
@@ -152,10 +152,10 @@ The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/
 ## // recent
 
 <!-- activity:start -->
+- [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/dfc248e26189a10c2b255fff98344f3752dd5241) · `2026-11-17`
+- [commented on #2753 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor/issues/2753#issuecomment-6934514719) · `2026-11-17`
+- [opened issue #2753 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor/issues/2753) · `2026-11-17`
 - [commented on #2713 in HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor/issues/2713#issuecomment-6906725023) · `2026-11-16`
-- [commented on #291 in HKUDS/DeepCode](https://github.com/HKUDS/DeepCode/issues/291#issuecomment-6906539102) · `2026-11-16`
-- [commented on #4220 in HKUDS/LightRAG](https://github.com/HKUDS/LightRAG/issues/4220#issuecomment-6905875358) · `2026-11-16`
-- [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/6ef71d0075b578f47d305f58257b2c21f7560978) · `2026-11-16`
 <!-- activity:end -->
 
 <br>
