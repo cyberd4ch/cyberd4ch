@@ -144,10 +144,10 @@ instead of assumed.
 The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/blog/)**.
 
 <!-- writing:start -->
+- **[agentlens: score a coding model on its first attempt, not its final one](https://cyberd4ch.github.io/blog/agentlens-first-try-accuracy/)** — A harness that snapshots the workspace at every done claim, so a model's first attempt gets scored before it has a chance to correct itself.
 - **[A modern approach to securing kubernetes cluster](https://cyberd4ch.github.io/blog/adventures-in-encryption-2026/)** — This is an update of Rob Thorne's 2021 Medium article, *Adventures in Encryption: Securing Your Laptop Kubernetes Cluster*, with credit to Rob for the original approach. Part I covers a local cluster, and Part II takes the same ideas to a public cluster with free Let's Encrypt certificates.
 - **[the tablet lab: root first, then everything else](https://cyberd4ch.github.io/blog/the-tablet-lab/)** — root first, then everything else: a double-read BROM backup script, the magisk cmdline flag k3s needs, a device-owner agent with documented denials, and what 2 GB of RAM decides.
 - **[proving a PR without patching the file it fixes](https://cyberd4ch.github.io/blog/proving-a-pr-without-patching-it/)** — hashicorp/vagrant#13842 under macOS 27: a faithful A/B with no sudo, a launcher that eats RUBYOPT, load-order nondeterminism, and one honest caveat for the author.
-- **[triage without a reproduce step: what's left for an outside contributor](https://cyberd4ch.github.io/blog/triage-without-a-reproduce-step/)** — six bugs, zero reproduce steps: the DeepTutor issue queue reporters root-cause their own bugs, so outside triage becomes verification, code-location, and shape agreement.
 <!-- writing:end -->
 
 <br>
@@ -155,10 +155,10 @@ The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/
 ## // recent
 
 <!-- activity:start -->
-- [pushed to cyberd4ch/cyberd4ch.github.io](https://github.com/cyberd4ch/cyberd4ch.github.io/commit/e21535aba2d7444b9bab21a0280a20a6342d5f35) · `2026-11-18`
 - [opened pull request #324 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) · `2026-11-18`
+- [commented on #317 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/issues/317#issuecomment-6967609873) · `2026-11-18`
 - [commented on #7756 in coredns/coredns](https://github.com/coredns/coredns/issues/7756#issuecomment-6967047212) · `2026-11-18`
-- [commented on #124 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/issues/124#issuecomment-6966813851) · `2026-11-18`
+- [opened issue #317 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/issues/317) · `2026-11-18`
 <!-- activity:end -->
 
 <br>
