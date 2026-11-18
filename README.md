@@ -77,6 +77,9 @@ I document the work, including the negatives:
 
 | repo | report | outcome |
 |---|---|---|
+| **[BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/pull/278)** | the decode fixture was too small to compress on Go 1.27, so `TestDecodeEvidenceBody` failed on any current toolchain | **merged** — the fixture now has something worth deflating, and the guard asserts the stored-block size ratio instead of a plaintext substring |
+| **[NVIDIA/garak](https://github.com/NVIDIA/garak/pull/2480)** | `nato()` mapped A-Z only and silently dropped every digit, so the probe scored text the target was never shown; 56 of 163 shipped payloads carry digits | open — digits now map to the ICAO alphabet (Niner for 9), 186 pass |
+| **[HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor/pull/2757)** | tool calls cut off by the output cap were still dispatched in the non-chat loops, and the explorer never captured `finish_reason` at all | open — one choke-point guard plus the missing capture, 22/22 CI green |
 | **[ppggff/vagrant-qemu](https://github.com/ppggff/vagrant-qemu/issues/96)** | provider reported `stopped` while the QEMU process was alive, once the tmp-dir pidfile vanished | **fixed in 0.8.0** — runtime state moved into a project-local run dir; migrated and verified on both of my VMs |
 | **[waydroid/waydroid](https://github.com/waydroid/waydroid/issues/2472)** | LXC `mount (rw, move)` denied by AppArmor blocks container start on kernel 7.x | open — awaiting maintainer input |
 
