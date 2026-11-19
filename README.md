@@ -68,8 +68,10 @@ probe that walks the auth + apply flow on every verify.
 accuracy instead of final state: fixed tasks in isolated workspaces, a snapshot at every
 "done" claim, hidden shell checks the agent never sees, and rule-based findings (false
 done, skipped verification, silenced checks) that point at transcript event numbers
-instead of opinions. Phase 1 is scripted-driver only; the real driver ships tested but
-has not been pointed at a live model session yet.
+instead of opinions. Phase 1 now has real local runs through the streamed driver:
+qwen2.5:7b-instruct and qwen2.5:3b each ran the demo task on 3 independent seeds — 6/6
+first-try, 0/6 false dones — and `compare` refuses to rank a model on fewer than 3
+distinct seeds. A hosted Claude run is the next step.
 [how it measures](https://cyberd4ch.github.io/blog/agentlens-first-try-accuracy/)
 
 ## // security research
