@@ -166,10 +166,10 @@ The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/
 ## // recent
 
 <!-- activity:start -->
+- [commented on #7756 in coredns/coredns](https://github.com/coredns/coredns/issues/7756#issuecomment-7024372415) · `2026-11-19`
+- [commented on #2480 in NVIDIA/garak](https://github.com/NVIDIA/garak/pull/2480#issuecomment-7024252541) · `2026-11-19`
 - [commented on #317 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/issues/317#issuecomment-6995810867) · `2026-11-19`
 - [commented on #7756 in coredns/coredns](https://github.com/coredns/coredns/issues/7756#issuecomment-6995810276) · `2026-11-19`
-- [merged pull request #324 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) · `2026-11-18`
-- [pushed to cyberd4ch/cyberd4ch](https://github.com/cyberd4ch/cyberd4ch/commits) · `2026-11-18`
 <!-- activity:end -->
 
 <br>
