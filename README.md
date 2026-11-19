@@ -64,6 +64,14 @@ breaks when the model dies. Kept honest by countables: a real-server jest suite 
 across 18 suites), a 62-check HTTP acceptance battery against the live engine, and a browser
 probe that walks the auth + apply flow on every verify.
 
+**AgentLens** (in progress) — a harness that scores coding models on first-attempt
+accuracy instead of final state: fixed tasks in isolated workspaces, a snapshot at every
+"done" claim, hidden shell checks the agent never sees, and rule-based findings (false
+done, skipped verification, silenced checks) that point at transcript event numbers
+instead of opinions. Phase 1 is scripted-driver only; the real driver ships tested but
+has not been pointed at a live model session yet.
+[how it measures](https://cyberd4ch.github.io/blog/agentlens-first-try-accuracy/)
+
 ## // security research
 
 I document the work, including the negatives:
@@ -78,6 +86,7 @@ I document the work, including the negatives:
 | repo | report | outcome |
 |---|---|---|
 | **[BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/pull/278)** | the decode fixture was too small to compress on Go 1.27, so `TestDecodeEvidenceBody` failed on any current toolchain | **merged** — the fixture now has something worth deflating, and the guard asserts the stored-block size ratio instead of a plaintext substring |
+| **[BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/pull/324)** | `ingest_bbot` trusted `scope_distance` from `output.json`, and the allow-list was the only scope gate — a demoted or unscoped item could present as pre-scoped ([#317](https://github.com/BaaRai/ARTEX/issues/317)) | **merged** — the maintainer chose documentation over a code change: SECURITY.md now states that `scope_distance` is trusted input and the allow-list is the only scope gate |
 | **[NVIDIA/garak](https://github.com/NVIDIA/garak/pull/2480)** | `nato()` mapped A-Z only and silently dropped every digit, so the probe scored text the target was never shown; 56 of 163 shipped payloads carry digits | open — digits now map to the ICAO alphabet (Niner for 9), 186 pass |
 | **[HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor/pull/2757)** | tool calls cut off by the output cap were still dispatched in the non-chat loops, and the explorer never captured `finish_reason` at all | open — one choke-point guard plus the missing capture, 22/22 CI green |
 | **[ppggff/vagrant-qemu](https://github.com/ppggff/vagrant-qemu/issues/96)** | provider reported `stopped` while the QEMU process was alive, once the tmp-dir pidfile vanished | **fixed in 0.8.0** — runtime state moved into a project-local run dir; migrated and verified on both of my VMs |
