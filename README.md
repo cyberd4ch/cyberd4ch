@@ -41,15 +41,15 @@
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-19" width="48%" alt="GitHub Stats" />
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-19" width="48%" alt="Streak" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-20" width="48%" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-20" width="48%" alt="Streak" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/contributions.svg?v=2026-11-19" width="96%" alt="Contribution activity" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/contributions.svg?v=2026-11-20" width="96%" alt="Contribution activity" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-19" width="48%" alt="Top Languages" />
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/repos.svg?v=2026-11-19" width="48%" alt="Top repositories" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-20" width="48%" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/repos.svg?v=2026-11-20" width="48%" alt="Top repositories" />
 </p>
 
 <br>
@@ -107,7 +107,7 @@ I document the work, including the negatives:
 | **[stride-tmr](https://github.com/cyberd4ch/stride-tmr)** | STRIDE threat modelling with pytm — worked examples that turn attack-surface lists into ranked, testable threats. | `Python` |  |
 | **[cportscan](https://github.com/cyberd4ch/cportscan)** | A minimal TCP port scanner written in C — raw sockets, connect timeouts, clean CLI. Learning project. | `HTML` |  |
 
-<sub>auto-synced from GitHub on 2026-11-19 — edit the repo description, not this table.</sub>
+<sub>auto-synced from GitHub on 2026-11-20 — edit the repo description, not this table.</sub>
 <!-- projects:end -->
 
 <br>
@@ -166,10 +166,10 @@ The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/
 ## // recent
 
 <!-- activity:start -->
+- [commented on #439 in acme-dns/acme-dns](https://github.com/acme-dns/acme-dns/pull/439#issuecomment-7024895481) · `2026-11-19`
 - [commented on #7756 in coredns/coredns](https://github.com/coredns/coredns/issues/7756#issuecomment-7024372415) · `2026-11-19`
 - [commented on #2480 in NVIDIA/garak](https://github.com/NVIDIA/garak/pull/2480#issuecomment-7024252541) · `2026-11-19`
 - [commented on #317 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/issues/317#issuecomment-6995810867) · `2026-11-19`
-- [commented on #7756 in coredns/coredns](https://github.com/coredns/coredns/issues/7756#issuecomment-6995810276) · `2026-11-19`
 <!-- activity:end -->
 
 <br>
