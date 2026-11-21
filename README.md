@@ -41,15 +41,15 @@
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-20" width="48%" alt="GitHub Stats" />
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-20" width="48%" alt="Streak" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-21" width="48%" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-21" width="48%" alt="Streak" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/contributions.svg?v=2026-11-20" width="96%" alt="Contribution activity" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/contributions.svg?v=2026-11-21" width="96%" alt="Contribution activity" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-20" width="48%" alt="Top Languages" />
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/repos.svg?v=2026-11-20" width="48%" alt="Top repositories" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-21" width="48%" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/repos.svg?v=2026-11-21" width="48%" alt="Top repositories" />
 </p>
 
 <br>
@@ -107,7 +107,7 @@ I document the work, including the negatives:
 | **[stride-tmr](https://github.com/cyberd4ch/stride-tmr)** | STRIDE threat modelling with pytm — worked examples that turn attack-surface lists into ranked, testable threats. | `Python` |  |
 | **[cportscan](https://github.com/cyberd4ch/cportscan)** | A minimal TCP port scanner written in C — raw sockets, connect timeouts, clean CLI. Learning project. | `HTML` |  |
 
-<sub>auto-synced from GitHub on 2026-11-20 — edit the repo description, not this table.</sub>
+<sub>auto-synced from GitHub on 2026-11-21 — edit the repo description, not this table.</sub>
 <!-- projects:end -->
 
 <br>
@@ -155,10 +155,10 @@ instead of assumed.
 The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/blog/)**.
 
 <!-- writing:start -->
+- **[tying a fact to the work that produced it: server-side provenance for row one](https://cyberd4ch.github.io/blog/tying-a-fact-to-the-work-that-produced-it/)** — Row one of the ARTEX audit ended with an open question: the label deciding whether a fact can prove a goal was written by the model the target is talking to. I posted the rule for fixing it and then implemented it, so a fact now has to quote a line of the intent's recorded activity before it counts as evidence, and bytes the proxy captured coming back from the target are stored as target_response whatever the model declared.
 - **[agentlens: score a coding model on its first attempt, not its final one](https://cyberd4ch.github.io/blog/agentlens-first-try-accuracy/)** — A harness that snapshots the workspace at every done claim, so a model's first attempt gets scored before it has a chance to correct itself.
 - **[auditing an agent's memory: enforced provenance, self-declared labels](https://cyberd4ch.github.io/blog/auditing-an-agents-memory/)** — ARTEX's maintainer invited an adversarial audit of the platform's own agents, and the memory poisoning row holds up better than expected: fact provenance is enforced down to a prove_goal refusal, but the label deciding which gate applies is written by the model the target is talking to.
 - **[the truncation guard stops at chat: proving the blind spot with a real vault](https://cyberd4ch.github.io/blog/the-truncation-guard-stops-at-chat/)** — A review of DeepTutor's truncation guard found the same cut-off tool calls reaching five dispatch sites outside the chat path, so I filed the issue with a runtime repro: a scripted truncated round, the real dispatch code, and a real Obsidian vault that gets mutated while history records a fabricated success.
-- **[A modern approach to securing kubernetes cluster](https://cyberd4ch.github.io/blog/adventures-in-encryption-2026/)** — This is an update of Rob Thorne's 2021 Medium article, *Adventures in Encryption: Securing Your Laptop Kubernetes Cluster*, with credit to Rob for the original approach. Part I covers a local cluster, and Part II takes the same ideas to a public cluster with free Let's Encrypt certificates.
 <!-- writing:end -->
 
 <br>
@@ -166,10 +166,10 @@ The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/
 ## // recent
 
 <!-- activity:start -->
+- [opened pull request #441 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) · `2026-11-21`
+- [commented on #124 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/issues/124#issuecomment-7055133808) · `2026-11-21`
 - [commented on #291 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/issues/291#issuecomment-7027827953) · `2026-11-20`
 - [commented on #439 in acme-dns/acme-dns](https://github.com/acme-dns/acme-dns/pull/439#issuecomment-7024895481) · `2026-11-19`
-- [commented on #7756 in coredns/coredns](https://github.com/coredns/coredns/issues/7756#issuecomment-7024372415) · `2026-11-19`
-- [commented on #2480 in NVIDIA/garak](https://github.com/NVIDIA/garak/pull/2480#issuecomment-7024252541) · `2026-11-19`
 <!-- activity:end -->
 
 <br>
