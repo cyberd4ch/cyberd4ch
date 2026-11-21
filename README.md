@@ -166,10 +166,10 @@ The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/
 ## // recent
 
 <!-- activity:start -->
+- [commented on #124 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/issues/124#issuecomment-7061241392) · `2026-11-21`
 - [opened pull request #441 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) · `2026-11-21`
 - [commented on #124 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/issues/124#issuecomment-7055133808) · `2026-11-21`
 - [commented on #291 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/issues/291#issuecomment-7027827953) · `2026-11-20`
-- [commented on #439 in acme-dns/acme-dns](https://github.com/acme-dns/acme-dns/pull/439#issuecomment-7024895481) · `2026-11-19`
 <!-- activity:end -->
 
 <br>
