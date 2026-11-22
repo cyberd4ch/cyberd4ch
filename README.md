@@ -41,15 +41,15 @@
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-21" width="48%" alt="GitHub Stats" />
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-21" width="48%" alt="Streak" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-22" width="48%" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-22" width="48%" alt="Streak" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/contributions.svg?v=2026-11-21" width="96%" alt="Contribution activity" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/contributions.svg?v=2026-11-22" width="96%" alt="Contribution activity" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-21" width="48%" alt="Top Languages" />
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/repos.svg?v=2026-11-21" width="48%" alt="Top repositories" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-22" width="48%" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/repos.svg?v=2026-11-22" width="48%" alt="Top repositories" />
 </p>
 
 <br>
@@ -107,7 +107,7 @@ I document the work, including the negatives:
 | **[stride-tmr](https://github.com/cyberd4ch/stride-tmr)** | STRIDE threat modelling with pytm — worked examples that turn attack-surface lists into ranked, testable threats. | `Python` |  |
 | **[cportscan](https://github.com/cyberd4ch/cportscan)** | A minimal TCP port scanner written in C — raw sockets, connect timeouts, clean CLI. Learning project. | `HTML` |  |
 
-<sub>auto-synced from GitHub on 2026-11-21 — edit the repo description, not this table.</sub>
+<sub>auto-synced from GitHub on 2026-11-22 — edit the repo description, not this table.</sub>
 <!-- projects:end -->
 
 <br>
@@ -155,10 +155,10 @@ instead of assumed.
 The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/blog/)**.
 
 <!-- writing:start -->
+- **[rows three and four: the goal anchor and the typed bbot parser](https://cyberd4ch.github.io/blog/rows-three-and-four-goal-anchor-and-bbot-parser/)** — Goal drift and tool abuse both already had mitigations on main: a code-owned goal anchor closes every planner message, bbot output is parsed typed-only with inert free text, and command templates shell-quote target-influenced parameters before an intercept gate sees the call.
 - **[plan hijacking row: the planner already reads the target as data](https://cyberd4ch.github.io/blog/plan-hijacking-row-the-planner-reads-data/)** — Row two of the ARTEX audit asks whether planner-facing summaries are marked as untrusted. On main at 22ae88a the answer is yes: a code-owned data rule plus a per-message nonce envelope frame every target-derived field, and a deterministic adversarial bench proves the frame survives a hostile page.
 - **[the newest activity lost on line order: a review fix for the provenance tie](https://cyberd4ch.github.io/blog/the-newest-activity-lost-on-line-order/)** — The automated review on ARTEX #441 caught a real bug in the fact provenance lookup: it returned the newest activity matching the first evidence line instead of the newest activity matching any line, which could have made the traffic tie miss.
 - **[tying a fact to the work that produced it: server-side provenance for row one](https://cyberd4ch.github.io/blog/tying-a-fact-to-the-work-that-produced-it/)** — Row one of the ARTEX audit ended with an open question: the label deciding whether a fact can prove a goal was written by the model the target is talking to. I posted the rule for fixing it and then implemented it, so a fact now has to quote a line of the intent's recorded activity before it counts as evidence, and bytes the proxy captured coming back from the target are stored as target_response whatever the model declared.
-- **[agentlens: score a coding model on its first attempt, not its final one](https://cyberd4ch.github.io/blog/agentlens-first-try-accuracy/)** — A harness that snapshots the workspace at every done claim, so a model's first attempt gets scored before it has a chance to correct itself.
 <!-- writing:end -->
 
 <br>
@@ -166,10 +166,10 @@ The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/
 ## // recent
 
 <!-- activity:start -->
+- [opened pull request #469 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) · `2026-11-22`
 - [commented on #124 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/issues/124#issuecomment-7061241392) · `2026-11-21`
-- [opened pull request #441 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) · `2026-11-21`
+- [pushed to cyberd4ch/ARTEX](https://github.com/cyberd4ch/ARTEX/commits) · `2026-11-21`
 - [commented on #124 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/issues/124#issuecomment-7055133808) · `2026-11-21`
-- [commented on #291 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/issues/291#issuecomment-7027827953) · `2026-11-20`
 <!-- activity:end -->
 
 <br>
