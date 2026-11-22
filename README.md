@@ -166,8 +166,8 @@ The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/
 ## // recent
 
 <!-- activity:start -->
+- [merged pull request #469 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) · `2026-11-22`
 - [commented on #124 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/issues/124#issuecomment-7072013251) · `2026-11-22`
-- [opened pull request #469 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) · `2026-11-22`
 - [commented on #124 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/issues/124#issuecomment-7061241392) · `2026-11-21`
 - [pushed to cyberd4ch/ARTEX](https://github.com/cyberd4ch/ARTEX/commits) · `2026-11-21`
 <!-- activity:end -->
