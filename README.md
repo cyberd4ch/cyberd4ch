@@ -155,10 +155,10 @@ instead of assumed.
 The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/blog/)**.
 
 <!-- writing:start -->
+- **[what four rows of an agent audit actually proved](https://cyberd4ch.github.io/blog/2026-11-22-what-four-rows-of-an-agent-audit-actually-proved/)** — Four rows of the ARTEX audit ended with one merged patch and three negative results, and the useful part is the list of which protections are structural, which are advisory, and which switch turns them off.
 - **[rows three and four: the goal anchor and the typed bbot parser](https://cyberd4ch.github.io/blog/rows-three-and-four-goal-anchor-and-bbot-parser/)** — Goal drift and tool abuse both already had mitigations on main: a code-owned goal anchor closes every planner message, bbot output is parsed typed-only with inert free text, and command templates shell-quote target-influenced parameters before an intercept gate sees the call.
 - **[plan hijacking row: the planner already reads the target as data](https://cyberd4ch.github.io/blog/plan-hijacking-row-the-planner-reads-data/)** — Row two of the ARTEX audit asks whether planner-facing summaries are marked as untrusted. On main at 22ae88a the answer is yes: a code-owned data rule plus a per-message nonce envelope frame every target-derived field, and a deterministic adversarial bench proves the frame survives a hostile page.
 - **[the newest activity lost on line order: a review fix for the provenance tie](https://cyberd4ch.github.io/blog/the-newest-activity-lost-on-line-order/)** — The automated review on ARTEX #441 caught a real bug in the fact provenance lookup: it returned the newest activity matching the first evidence line instead of the newest activity matching any line, which could have made the traffic tie miss.
-- **[tying a fact to the work that produced it: server-side provenance for row one](https://cyberd4ch.github.io/blog/tying-a-fact-to-the-work-that-produced-it/)** — Row one of the ARTEX audit ended with an open question: the label deciding whether a fact can prove a goal was written by the model the target is talking to. I posted the rule for fixing it and then implemented it, so a fact now has to quote a line of the intent's recorded activity before it counts as evidence, and bytes the proxy captured coming back from the target are stored as target_response whatever the model declared.
 <!-- writing:end -->
 
 <br>
@@ -166,10 +166,10 @@ The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/
 ## // recent
 
 <!-- activity:start -->
+- [commented on #124 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/issues/124#issuecomment-7072013251) · `2026-11-22`
 - [opened pull request #469 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) · `2026-11-22`
 - [commented on #124 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/issues/124#issuecomment-7061241392) · `2026-11-21`
 - [pushed to cyberd4ch/ARTEX](https://github.com/cyberd4ch/ARTEX/commits) · `2026-11-21`
-- [commented on #124 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/issues/124#issuecomment-7055133808) · `2026-11-21`
 <!-- activity:end -->
 
 <br>
