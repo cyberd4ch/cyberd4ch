@@ -104,7 +104,7 @@ I document the work, including the negatives:
 | project | what it does | stack | |
 |---|---|---|---|
 | **[tiny-chess-01](https://github.com/00xcyd/tiny-chess-01)** | Deterministic 4 KB Python chess engine for make.fun tiny-chess-01 |  |  |
-| **[footorrent](https://github.com/00xcyd/footorrent)** | A BitTorrent client in one ~3 MB Rust binary: full CLI, local web UI, prebuilt for macOS, Linux and Windows. Write-up: cyberd4ch.github.io/blog/footorrent-3-5-0-magnets-that-work/ | `Rust` | ★ 2 |
+| **[footorrent](https://github.com/00xcyd/footorrent)** | A BitTorrent client in one ~3 MB Rust binary: full CLI, local web UI, prebuilt for macOS, Linux and Windows. Write-up: 00xcyd.github.io/blog/footorrent-3-5-0-magnets-that-work/ | `Rust` | ★ 2 |
 | **[txn-agent](https://github.com/00xcyd/txn-agent)** | Safety-first transaction layer for purchasing agents: deterministic policy gate, human approvals, idempotent checkout | `Python` | ★ 2 |
 | **[security-toolkit](https://github.com/00xcyd/security-toolkit)** | Dependency-free tools for finding nonce-laundering XSS: a bundle scanner and a safe, rate-limited recon fetcher. | `Python` |  |
 | **[stride-tmr](https://github.com/00xcyd/stride-tmr)** | STRIDE threat modelling with pytm — worked examples that turn attack-surface lists into ranked, testable threats. | `Python` |  |
