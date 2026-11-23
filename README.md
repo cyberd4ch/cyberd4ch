@@ -9,7 +9,7 @@
 
 <div align="center">
   <a href="https://github.com/00xcyd"><img alt="github" src="https://img.shields.io/badge/GitHub-%4000xcyd-0d1117?style=flat-square&logo=github&logoColor=f7f6f3" /></a>
-  <a href="mailto:00xcyd@proton.me"><img alt="email" src="https://img.shields.io/badge/Email-cyberdachh%40proton.me-0d1117?style=flat-square&logo=protonmail&logoColor=f7f6f3" /></a>
+  <a href="mailto:00xcyd@proton.me"><img alt="email" src="https://img.shields.io/badge/Email-00xcyd%40proton.me-0d1117?style=flat-square&logo=protonmail&logoColor=f7f6f3" /></a>
   <a href="https://00xcyd.github.io/"><img alt="mission control" src="https://img.shields.io/badge/Mission%20Control-00xcyd.github.io-0d1117?style=flat-square&logo=githubpages&logoColor=f7f6f3" /></a>
   <a href="https://github.com/sponsors/00xcyd"><img alt="sponsor" src="https://img.shields.io/badge/Sponsor-%4000xcyd-fc3d21?style=flat-square&logo=githubsponsors&logoColor=f7f6f3" /></a>
 </div>
