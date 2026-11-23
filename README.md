@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/mosaic-light.gif" width="260" alt="the fleet — a ship-mosaic portrait of the avatar" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/mosaic-light.gif" width="260" alt="the fleet — a ship-mosaic portrait of the avatar" />
   <br>
   <sub></sub>
 </p>
@@ -8,16 +8,16 @@
 <br>
 
 <div align="center">
-  <a href="https://github.com/cyberd4ch"><img alt="github" src="https://img.shields.io/badge/GitHub-%40cyberd4ch-0d1117?style=flat-square&logo=github&logoColor=f7f6f3" /></a>
+  <a href="https://github.com/00xcyd"><img alt="github" src="https://img.shields.io/badge/GitHub-%4000xcyd-0d1117?style=flat-square&logo=github&logoColor=f7f6f3" /></a>
   <a href="mailto:cyberdachh@proton.me"><img alt="email" src="https://img.shields.io/badge/Email-cyberdachh%40proton.me-0d1117?style=flat-square&logo=protonmail&logoColor=f7f6f3" /></a>
-  <a href="https://cyberd4ch.github.io/"><img alt="mission control" src="https://img.shields.io/badge/Mission%20Control-cyberd4ch.github.io-0d1117?style=flat-square&logo=githubpages&logoColor=f7f6f3" /></a>
-  <a href="https://github.com/sponsors/cyberd4ch"><img alt="sponsor" src="https://img.shields.io/badge/Sponsor-%40cyberd4ch-fc3d21?style=flat-square&logo=githubsponsors&logoColor=f7f6f3" /></a>
+  <a href="https://00xcyd.github.io/"><img alt="mission control" src="https://img.shields.io/badge/Mission%20Control-00xcyd.github.io-0d1117?style=flat-square&logo=githubpages&logoColor=f7f6f3" /></a>
+  <a href="https://github.com/sponsors/00xcyd"><img alt="sponsor" src="https://img.shields.io/badge/Sponsor-%4000xcyd-fc3d21?style=flat-square&logo=githubsponsors&logoColor=f7f6f3" /></a>
 </div>
 
 <p align="center">
-  <a href="https://cyberd4ch.github.io/projects/"><code>projects</code></a> ·
-  <a href="https://cyberd4ch.github.io/blog/"><code>transmissions</code></a> ·
-  <a href="https://cyberd4ch.github.io/freelance/"><code>services</code></a>
+  <a href="https://00xcyd.github.io/projects/"><code>projects</code></a> ·
+  <a href="https://00xcyd.github.io/blog/"><code>transmissions</code></a> ·
+  <a href="https://00xcyd.github.io/freelance/"><code>services</code></a>
 </p>
 
 <br>
@@ -41,22 +41,22 @@
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/github-stats.svg?v=2026-11-23" width="48%" alt="GitHub Stats" />
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/streak.svg?v=2026-11-23" width="48%" alt="Streak" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/github-stats.svg?v=2026-11-23" width="48%" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/streak.svg?v=2026-11-23" width="48%" alt="Streak" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/contributions.svg?v=2026-11-23" width="96%" alt="Contribution activity" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/contributions.svg?v=2026-11-23" width="96%" alt="Contribution activity" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/top-languages.svg?v=2026-11-23" width="48%" alt="Top Languages" />
-  <img src="https://raw.githubusercontent.com/cyberd4ch/cyberd4ch/main/assets/repos.svg?v=2026-11-23" width="48%" alt="Top repositories" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/top-languages.svg?v=2026-11-23" width="48%" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/repos.svg?v=2026-11-23" width="48%" alt="Top repositories" />
 </p>
 
 <br>
 
 ## // now building
 
-**[getmocha.world](https://github.com/cyberd4ch/getmocha)** — remote job matching that ranks
+**[getmocha.world](https://github.com/00xcyd/getmocha)** — remote job matching that ranks
 postings before the crowd, then writes your application documents from your own answers:
 screening questionnaires, CV reads with an honest percentage, cover letters + application emails.
 Built fail-soft by contract — every AI path has a deterministic fallback, so the product never
@@ -72,16 +72,16 @@ instead of opinions. Phase 1 now has real local runs through the streamed driver
 qwen2.5:7b-instruct and qwen2.5:3b each ran the demo task on 3 independent seeds — 6/6
 first-try, 0/6 false dones — and `compare` refuses to rank a model on fewer than 3
 distinct seeds. A hosted Claude run is the next step.
-[how it measures](https://cyberd4ch.github.io/blog/agentlens-first-try-accuracy/)
+[how it measures](https://00xcyd.github.io/blog/agentlens-first-try-accuracy/)
 
 ## // security research
 
 I document the work, including the negatives:
 
-- **[security-toolkit](https://github.com/cyberd4ch/security-toolkit)** — MIT, dependency-free tools for nonce-laundering XSS: a bundle scanner (`nonce_scan.py`) and a rate-limited recon fetcher.
-- **Nonce-laundering trace** — traced a server value into a nonce'd inline script in an authorized commerce program, then proved the server sanitised it. [write-up](https://cyberd4ch.github.io/blog/deeplink-gadget-trace/)
-- **Basecamp / HEY recon** — the public marketing surface ships no CSP nonce at all; the testable class lives in the authenticated app. [program landscape](https://cyberd4ch.github.io/blog/bounty-program-landscape/)
-- **Available for scoped security review** — fixed-scope JS/CSP/auth reviews with evidence-backed reports. [services](https://cyberd4ch.github.io/freelance/)
+- **[security-toolkit](https://github.com/00xcyd/security-toolkit)** — MIT, dependency-free tools for nonce-laundering XSS: a bundle scanner (`nonce_scan.py`) and a rate-limited recon fetcher.
+- **Nonce-laundering trace** — traced a server value into a nonce'd inline script in an authorized commerce program, then proved the server sanitised it. [write-up](https://00xcyd.github.io/blog/deeplink-gadget-trace/)
+- **Basecamp / HEY recon** — the public marketing surface ships no CSP nonce at all; the testable class lives in the authenticated app. [program landscape](https://00xcyd.github.io/blog/bounty-program-landscape/)
+- **Available for scoped security review** — fixed-scope JS/CSP/auth reviews with evidence-backed reports. [services](https://00xcyd.github.io/freelance/)
 
 ## // upstream bugs found & fixed
 
@@ -103,11 +103,11 @@ I document the work, including the negatives:
 <!-- projects:start -->
 | project | what it does | stack | |
 |---|---|---|---|
-| **[footorrent](https://github.com/cyberd4ch/footorrent)** | A BitTorrent client in one ~3 MB Rust binary: full CLI, local web UI, prebuilt for macOS, Linux and Windows. Write-up: cyberd4ch.github.io/blog/footorrent-3-5-0-magnets-that-work/ | `Rust` | ★ 2 |
-| **[txn-agent](https://github.com/cyberd4ch/txn-agent)** | Safety-first transaction layer for purchasing agents: deterministic policy gate, human approvals, idempotent checkout | `Python` | ★ 2 |
-| **[security-toolkit](https://github.com/cyberd4ch/security-toolkit)** | Dependency-free tools for finding nonce-laundering XSS: a bundle scanner and a safe, rate-limited recon fetcher. | `Python` |  |
-| **[stride-tmr](https://github.com/cyberd4ch/stride-tmr)** | STRIDE threat modelling with pytm — worked examples that turn attack-surface lists into ranked, testable threats. | `Python` |  |
-| **[cportscan](https://github.com/cyberd4ch/cportscan)** | A minimal TCP port scanner written in C — raw sockets, connect timeouts, clean CLI. Learning project. | `HTML` |  |
+| **[tiny-chess-01](https://github.com/00xcyd/tiny-chess-01)** | Deterministic 4 KB Python chess engine for make.fun tiny-chess-01 |  |  |
+| **[footorrent](https://github.com/00xcyd/footorrent)** | A BitTorrent client in one ~3 MB Rust binary: full CLI, local web UI, prebuilt for macOS, Linux and Windows. Write-up: cyberd4ch.github.io/blog/footorrent-3-5-0-magnets-that-work/ | `Rust` | ★ 2 |
+| **[txn-agent](https://github.com/00xcyd/txn-agent)** | Safety-first transaction layer for purchasing agents: deterministic policy gate, human approvals, idempotent checkout | `Python` | ★ 2 |
+| **[security-toolkit](https://github.com/00xcyd/security-toolkit)** | Dependency-free tools for finding nonce-laundering XSS: a bundle scanner and a safe, rate-limited recon fetcher. | `Python` |  |
+| **[stride-tmr](https://github.com/00xcyd/stride-tmr)** | STRIDE threat modelling with pytm — worked examples that turn attack-surface lists into ranked, testable threats. | `Python` |  |
 
 <sub>auto-synced from GitHub on 2026-11-23 — edit the repo description, not this table.</sub>
 <!-- projects:end -->
@@ -127,7 +127,7 @@ the UI shows per-peer rates, a tracker-fallback note and a retry button.
 Measured on a magnet whose own trackers were all dead: resolve in 17–42 s, 129,302,391 bytes
 and 11 files reported before writing, then 917 KB downloaded in the first minute across 6 peers.
 
-→ [Source](https://github.com/cyberd4ch/free-torrent-cli) · [Release notes](https://github.com/cyberd4ch/free-torrent-cli/blob/main/CHANGELOG.md) · [Write-up](https://cyberd4ch.github.io/blog/footorrent-3-5-0-magnets-that-work/)
+→ [Source](https://github.com/00xcyd/free-torrent-cli) · [Release notes](https://github.com/00xcyd/free-torrent-cli/blob/main/CHANGELOG.md) · [Write-up](https://00xcyd.github.io/blog/footorrent-3-5-0-magnets-that-work/)
 
 <br>
 
@@ -154,13 +154,13 @@ instead of assumed.
 
 ## // transmissions
 
-The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/blog/)**.
+The full feed lives at **[00xcyd.github.io/blog](https://00xcyd.github.io/blog/)**.
 
 <!-- writing:start -->
-- **[rows three and four: the goal anchor and the typed bbot parser](https://cyberd4ch.github.io/blog/rows-three-and-four-goal-anchor-and-bbot-parser/)** — Goal drift and tool abuse both already had mitigations on main: a code-owned goal anchor closes every planner message, bbot output is parsed typed-only with inert free text, and command templates shell-quote target-influenced parameters before an intercept gate sees the call.
-- **[what four rows of an agent audit actually proved](https://cyberd4ch.github.io/blog/what-four-rows-of-an-agent-audit-actually-proved/)** — Four rows of the ARTEX audit ended with one merged patch and three negative results, and the useful part is the list of which protections are structural, which are advisory, and which switch turns them off.
-- **[plan hijacking row: the planner already reads the target as data](https://cyberd4ch.github.io/blog/plan-hijacking-row-the-planner-reads-data/)** — Row two of the ARTEX audit asks whether planner-facing summaries are marked as untrusted. On main at 22ae88a the answer is yes: a code-owned data rule plus a per-message nonce envelope frame every target-derived field, and a deterministic adversarial bench proves the frame survives a hostile page.
-- **[the newest activity lost on line order: a review fix for the provenance tie](https://cyberd4ch.github.io/blog/the-newest-activity-lost-on-line-order/)** — The automated review on ARTEX #441 caught a real bug in the fact provenance lookup: it returned the newest activity matching the first evidence line instead of the newest activity matching any line, which could have made the traffic tie miss.
+- **[rows three and four: the goal anchor and the typed bbot parser](https://00xcyd.github.io/blog/rows-three-and-four-goal-anchor-and-bbot-parser/)** — Goal drift and tool abuse both already had mitigations on main: a code-owned goal anchor closes every planner message, bbot output is parsed typed-only with inert free text, and command templates shell-quote target-influenced parameters before an intercept gate sees the call.
+- **[what four rows of an agent audit actually proved](https://00xcyd.github.io/blog/what-four-rows-of-an-agent-audit-actually-proved/)** — Four rows of the ARTEX audit ended with one merged patch and three negative results, and the useful part is the list of which protections are structural, which are advisory, and which switch turns them off.
+- **[plan hijacking row: the planner already reads the target as data](https://00xcyd.github.io/blog/plan-hijacking-row-the-planner-reads-data/)** — Row two of the ARTEX audit asks whether planner-facing summaries are marked as untrusted. On main at 22ae88a the answer is yes: a code-owned data rule plus a per-message nonce envelope frame every target-derived field, and a deterministic adversarial bench proves the frame survives a hostile page.
+- **[the newest activity lost on line order: a review fix for the provenance tie](https://00xcyd.github.io/blog/the-newest-activity-lost-on-line-order/)** — The automated review on ARTEX #441 caught a real bug in the fact provenance lookup: it returned the newest activity matching the first evidence line instead of the newest activity matching any line, which could have made the traffic tie miss.
 <!-- writing:end -->
 
 <br>
@@ -179,7 +179,7 @@ The full feed lives at **[cyberd4ch.github.io/blog](https://cyberd4ch.github.io/
 ## // sponsor
 
 If `dns-watch`, `txn-agent`, or anything else here saves you time, you can fund the work at
-**[github.com/sponsors/cyberd4ch](https://github.com/sponsors/cyberd4ch)**. Sponsorship pays
+**[github.com/sponsors/00xcyd](https://github.com/sponsors/00xcyd)**. Sponsorship pays
 for the lab VMs, API quotas, and the time behind the write-ups.
 
 <br>
@@ -194,5 +194,5 @@ and full-stack development** — especially projects that involve breaking (and 
 <br>
 
 <p align="center">
-  <sub>sig <span>●</span> nominal · uplink: <a href="https://cyberd4ch.github.io/">cyberd4ch.github.io</a></sub>
+  <sub>sig <span>●</span> nominal · uplink: <a href="https://00xcyd.github.io/">00xcyd.github.io</a></sub>
 </p>

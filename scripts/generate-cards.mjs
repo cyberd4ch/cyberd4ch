@@ -16,7 +16,7 @@
  */
 import fs from 'node:fs/promises'
 
-const USER = process.env.GITHUB_USER || 'cyberd4ch'
+const USER = process.env.GITHUB_USER || '00xcyd'
 const OUT_DIR = 'assets'
 const BG = '#0d1117'
 const BORDER = '#30363d'

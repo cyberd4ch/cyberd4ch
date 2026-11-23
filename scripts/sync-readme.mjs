@@ -1,8 +1,8 @@
 /**
  * Keep the profile README in sync with the portfolio.
  *
- * The profile front is split by necessity: the README must live in `cyberd4ch/cyberd4ch`
- * while the site must live in `cyberd4ch/cyberd4ch.github.io`. This script derives both
+ * The profile front is split by necessity: the README must live in `00xcyd/00xcyd`
+ * while the site must live in `00xcyd/00xcyd.github.io`. This script derives both
  * the project table (GitHub API) and the writing list (the site's /blog.json) so the two
  * front doors cannot drift.
  *
@@ -10,8 +10,8 @@
  */
 import fs from 'node:fs/promises'
 
-const USER = process.env.GITHUB_USER || 'cyberd4ch'
-const SITE = process.env.PORTFOLIO_URL || 'https://cyberd4ch.github.io'
+const USER = process.env.GITHUB_USER || '00xcyd'
+const SITE = process.env.PORTFOLIO_URL || 'https://00xcyd.github.io'
 const README = 'README.md'
 const PROJECTS = ['<!-- projects:start -->', '<!-- projects:end -->']
 const WRITING = ['<!-- writing:start -->', '<!-- writing:end -->']
