@@ -41,15 +41,15 @@
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/github-stats.svg?v=2026-11-23" width="48%" alt="GitHub Stats" />
-  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/streak.svg?v=2026-11-23" width="48%" alt="Streak" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/github-stats.svg?v=2026-11-24" width="48%" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/streak.svg?v=2026-11-24" width="48%" alt="Streak" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/contributions.svg?v=2026-11-23" width="96%" alt="Contribution activity" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/contributions.svg?v=2026-11-24" width="96%" alt="Contribution activity" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/top-languages.svg?v=2026-11-23" width="48%" alt="Top Languages" />
-  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/repos.svg?v=2026-11-23" width="48%" alt="Top repositories" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/top-languages.svg?v=2026-11-24" width="48%" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/repos.svg?v=2026-11-24" width="48%" alt="Top repositories" />
 </p>
 
 <br>
@@ -103,13 +103,13 @@ I document the work, including the negatives:
 <!-- projects:start -->
 | project | what it does | stack | |
 |---|---|---|---|
-| **[tiny-chess-01](https://github.com/00xcyd/tiny-chess-01)** | Deterministic 4 KB Python chess engine for make.fun tiny-chess-01 |  |  |
+| **[tiny-chess-01](https://github.com/00xcyd/tiny-chess-01)** | Deterministic 180k-node alpha-beta chess engine in 4 KB of Python, built by an AI agent for make.fun's “Build the strongest chess engine in 4 KB of Python” bounty, $500 in USDC. | `Python` |  |
+| **[cportscan](https://github.com/00xcyd/cportscan)** | A minimal TCP port scanner written in C — raw sockets, connect timeouts, clean CLI. Learning project. | `HTML` |  |
 | **[footorrent](https://github.com/00xcyd/footorrent)** | A BitTorrent client in one ~3 MB Rust binary: full CLI, local web UI, prebuilt for macOS, Linux and Windows. Write-up: 00xcyd.github.io/blog/footorrent-3-5-0-magnets-that-work/ | `Rust` | ★ 2 |
 | **[txn-agent](https://github.com/00xcyd/txn-agent)** | Safety-first transaction layer for purchasing agents: deterministic policy gate, human approvals, idempotent checkout | `Python` | ★ 2 |
 | **[security-toolkit](https://github.com/00xcyd/security-toolkit)** | Dependency-free tools for finding nonce-laundering XSS: a bundle scanner and a safe, rate-limited recon fetcher. | `Python` |  |
-| **[stride-tmr](https://github.com/00xcyd/stride-tmr)** | STRIDE threat modelling with pytm — worked examples that turn attack-surface lists into ranked, testable threats. | `Python` |  |
 
-<sub>auto-synced from GitHub on 2026-11-23 — edit the repo description, not this table.</sub>
+<sub>auto-synced from GitHub on 2026-11-24 — edit the repo description, not this table.</sub>
 <!-- projects:end -->
 
 <br>
@@ -168,10 +168,10 @@ The full feed lives at **[00xcyd.github.io/blog](https://00xcyd.github.io/blog/)
 ## // recent
 
 <!-- activity:start -->
-- [commented on #347 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/issues/347#issuecomment-7087138213) · `2026-11-22`
-- [merged pull request #469 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) · `2026-11-22`
-- [commented on #124 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/issues/124#issuecomment-7072013251) · `2026-11-22`
-- [commented on #124 in BaaRai/ARTEX](https://github.com/BaaRai/ARTEX/issues/124#issuecomment-7061241392) · `2026-11-21`
+- [created branch rust-rebuild in 00xcyd/cportscan](https://github.com/00xcyd/cportscan) · `2026-11-23`
+- [pushed to 00xcyd/00xcyd](https://github.com/00xcyd/00xcyd/commits) · `2026-11-23`
+- [created branch main in 00xcyd/tiny-chess-01](https://github.com/00xcyd/tiny-chess-01) · `2026-11-23`
+- [pushed to 00xcyd/tiny-chess-01](https://github.com/00xcyd/tiny-chess-01/commit/e81814281de585e018166006cb1f9e37dd660b67) · `2026-11-23`
 <!-- activity:end -->
 
 <br>
