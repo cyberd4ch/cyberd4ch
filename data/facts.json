@@ -1,0 +1,122 @@
+{
+  "reviewed": "2026-11-26",
+  "upstream": [
+    {
+      "repo": "BaaRai/ARTEX",
+      "kind": "pull",
+      "number": 278,
+      "report": "the decode fixture was too small to compress on Go 1.27, so `TestDecodeEvidenceBody` failed on any current toolchain",
+      "outcome": "the fixture now has something worth deflating, and the guard asserts the stored-block size ratio instead of a plaintext substring"
+    },
+    {
+      "repo": "BaaRai/ARTEX",
+      "kind": "pull",
+      "number": 324,
+      "report": "`ingest_bbot` trusted `scope_distance` from `output.json`, and the allow-list was the only scope gate; a demoted or unscoped item could present as pre-scoped ([#317](https://github.com/BaaRai/ARTEX/issues/317))",
+      "outcome": "the maintainer chose documentation over a code change: SECURITY.md now states that `scope_distance` is trusted input, that `EvaluateAssetGate` applies block rules whether or not a task allow-list is configured, and that the no-allow-list case is an accepted gap"
+    },
+    {
+      "repo": "BaaRai/ARTEX",
+      "kind": "pull",
+      "number": 441,
+      "report": "`record_fact` accepted evidence that never appeared in the intent's recorded work, so a line a target planted could be labelled `tool_output` and still satisfy `prove_goal` ([#124](https://github.com/BaaRai/ARTEX/issues/124))",
+      "outcome": "the server now ties every fact to a recorded activity or a captured exchange, relabels target-returned bytes as `target_response`, and refuses an untied fact at `prove_goal`; the documented limits are capture-off ties to recorded work, not authorship, and the agent's own output also counting as recorded activity"
+    },
+    {
+      "repo": "BaaRai/ARTEX",
+      "kind": "pull",
+      "number": 469,
+      "report": "the `factProvenance` doc comment sat on the struct's closing brace, so it documented nothing",
+      "outcome": "the comment now sits on the field it describes"
+    },
+    {
+      "repo": "NVIDIA/garak",
+      "kind": "pull",
+      "number": 2480,
+      "report": "`nato()` mapped A-Z only and silently dropped every digit, so the probe scored text the target was never shown; 56 of 163 shipped payloads carry digits",
+      "outcome": "digits now map to the ICAO alphabet (Niner for 9), 186 pass"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "kind": "pull",
+      "number": 2757,
+      "report": "tool calls cut off by the output cap were still dispatched in the non-chat loops, and the explorer never captured `finish_reason` at all",
+      "outcome": "one choke-point guard plus the missing capture, 22/22 CI green"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "kind": "issue",
+      "number": 2753,
+      "report": "the truncation guard covers the chat path only: the same cut-off tool calls reach five dispatch sites outside it",
+      "outcome": "filed with a runtime repro: a scripted truncated round, the real dispatch code, and a real Obsidian vault that gets mutated while history records a fabricated success"
+    },
+    {
+      "repo": "ppggff/vagrant-qemu",
+      "kind": "issue",
+      "number": 96,
+      "report": "provider reported `stopped` while the QEMU process was alive, once the tmp-dir pidfile vanished",
+      "outcome": "the fix shipped in 0.8.0: runtime state moved into a project-local run dir, migrated and verified on both of my VMs; what removed the old directory is still unidentified"
+    },
+    {
+      "repo": "waydroid/waydroid",
+      "kind": "issue",
+      "number": 2472,
+      "report": "LXC `mount (rw, move)` denied by AppArmor blocks container start on kernel 7.x",
+      "outcome": "awaiting maintainer input"
+    }
+  ],
+  "shipped": [
+    {
+      "label": "Footorrent",
+      "repo": "00xcyd/footorrent",
+      "summary": "pause from the terminal (type `p` and Enter to park the workers between blocks) and Linux arm64 archives",
+      "writeup": "https://00xcyd.github.io/blog/footorrent-3-5-0-magnets-that-work/",
+      "detail": "The 3.5.0 magnet rebuild: metadata is fetched and verified before anything touches disk, so the window shows the real name, size and file list, then asks where to save. Measured on a magnet whose own trackers were all dead: resolve in 17–42 s, 129,302,391 bytes and 11 files reported before writing, then 917 KB downloaded in the first minute across 6 peers."
+    },
+    {
+      "label": "dns-watch",
+      "repo": "00xcyd/dns-watch",
+      "summary": "packaging release: reproducible tarball, sha256-pinned Homebrew tap that bumps itself, and the install path documented first",
+      "writeup": "https://00xcyd.github.io/blog/announcing-dnswatch-v1-1-1/"
+    }
+  ],
+  "now": [
+    {
+      "title": "getmocha.world",
+      "repo": "00xcyd/getmocha",
+      "text": "remote job matching that ranks postings before the crowd, then writes your application documents from your own answers: screening questionnaires, CV reads with an honest percentage, cover letters + application emails. Built fail-soft by contract — every AI path has a deterministic fallback, so the product never breaks when the model dies. Kept honest by countables: a real-server jest suite (105 tests across 18 suites), a 62-check HTTP acceptance battery against the live engine, and a browser probe that walks the auth + apply flow on every verify."
+    },
+    {
+      "title": "AgentLens",
+      "status": "in progress",
+      "text": "a harness that scores coding models on first-attempt accuracy instead of final state: fixed tasks in isolated workspaces, a snapshot at every \"done\" claim, hidden shell checks the agent never sees, and rule-based findings (false done, skipped verification, silenced checks) that point at transcript event numbers instead of opinions. Phase 1 has real local runs through the streamed driver: qwen2.5:7b-instruct and qwen2.5:3b each ran the demo task on 3 independent seeds — 6/6 first-try, 0/6 false dones — and `compare` refuses to rank a model on fewer than 3 distinct seeds. A second phase, inferring done claims from unmarked sessions, is in behind a calibration gate. A hosted Claude run is the next step.",
+      "link": "https://00xcyd.github.io/blog/agentlens-first-try-accuracy/",
+      "linkLabel": "how it measures"
+    },
+    {
+      "title": "cportscan",
+      "repo": "00xcyd/cportscan",
+      "branch": "rust-rebuild",
+      "status": "rebuild in progress",
+      "text": "the C port scanner is being rebuilt in Rust on the `rust-rebuild` branch, opened Nov 23."
+    }
+  ],
+  "stack": {
+    "extra": [
+      { "group": "languages", "label": "Go", "logo": "go", "color": "00ADD8" },
+      { "group": "languages", "label": "C", "logo": "c", "color": "555555" },
+      { "group": "frameworks & runtime", "label": "React", "logo": "react", "color": "61DAFB", "text": "black" },
+      { "group": "frameworks & runtime", "label": "Next.js", "logo": "next.js", "color": "000000" },
+      { "group": "frameworks & runtime", "label": "Node.js", "logo": "node.js", "color": "339933" },
+      { "group": "frameworks & runtime", "label": "Ollama", "logo": "ollama", "color": "000000" },
+      { "group": "infrastructure & data", "label": "PostgreSQL", "logo": "postgresql", "color": "4169E1" },
+      { "group": "infrastructure & data", "label": "Hasura", "logo": "hasura", "color": "1571DA" },
+      { "group": "infrastructure & data", "label": "Docker", "logo": "docker", "color": "2496ED" },
+      { "group": "infrastructure & data", "label": "Kubernetes", "logo": "kubernetes", "color": "326CE5" },
+      { "group": "infrastructure & data", "label": "Terraform", "logo": "terraform", "color": "7B42BC" },
+      { "group": "infrastructure & data", "label": "AWS", "logo": "amazonwebservices", "color": "FF9900" },
+      { "group": "infrastructure & data", "label": "Vagrant", "logo": "vagrant", "color": "1563FF" },
+      { "group": "infrastructure & data", "label": "RF / LAN / WAN", "logo": "enable", "color": "1589F6" }
+    ]
+  }
+}
