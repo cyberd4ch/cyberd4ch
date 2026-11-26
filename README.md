@@ -43,15 +43,15 @@
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/github-stats.svg?v=d0dbfcc48b" width="48%" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/github-stats.svg?v=d0dbfcc48b?v=d0dbfcc48b" width="48%" alt="GitHub Stats" />
   <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/streak.svg?v=3283bd2752?v=bb4e4b4031?v=d819e14d4b?v=d819e14d4b" width="48%" alt="Streak" />
 </p>
 <p align="center">
   <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/contributions.svg?v=5dee7096eb?v=d057ce5151?v=e587e0cde0?v=d5d1bfeb60?v=d5d1bfeb60" width="96%" alt="Contribution activity" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/top-languages.svg?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909" width="48%" alt="Top Languages" />
-  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/repos.svg?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903" width="48%" alt="Top repositories" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/top-languages.svg?v=884e3a8e02?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909" width="48%" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/repos.svg?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903" width="48%" alt="Top repositories" />
 </p>
 
 <br>
@@ -172,10 +172,10 @@ The full feed lives at **[00xcyd.github.io/blog](https://00xcyd.github.io/blog/)
 ## // recent
 
 <!-- activity:start -->
+- [pushed to 00xcyd/00xcyd](https://github.com/00xcyd/00xcyd/commits) · `2026-11-26`
+- [opened pull request #2 in 00xcyd/00xcyd](https://github.com/00xcyd/00xcyd) · `2026-11-26`
 - [pushed to 00xcyd/makefun-news-image-01](https://github.com/00xcyd/makefun-news-image-01/commit/422041527d234b8a5f39a483b93216b3db02b601) · `2026-11-25`
 - [pushed to 00xcyd/makefun-cooking-game-01](https://github.com/00xcyd/makefun-cooking-game-01/commit/a3d12dc466d5e704f5d6165935026df765565d5d) · `2026-11-25`
-- [created branch main in 00xcyd/makefun-x-post-01](https://github.com/00xcyd/makefun-x-post-01) · `2026-11-24`
-- [pushed to 00xcyd/tiny-chess-01](https://github.com/00xcyd/tiny-chess-01/commits) · `2026-11-24`
 <!-- activity:end -->
 
 <br>
