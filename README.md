@@ -182,8 +182,10 @@ The full feed lives at **[00xcyd.github.io/blog](https://00xcyd.github.io/blog/)
 
 ## // sponsor
 
-If `dns-watch`, `txn-agent`, or anything else here saves you time, you can fund the work at
-**[github.com/sponsors/00xcyd](https://github.com/sponsors/00xcyd)**. Sponsorship pays
+You can fund my work at
+**[github.com/sponsors/00xcyd](https://github.com/sponsors/00xcyd)**. 
+
+Sponsorship pays
 for the lab VMs, API quotas, and the time behind the write-ups.
 
 <br>
