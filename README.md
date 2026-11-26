@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/mosaic-light.gif" width="260" alt="the fleet — a ship-mosaic portrait of the avatar" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/mosaic-light.gif" width="100%" alt="the fleet — a ship-mosaic portrait of the avatar" />
   <br>
   <sub></sub>
 </p>
@@ -193,7 +193,7 @@ for the lab VMs, API quotas, and the time behind the write-ups.
 Open to collaborating at the intersection of **security research, cloud infrastructure,
 and full-stack development** — especially projects that involve breaking (and fixing) stuff.
 
-📋 → [cyberdachh@proton.me](mailto:cyberdachh@proton.me)
+📋 → [00xcyd@proton.me](mailto:00xcyd@proton.me)
 
 <br>
 
