@@ -171,8 +171,10 @@ The full feed lives at **[00xcyd.github.io/blog](https://00xcyd.github.io/blog/)
 
 ## // sponsor
 
-If `dns-watch`, `txn-agent`, or anything else here saves you time, you can fund the work at
-**[github.com/sponsors/00xcyd](https://github.com/sponsors/00xcyd)**. Sponsorship pays
+You can fund my work at
+**[github.com/sponsors/00xcyd](https://github.com/sponsors/00xcyd)**. 
+
+Sponsorship pays
 for the lab VMs, API quotas, and the time behind the write-ups.
 
 <br>
@@ -182,7 +184,7 @@ for the lab VMs, API quotas, and the time behind the write-ups.
 Open to collaborating at the intersection of **security research, cloud infrastructure,
 and full-stack development** — especially projects that involve breaking (and fixing) stuff.
 
-📋 → [cyberdachh@proton.me](mailto:cyberdachh@proton.me)
+📋 → [00xcyd@proton.me](mailto:00xcyd@proton.me)
 
 <br>
 
