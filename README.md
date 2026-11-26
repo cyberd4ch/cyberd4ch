@@ -43,15 +43,15 @@
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/github-stats.svg?v=37b4f64217?v=d0dbfcc48b?v=d0dbfcc48b" width="48%" alt="GitHub Stats" />
-  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/streak.svg?v=652cb68af7?v=bb4e4b4031?v=d819e14d4b?v=d819e14d4b" width="48%" alt="Streak" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/github-stats.svg?v=ecf72f0cec?v=d0dbfcc48b?v=d0dbfcc48b" width="48%" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/streak.svg?v=eea55539ad?v=bb4e4b4031?v=d819e14d4b?v=d819e14d4b" width="48%" alt="Streak" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/contributions.svg?v=a66025adc8?v=d057ce5151?v=e587e0cde0?v=d5d1bfeb60?v=d5d1bfeb60" width="96%" alt="Contribution activity" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/contributions.svg?v=ba92dbc85e?v=a66025adc8?v=d057ce5151?v=e587e0cde0?v=d5d1bfeb60?v=d5d1bfeb60" width="96%" alt="Contribution activity" />
 </p>
 <p align="center">
   <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/top-languages.svg?v=884e3a8e02?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909" width="48%" alt="Top Languages" />
-  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/repos.svg?v=94cadea6b3?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903" width="48%" alt="Top repositories" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/repos.svg?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903" width="48%" alt="Top repositories" />
 </p>
 
 <br>
