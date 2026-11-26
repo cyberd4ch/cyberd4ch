@@ -448,10 +448,9 @@ async function main() {
 
     await section('upstream', UPSTREAM, async () => {
       const items = await resolveUpstream(facts.upstream || [])
-      const discovered = await discoverUpstream(facts.upstream || [], facts.upstreamIgnore || []).catch(err => {
-        console.warn(`[readme] upstream discovery skipped: ${err.message}`)
-        return []
-      })
+      // a failed search skips the whole block (the committed rows stay) rather than
+      // rewriting it without its discovered list
+      const discovered = await discoverUpstream(facts.upstream || [], facts.upstreamIgnore || [])
       return {
         body: renderUpstream(items, facts.reviewed, discovered),
         log: `${items.length} curated, ${discovered.length} discovered`,
