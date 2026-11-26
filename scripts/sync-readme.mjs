@@ -31,6 +31,8 @@ const EXCLUDE = new Set([USER, `${USER}.github.io`])
 const PROJECT_LIMIT = 6
 const WRITING_LIMIT = 4
 const ACTIVITY_LIMIT = 4
+const DISCOVER_DAYS = 180
+const DISCOVER_LIMIT = 8
 const GROUPS = ['languages', 'frameworks & runtime', 'infrastructure & data']
 
 // Badges for what GitHub reports. A language or topic without an entry here still
@@ -244,14 +246,57 @@ async function resolveUpstream(items) {
   )
 }
 
-function renderUpstream(items, reviewed) {
-  return [
+/**
+ * Every public PR and issue the account opened outside its own repos, found by search,
+ * so new upstream work appears without a manual edit. Curated rows win; this list
+ * only adds what is not already in the table, and facts.upstreamIgnore hides the rest.
+ */
+async function discoverUpstream(curated, ignore) {
+  const since = new Date(Date.now() - DISCOVER_DAYS * 864e5).toISOString().slice(0, 10)
+  const query = encodeURIComponent(`author:${USER} -user:${USER} is:public created:>=${since}`)
+  const data = await required(`https://api.github.com/search/issues?q=${query}&sort=updated&order=desc&per_page=50`)
+  const skip = new Set([...curated.map(item => `${item.repo}#${item.number}`), ...ignore].map(key => key.toLowerCase()))
+  return data.items
+    .map(item => ({
+      repo: item.repository_url.replace('https://api.github.com/repos/', ''),
+      number: item.number,
+      url: item.html_url,
+      title: item.title,
+      status: discoveredStatus(item),
+    }))
+    .filter(item => !skip.has(`${item.repo}#${item.number}`.toLowerCase()))
+    .slice(0, DISCOVER_LIMIT)
+}
+
+function discoveredStatus(item) {
+  if (item.pull_request) {
+    if (item.pull_request.merged_at) return '**merged**'
+    return item.state === 'open' ? 'open' : 'closed without merge'
+  }
+  if (item.state === 'open') return item.state_reason === 'reopened' ? 'reopened' : 'open'
+  return item.state_reason === 'not_planned' ? 'closed as not planned' : '**closed**'
+}
+
+function renderUpstream(items, reviewed, discovered) {
+  const lines = [
     '| repo | report | outcome |',
     '|---|---|---|',
     ...items.map(item => `| **[${item.repo} #${item.number}](${item.url})** | ${cell(item.report)} | ${item.status} — ${cell(item.outcome)} |`),
-    '',
-    `<sub>states read live from GitHub on ${today()} · narrative last reviewed ${reviewed || 'never'}.</sub>`,
-  ].join('\n')
+  ]
+  if (discovered.length) {
+    lines.push(
+      '',
+      `**also opened upstream** · found by search in the last ${DISCOVER_DAYS} days`,
+      '',
+      ...discovered.map(item => {
+        const title = cell(item.title)
+        const short = title.length > 110 ? `${title.slice(0, 107).trimEnd()}…` : title
+        return `- [${item.repo} #${item.number}](${item.url}) — ${short} · ${item.status}`
+      }),
+    )
+  }
+  lines.push('', `<sub>states read live from GitHub on ${today()} · narrative last reviewed ${reviewed || 'never'}.</sub>`)
+  return lines.join('\n')
 }
 
 async function resolveShipped(items) {
@@ -403,7 +448,14 @@ async function main() {
 
     await section('upstream', UPSTREAM, async () => {
       const items = await resolveUpstream(facts.upstream || [])
-      return { body: renderUpstream(items, facts.reviewed), log: `${items.length} items` }
+      const discovered = await discoverUpstream(facts.upstream || [], facts.upstreamIgnore || []).catch(err => {
+        console.warn(`[readme] upstream discovery skipped: ${err.message}`)
+        return []
+      })
+      return {
+        body: renderUpstream(items, facts.reviewed, discovered),
+        log: `${items.length} curated, ${discovered.length} discovered`,
+      }
     })
 
     await section('shipped', SHIPPED, async () => {

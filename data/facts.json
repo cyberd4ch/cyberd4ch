@@ -1,5 +1,6 @@
 {
   "reviewed": "2026-11-26",
+  "upstreamIgnore": [],
   "upstream": [
     {
       "repo": "BaaRai/ARTEX",

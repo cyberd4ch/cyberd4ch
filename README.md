@@ -44,14 +44,14 @@
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/github-stats.svg?v=40ba3e1b82" width="48%" alt="GitHub Stats" />
-  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/streak.svg?v=d819e14d4b" width="48%" alt="Streak" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/streak.svg?v=d819e14d4b?v=d819e14d4b" width="48%" alt="Streak" />
 </p>
 <p align="center">
   <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/contributions.svg?v=451b333e70?v=e587e0cde0?v=d5d1bfeb60?v=d5d1bfeb60" width="96%" alt="Contribution activity" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/top-languages.svg?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909" width="48%" alt="Top Languages" />
-  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/repos.svg?v=94cadea6b3?v=ec9af79903?v=ec9af79903?v=ec9af79903" width="48%" alt="Top repositories" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/top-languages.svg?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909" width="48%" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/repos.svg?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903" width="48%" alt="Top repositories" />
 </p>
 
 <br>
@@ -89,6 +89,17 @@ I document the work, including the negatives:
 | **[HKUDS/DeepTutor #2753](https://github.com/HKUDS/DeepTutor/issues/2753)** | the truncation guard covers the chat path only: the same cut-off tool calls reach five dispatch sites outside it | open — filed with a runtime repro: a scripted truncated round, the real dispatch code, and a real Obsidian vault that gets mutated while history records a fabricated success |
 | **[ppggff/vagrant-qemu #96](https://github.com/ppggff/vagrant-qemu/issues/96)** | provider reported `stopped` while the QEMU process was alive, once the tmp-dir pidfile vanished | reopened — the fix shipped in 0.8.0: runtime state moved into a project-local run dir, migrated and verified on both of my VMs; what removed the old directory is still unidentified |
 | **[waydroid/waydroid #2472](https://github.com/waydroid/waydroid/issues/2472)** | LXC `mount (rw, move)` denied by AppArmor blocks container start on kernel 7.x | open — awaiting maintainer input |
+
+**also opened upstream** · found by search in the last 180 days
+
+- [NVIDIA/garak #2481](https://github.com/NVIDIA/garak/issues/2481) — Encoding probes lose punctuation: morse() and nato() drop it from the payload · open
+- [BaaRai/ARTEX #317](https://github.com/BaaRai/ARTEX/issues/317) — ingest_bbot: scope_distance is trusted from output.json, but the allow-list is the only scope gate · **closed**
+- [BaaRai/ARTEX #312](https://github.com/BaaRai/ARTEX/pull/312) — fix: frame intent summaries in the planner's trigger lines and overview · closed without merge
+- [BaaRai/ARTEX #279](https://github.com/BaaRai/ARTEX/pull/279) — ci: run the suite on the latest Go release as an advisory job · **merged**
+- [BaaRai/ARTEX #276](https://github.com/BaaRai/ARTEX/issues/276) — go test ./server fails on Go 1.27: TestDecodeEvidenceBodyGzipQuoteFound's fixture guard assumes gzip output… · **closed**
+- [HKUDS/DeepTutor #2663](https://github.com/HKUDS/DeepTutor/pull/2663) — fix: caller-authored confirm payloads bypass the generation waypoint cap · open
+- [HKUDS/DeepTutor #2683](https://github.com/HKUDS/DeepTutor/pull/2683) — fix: theme HTML widget canvases to the app's resolved palette · closed without merge
+- [HKUDS/DeepTutor #2664](https://github.com/HKUDS/DeepTutor/pull/2664) — fix: admission rejections carry the server's text into the submission banner · closed without merge
 
 <sub>states read live from GitHub on 2026-11-26 · narrative last reviewed 2026-11-26.</sub>
 <!-- upstream:end -->

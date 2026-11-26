@@ -21,32 +21,42 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
 
-      - name: Render scoreboard cards
-        run: node scripts/generate-cards.mjs
+      # Regenerate from the latest main, commit, and push. A push rejected because
+      # another sync landed first is retried from a fresh checkout of main.
+      - name: Regenerate, commit and push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Regenerate README blocks
-        run: node scripts/sync-readme.mjs
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Commit if changed
         run: |
-          if git diff --quiet README.md assets; then
-            echo "README and cards already current"
-          else
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git pull --rebase -q origin main
+            node scripts/generate-cards.mjs
+            node scripts/sync-readme.mjs
+            if git diff --quiet README.md assets; then
+              echo "README and cards already current"
+              exit 0
+            fi
             git add README.md assets
-            git commit -m "Sync profile README from GitHub"
-            git push
-          fi
+            git commit -q -m "Sync profile README from GitHub"
+            if git push -q origin HEAD:main; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "push rejected on attempt $attempt, retrying from main"
+            git fetch -q origin
+            git reset -q --hard origin/main
+            sleep $((attempt * 10))
+          done
+          echo "push kept losing the race" >&2
+          exit 1
 
       # a broken link fails the run, so it cannot sit unnoticed in the profile
       - name: Check every README link
