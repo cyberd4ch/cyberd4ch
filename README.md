@@ -43,8 +43,8 @@
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/github-stats.svg?v=a2193c224b?v=ecf72f0cec?v=d0dbfcc48b?v=d0dbfcc48b" width="48%" alt="GitHub Stats" />
-  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/streak.svg?v=b664bb4bcd?v=b664bb4bcd?v=d5222eaeae?v=eea55539ad?v=bb4e4b4031?v=d819e14d4b?v=d819e14d4b" width="48%" alt="Streak" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/github-stats.svg?v=7a93a5334a?v=a2193c224b?v=ecf72f0cec?v=d0dbfcc48b?v=d0dbfcc48b" width="48%" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/streak.svg?v=b664bb4bcd?v=b664bb4bcd?v=b664bb4bcd?v=d5222eaeae?v=eea55539ad?v=bb4e4b4031?v=d819e14d4b?v=d819e14d4b" width="48%" alt="Streak" />
 </p>
 <p align="center">
   <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/contributions.svg?v=0813bd176b?v=c323a2f7a3?v=ba92dbc85e?v=a66025adc8?v=d057ce5151?v=e587e0cde0?v=d5d1bfeb60?v=d5d1bfeb60" width="96%" alt="Contribution activity" />
