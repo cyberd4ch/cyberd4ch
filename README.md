@@ -43,8 +43,8 @@
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/github-stats.svg?v=7a93a5334a?v=ecf72f0cec?v=d0dbfcc48b?v=d0dbfcc48b" width="48%" alt="GitHub Stats" />
-  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/streak.svg?v=b664bb4bcd?v=d5222eaeae?v=eea55539ad?v=bb4e4b4031?v=d819e14d4b?v=d819e14d4b" width="48%" alt="Streak" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/github-stats.svg?v=a2193c224b?v=ecf72f0cec?v=d0dbfcc48b?v=d0dbfcc48b" width="48%" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/streak.svg?v=b664bb4bcd?v=b664bb4bcd?v=d5222eaeae?v=eea55539ad?v=bb4e4b4031?v=d819e14d4b?v=d819e14d4b" width="48%" alt="Streak" />
 </p>
 <p align="center">
   <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/contributions.svg?v=0813bd176b?v=c323a2f7a3?v=ba92dbc85e?v=a66025adc8?v=d057ce5151?v=e587e0cde0?v=d5d1bfeb60?v=d5d1bfeb60" width="96%" alt="Contribution activity" />
@@ -92,12 +92,12 @@ I document the work, including the negatives:
 
 **also opened upstream** · found by search in the last 180 days
 
+- [HKUDS/DeepTutor #2663](https://github.com/HKUDS/DeepTutor/pull/2663) — fix: caller-authored confirm payloads bypass the generation waypoint cap · open
 - [NVIDIA/garak #2481](https://github.com/NVIDIA/garak/issues/2481) — Encoding probes lose punctuation: morse() and nato() drop it from the payload · open
 - [BaaRai/ARTEX #317](https://github.com/BaaRai/ARTEX/issues/317) — ingest_bbot: scope_distance is trusted from output.json, but the allow-list is the only scope gate · **closed**
 - [BaaRai/ARTEX #312](https://github.com/BaaRai/ARTEX/pull/312) — fix: frame intent summaries in the planner's trigger lines and overview · closed without merge
 - [BaaRai/ARTEX #279](https://github.com/BaaRai/ARTEX/pull/279) — ci: run the suite on the latest Go release as an advisory job · **merged**
 - [BaaRai/ARTEX #276](https://github.com/BaaRai/ARTEX/issues/276) — go test ./server fails on Go 1.27: TestDecodeEvidenceBodyGzipQuoteFound's fixture guard assumes gzip output… · **closed**
-- [HKUDS/DeepTutor #2663](https://github.com/HKUDS/DeepTutor/pull/2663) — fix: caller-authored confirm payloads bypass the generation waypoint cap · open
 - [HKUDS/DeepTutor #2683](https://github.com/HKUDS/DeepTutor/pull/2683) — fix: theme HTML widget canvases to the app's resolved palette · closed without merge
 - [HKUDS/DeepTutor #2664](https://github.com/HKUDS/DeepTutor/pull/2664) — fix: admission rejections carry the server's text into the submission banner · closed without merge
 
@@ -172,10 +172,10 @@ The full feed lives at **[00xcyd.github.io/blog](https://00xcyd.github.io/blog/)
 ## // recent
 
 <!-- activity:start -->
-- [pushed to 00xcyd/makefun-news-image-01](https://github.com/00xcyd/makefun-news-image-01/commit/95b1604bed0c260471a2c8bb91659c3b891beb57) · `2026-11-26`
+- [pushed to 00xcyd/makefun-news-image-01](https://github.com/00xcyd/makefun-news-image-01/commits) · `2026-11-26`
 - [pushed to 00xcyd/makefun-oneliners](https://github.com/00xcyd/makefun-oneliners/commits) · `2026-11-26`
 - [created branch main in 00xcyd/makefun-oneliners](https://github.com/00xcyd/makefun-oneliners) · `2026-11-26`
-- [pushed to 00xcyd/00xcyd](https://github.com/00xcyd/00xcyd/commits) · `2026-11-26`
+- [opened pull request #2 in 00xcyd/00xcyd](https://github.com/00xcyd/00xcyd) · `2026-11-26`
 <!-- activity:end -->
 
 <br>
