@@ -43,14 +43,14 @@
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/github-stats.svg?v=0ea6f99834?v=a2193c224b?v=ecf72f0cec?v=d0dbfcc48b?v=d0dbfcc48b" width="48%" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/github-stats.svg?v=d5a132c16f?v=a2193c224b?v=ecf72f0cec?v=d0dbfcc48b?v=d0dbfcc48b" width="48%" alt="GitHub Stats" />
   <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/streak.svg?v=9da1106b54?v=b664bb4bcd?v=b664bb4bcd?v=b664bb4bcd?v=d5222eaeae?v=eea55539ad?v=bb4e4b4031?v=d819e14d4b?v=d819e14d4b" width="48%" alt="Streak" />
 </p>
 <p align="center">
   <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/contributions.svg?v=3573785a41?v=c323a2f7a3?v=ba92dbc85e?v=a66025adc8?v=d057ce5151?v=e587e0cde0?v=d5d1bfeb60?v=d5d1bfeb60" width="96%" alt="Contribution activity" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/top-languages.svg?v=b678087d2d?v=c814af19b6?v=b14c05bdf1?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909" width="48%" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/top-languages.svg?v=b678087d2d?v=b678087d2d?v=c814af19b6?v=b14c05bdf1?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909?v=b1d6dc4909" width="48%" alt="Top Languages" />
   <img src="https://raw.githubusercontent.com/00xcyd/00xcyd/main/assets/repos.svg?v=05b0e90fa0?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903?v=ec9af79903" width="48%" alt="Top repositories" />
 </p>
 
@@ -173,9 +173,9 @@ The full feed lives at **[00xcyd.github.io/blog](https://00xcyd.github.io/blog/)
 
 <!-- activity:start -->
 - [pushed to 00xcyd/makefun-news-image-01](https://github.com/00xcyd/makefun-news-image-01/commits) · `2026-11-26`
-- [pushed to 00xcyd/makefun-oneliners](https://github.com/00xcyd/makefun-oneliners/commit/2c89116112a2b0dd356079c503cc73ea8fcf0d2c) · `2026-11-26`
 - [pushed to 00xcyd/makefun-oneliners](https://github.com/00xcyd/makefun-oneliners/commits) · `2026-11-26`
 - [created branch main in 00xcyd/makefun-oneliners](https://github.com/00xcyd/makefun-oneliners) · `2026-11-26`
+- [pushed to 00xcyd/00xcyd](https://github.com/00xcyd/00xcyd/commits) · `2026-11-26`
 <!-- activity:end -->
 
 <br>
